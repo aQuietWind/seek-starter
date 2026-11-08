@@ -3,7 +3,7 @@ D:\Projects\seek-starter\starter\mq\rabbitmq-starter\src\main\java\seek\util\mq\
 D:\Projects\seek-starter\starter\mq\rabbitmq-starter\src\main\java\seek\util\mq\rabbitmq\util\configuration\ErrorExchangeConfig.java
 D:\Projects\seek-starter\starter\mq\rabbitmq-starter\src\main\java\seek\util\mq\rabbitmq\util\configuration\MessageReturnCallBackConfig.java
 D:\Projects\seek-starter\starter\mq\rabbitmq-starter\src\main\java\seek\util\mq\rabbitmq\util\configuration\PropertiesConfig.java
-D:\Projects\seek-starter\starter\mq\rabbitmq-starter\src\main\java\seek\util\mq\rabbitmq\util\core\CorrleationUtil.java
-D:\Projects\seek-starter\starter\mq\rabbitmq-starter\src\main\java\seek\util\mq\rabbitmq\util\core\MQUtil.java
+D:\Projects\seek-starter\starter\mq\rabbitmq-starter\src\main\java\seek\util\mq\rabbitmq\util\core\CorrleationTemplate.java
+D:\Projects\seek-starter\starter\mq\rabbitmq-starter\src\main\java\seek\util\mq\rabbitmq\util\core\MQTemplate.java
 D:\Projects\seek-starter\starter\mq\rabbitmq-starter\src\main\java\seek\util\mq\rabbitmq\util\util\QueueUtil.java
 D:\Projects\seek-starter\starter\mq\rabbitmq-starter\src\main\java\seek\util\mq\rabbitmq\util\util\RegisterBindingUtil.java

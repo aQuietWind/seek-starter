@@ -33,5 +33,9 @@
             <groupId>seek.starter.starter.db</groupId>
             <artifactId>redis-starter</artifactId>
         </dependency>
+        <dependency>
+            <groupId>seek.starter.starter.support</groupId>
+            <artifactId>register-bean-util</artifactId>
+        </dependency>
     </dependencies>
 </project>

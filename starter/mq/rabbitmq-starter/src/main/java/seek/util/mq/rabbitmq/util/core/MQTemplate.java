@@ -8,22 +8,22 @@ import seek.util.common.config.object.mq.rabbitmq.DestinationData;
 import java.util.UUID;
 
 @Slf4j
-public class MQUtil {
+public class MQTemplate {
 
     private final RabbitTemplate rabbitTemplate;
-    private final CorrleationUtil corrleationUtil;
+    private final CorrleationTemplate corrleationTemplate;
 
     @Autowired
-    public MQUtil(RabbitTemplate rabbitTemplate, CorrleationUtil corrleationUtil) {
+    public MQTemplate(RabbitTemplate rabbitTemplate, CorrleationTemplate corrleationTemplate) {
         this.rabbitTemplate = rabbitTemplate;
-        this.corrleationUtil = corrleationUtil;
+        this.corrleationTemplate = corrleationTemplate;
     }
 
 
 
     //发送消息
     public void send(DestinationData destination, Object message){
-        rabbitTemplate.convertAndSend(destination.getExchangeName(),destination.getRoutingKey(),message,corrleationUtil.getCorrelation(destination.getExchangeName(), destination.getRoutingKey()));
+        rabbitTemplate.convertAndSend(destination.getExchangeName(),destination.getRoutingKey(),message, corrleationTemplate.getCorrelation(destination.getExchangeName(), destination.getRoutingKey()));
     }
 
 
@@ -37,7 +37,7 @@ public class MQUtil {
             msg.getMessageProperties().setExpiration(tllMilliSeconds);
             msg.getMessageProperties().setMessageId(letterId);
             return msg;}
-                ,corrleationUtil.getCorrelationWithId(destination.getExchangeName(), destination.getRoutingKey(),letterId));
+                , corrleationTemplate.getCorrelationWithId(destination.getExchangeName(), destination.getRoutingKey(),letterId));
         return letterId;
     }
 
@@ -49,7 +49,7 @@ public class MQUtil {
             //设置ttl
             msg.getMessageProperties().setExpiration(tllMilliSeconds);
             return msg;}
-                ,corrleationUtil.getCorrelation(destination.getExchangeName(), destination.getRoutingKey()));
+                , corrleationTemplate.getCorrelation(destination.getExchangeName(), destination.getRoutingKey()));
     }
 
     //分钟转毫秒

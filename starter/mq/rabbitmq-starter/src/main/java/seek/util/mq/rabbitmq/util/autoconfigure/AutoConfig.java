@@ -10,16 +10,16 @@ import seek.util.mq.rabbitmq.util.configuration.ConverterConfig;
 import seek.util.mq.rabbitmq.util.configuration.ErrorExchangeConfig;
 import seek.util.mq.rabbitmq.util.configuration.MessageReturnCallBackConfig;
 import seek.util.mq.rabbitmq.util.configuration.PropertiesConfig;
-import seek.util.mq.rabbitmq.util.core.CorrleationUtil;
-import seek.util.mq.rabbitmq.util.core.MQUtil;
+import seek.util.mq.rabbitmq.util.core.CorrleationTemplate;
+import seek.util.mq.rabbitmq.util.core.MQTemplate;
 
-@AutoConfiguration(value = "seek.util.mq.rabbitmq.util.AutoConfig")
+@AutoConfiguration(value = "seek.starter.starter.mq.rabbitmq.starter.AutoConfig")
 @EnableConfigurationProperties(PropertiesConfig.class)
 @Import({ConverterConfig.class, ErrorExchangeConfig.class, MessageReturnCallBackConfig.class})
 public class AutoConfig {
 
-    @Bean("seek.util.mq.rabbitmq.util.bean.definition")
+    @Bean("seek.starter.starter.mq.rabbitmq.starter.bean.definition")
     public static BeanDefinitionRegistryPostProcessor beanDefinitionRegistryPostProcessor() {
-        return RegisterBeanUtil.quickRegistrarByClassName(CorrleationUtil.class, MQUtil.class);
+        return RegisterBeanUtil.quickRegistrarByClassName(CorrleationTemplate.class, MQTemplate.class);
     }
 }

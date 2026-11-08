@@ -1,4 +1,4 @@
-package seek.util.ai.langchain4j.util.util;
+package seek.starter.starter.ai.langchain4j.starter.core;
 
 import seek.util.common.config.object.common.common.object.exception.BizException;
 import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
@@ -8,18 +8,17 @@ import dev.langchain4j.data.message.*;
 import dev.langchain4j.model.chat.ChatModel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.Base64;
 import java.util.List;
 
 @Slf4j
-public class ChatUtil {
+public class ChatTemplate {
 
     private final ChatModel chatModel;
     @Autowired
-    public ChatUtil(ChatModel chatModel) {
+    public ChatTemplate(ChatModel chatModel) {
         this.chatModel = chatModel;
     }
 

@@ -1,4 +1,4 @@
-D:\Projects\seek-starter\starter\ai\langchain4j-starter\src\main\java\seek\util\ai\langchain4j\util\autoconfigure\AutoConfig.java
-D:\Projects\seek-starter\starter\ai\langchain4j-starter\src\main\java\seek\util\ai\langchain4j\util\config\PropertiesConfig.java
-D:\Projects\seek-starter\starter\ai\langchain4j-starter\src\main\java\seek\util\ai\langchain4j\util\support\RedisChatMemoryStore.java
-D:\Projects\seek-starter\starter\ai\langchain4j-starter\src\main\java\seek\util\ai\langchain4j\util\util\ChatUtil.java
+D:\Projects\seek-starter\starter\ai\langchain4j-starter\src\main\java\seek\starter\starter\ai\langchain4j\starter\autoconfigure\AutoConfig.java
+D:\Projects\seek-starter\starter\ai\langchain4j-starter\src\main\java\seek\starter\starter\ai\langchain4j\starter\configure\PropertiesConfig.java
+D:\Projects\seek-starter\starter\ai\langchain4j-starter\src\main\java\seek\starter\starter\ai\langchain4j\starter\core\ChatTemplate.java
+D:\Projects\seek-starter\starter\ai\langchain4j-starter\src\main\java\seek\starter\starter\ai\langchain4j\starter\support\RedisChatMemoryStore.java

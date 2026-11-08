@@ -1,8 +1,8 @@
-seek\util\mq\rabbitmq\util\core\MQUtil.class
+seek\util\mq\rabbitmq\util\core\MQTemplate.class
+seek\util\mq\rabbitmq\util\core\CorrleationTemplate.class
 seek\util\mq\rabbitmq\util\configuration\PropertiesConfig.class
 seek\util\mq\rabbitmq\util\configuration\ConverterConfig.class
 seek\util\mq\rabbitmq\util\util\RegisterBindingUtil.class
-seek\util\mq\rabbitmq\util\core\CorrleationUtil.class
 seek\util\mq\rabbitmq\util\configuration\ErrorExchangeConfig.class
 seek\util\mq\rabbitmq\util\util\QueueUtil.class
 seek\util\mq\rabbitmq\util\util\RegisterBindingUtil$1.class

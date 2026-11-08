@@ -6,7 +6,7 @@ import org.springframework.amqp.rabbit.connection.CorrelationData;
 import java.util.UUID;
 
 @Slf4j
-public class CorrleationUtil {
+public class CorrleationTemplate {
 
     public CorrelationData createCorrelationData(String exchangeName, String routingKey, String correlationId) {
         //生成一个带有随机id的correlationData
