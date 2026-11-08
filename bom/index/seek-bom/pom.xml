@@ -83,6 +83,15 @@
                 <scope>import</scope>
             </dependency>
 
+            <!--         bom文件-->
+            <dependency>
+                <groupId>seek.starter.bom</groupId>
+                <artifactId>gather-bom</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>

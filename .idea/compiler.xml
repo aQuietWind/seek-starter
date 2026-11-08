@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-ai-starter" />
         <module name="gateway-starter" />
+        <module name="spring-web-starter" />
         <module name="jwt-starter" />
         <module name="nacos-starter" />
         <module name="skywalking-starter" />
@@ -18,14 +19,14 @@
         <module name="mongodb-starter" />
         <module name="redis-starter" />
         <module name="rabbitmq-starter" />
+        <module name="common-util" />
         <module name="seek-bom" />
         <module name="rocketmq-starter" />
         <module name="caffeine-starter" />
-        <module name="gather" />
         <module name="web-starter" />
+        <module name="ali-cloud-web-starter" />
         <module name="ali-oss-starter" />
         <module name="elasticsearch-starter" />
-        <module name="common-starter" />
         <module name="config-object" />
         <module name="register-bean-util" />
         <module name="kafka-starter" />
@@ -42,16 +43,17 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ali-cloud-web-starter" options="-parameters" />
       <module name="ali-oss-starter" options="-parameters" />
       <module name="bean-register-util22" options="-parameters" />
       <module name="caffeine-starter" options="-parameters" />
-      <module name="common-starter" options="-parameters" />
+      <module name="common-util" options="-parameters" />
       <module name="config-object" options="-parameters" />
       <module name="elasticsearch-starter" options="-parameters" />
       <module name="event-respond-starter" options="-parameters" />
       <module name="feign-starter" options="-parameters" />
       <module name="gateway-starter" options="-parameters" />
-      <module name="gather" options="-parameters" />
+      <module name="gather" options="" />
       <module name="jwt-starter" options="-parameters" />
       <module name="kafka-starter" options="-parameters" />
       <module name="langchain4j-starter" options="-parameters" />
@@ -66,6 +68,7 @@
       <module name="sentinel-starter" options="-parameters" />
       <module name="skywalking-starter" options="-parameters" />
       <module name="spring-ai-starter" options="-parameters" />
+      <module name="spring-web-starter" options="-parameters" />
       <module name="starter" options="" />
       <module name="starter (2)" options="-parameters" />
       <module name="starter 2" options="" />

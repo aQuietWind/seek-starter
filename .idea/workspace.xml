@@ -5,20 +5,255 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/starter/starter/cloud/sentinel/starter/autoconfigure/AutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/nacos-starter/src/main/java/seek/util/cloud/nacos/util/enums/PackageEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/nacos-starter/src/main/java/seek/starter/starter/cloud/nacos/starter/enums/PackageEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/sentinel-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/starter/starter/cloud/sentinel/starter/support/UrlSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/starter/starter/cloud/sentinel/starter/support/UrlSummary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/util/cloud/sentinel/util/autoconfigure/AutoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/util/cloud/sentinel/util/autoconfigure/SentinelImport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/util/cloud/sentinel/util/config/HeaderOriginParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/starter/starter/cloud/sentinel/starter/support/HeaderOriginParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/util/cloud/sentinel/util/config/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/starter/starter/cloud/sentinel/starter/config/PropertiesConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/util/cloud/sentinel/util/config/SentinelBlockHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/starter/starter/cloud/sentinel/starter/support/SentinelBlockHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/util/cloud/sentinel/util/config/SentinelGlobalApiConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/util/cloud/sentinel/util/enums/PackageEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/java/seek/starter/starter/cloud/sentinel/starter/enums/PackageEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/resources/application-example.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/sentinel-starter/src/main/resources/application-example.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bom/index/seek-bom/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bom/index/seek-bom/target/seek-bom-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gather/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gather/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gather/target/gather-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gather/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/application-example.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/seek/starter/starter/ai/langchain4j/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/seek/starter/starter/ai/langchain4j/starter/configure/PropertiesConfig$RedisSessionMemory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/seek/starter/starter/ai/langchain4j/starter/configure/PropertiesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/seek/starter/starter/ai/langchain4j/starter/core/ChatTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/seek/starter/starter/ai/langchain4j/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/seek/starter/starter/ai/langchain4j/starter/support/RedisChatMemoryStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/langchain4j-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/spring-ai-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/spring-ai-starter/target/classes/seek/starter/starter/ai/spring/ai/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/spring-ai-starter/target/classes/seek/starter/starter/ai/spring/ai/starter/core/ChatTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/spring-ai-starter/target/classes/seek/starter/starter/ai/spring/ai/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/spring-ai-starter/target/classes/seek/starter/starter/ai/spring/ai/starter/support/AiLogAdvisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/spring-ai-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/spring-ai-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/spring-ai-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/spring-ai-starter/target/spring-ai-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/target/classes/application-example.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/target/classes/seek/starter/starter/cloud/feign/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/target/classes/seek/starter/starter/cloud/feign/starter/configure/PropertiesConfig$SentinelAuthority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/target/classes/seek/starter/starter/cloud/feign/starter/configure/PropertiesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/target/classes/seek/starter/starter/cloud/feign/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/target/classes/seek/starter/starter/cloud/feign/starter/support/FeignInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/target/feign-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/target/classes/seek/starter/starter/cloud/gateway/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/target/classes/seek/starter/starter/cloud/gateway/starter/core/FilterHelperTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/target/classes/seek/starter/starter/cloud/gateway/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/target/gateway-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/nacos-starter/target/classes/seek/starter/starter/cloud/nacos/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/nacos-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/nacos-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/nacos-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/nacos-starter/target/nacos-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/classes/application-example.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/classes/seek/starter/starter/cloud/sentinel/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/classes/seek/starter/starter/cloud/sentinel/starter/config/PropertiesConfig$Authority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/classes/seek/starter/starter/cloud/sentinel/starter/config/PropertiesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/classes/seek/starter/starter/cloud/sentinel/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/classes/seek/starter/starter/cloud/sentinel/starter/support/HeaderOriginParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/classes/seek/starter/starter/cloud/sentinel/starter/support/SentinelBlockHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/classes/seek/starter/starter/cloud/sentinel/starter/support/UrlSummary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/target/sentinel-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/skywalking-starter/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/skywalking-starter/target/classes/seek/starter/starter/cloud/skywalking/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/skywalking-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/skywalking-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/skywalking-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/skywalking-starter/target/skywalking-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/ali-oss-starter/target/ali-oss-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/ali-oss-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/ali-oss-starter/target/classes/seek/starter/starter/common/ali/oss/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/ali-oss-starter/target/classes/seek/starter/starter/common/ali/oss/starter/core/OssTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/ali-oss-starter/target/classes/seek/starter/starter/common/ali/oss/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/ali-oss-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/ali-oss-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/ali-oss-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/caffeine-starter/target/caffeine-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/caffeine-starter/target/classes/seek/starter/starter/common/caffeine/starter/core/JvmCaffeineParent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/caffeine-starter/target/classes/seek/starter/starter/common/caffeine/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/caffeine-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/caffeine-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/caffeine-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/common-util/target/classes/seek/starter/starter/common/common/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/common-util/target/classes/seek/starter/starter/common/common/starter/util/common/DoubleUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/common-util/target/classes/seek/starter/starter/common/common/starter/util/common/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/common-util/target/classes/seek/starter/starter/common/common/starter/util/exception/BizThrowUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/common-util/target/classes/seek/starter/starter/common/common/starter/util/file/FileRemove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/common-util/target/classes/seek/starter/starter/common/common/starter/util/time/TimeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/common-util/target/common-util-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/common-util/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/common-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/classes/application-example.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/classes/seek/starter/starter/common/event/respond/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/classes/seek/starter/starter/common/event/respond/starter/config/PropertiesConfig$PoolConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/classes/seek/starter/starter/common/event/respond/starter/config/PropertiesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/classes/seek/starter/starter/common/event/respond/starter/core/ValueFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/classes/seek/starter/starter/common/event/respond/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/classes/seek/starter/starter/common/event/respond/starter/support/CheckPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/classes/seek/starter/starter/common/event/respond/starter/support/DelayPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/classes/seek/starter/starter/common/event/respond/starter/support/ExecutePool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/event-respond-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/elasticsearch-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/elasticsearch-starter/target/classes/seek/starter/starter/db/elasticsearch/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/elasticsearch-starter/target/classes/seek/starter/starter/db/elasticsearch/starter/configure/EsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/elasticsearch-starter/target/classes/seek/starter/starter/db/elasticsearch/starter/core/EsSearchTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/elasticsearch-starter/target/classes/seek/starter/starter/db/elasticsearch/starter/core/EsUpdateTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/elasticsearch-starter/target/classes/seek/starter/starter/db/elasticsearch/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/elasticsearch-starter/target/elasticsearch-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/elasticsearch-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/elasticsearch-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/elasticsearch-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mongodb-starter/target/classes/seek/starter/starter/db/mongodb/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mongodb-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mongodb-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mongodb-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mongodb-starter/target/mongodb-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mybatis-plus-starter/target/classes/application-example.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mybatis-plus-starter/target/classes/seek/starter/starter/db/mybatis/plus/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mybatis-plus-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mybatis-plus-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mybatis-plus-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mybatis-plus-starter/target/mybatis-plus-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/seek/starter/starter/db/redis/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/seek/starter/starter/db/redis/starter/autoconfigure/RedissonAutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/seek/starter/starter/db/redis/starter/autoconfigure/RedissonImport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/seek/starter/starter/db/redis/starter/config/PropertiesConfig$RedisConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/seek/starter/starter/db/redis/starter/config/PropertiesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/seek/starter/starter/db/redis/starter/core/Redis/RedisBitMapTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/seek/starter/starter/db/redis/starter/core/Redis/RedisIdTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/seek/starter/starter/db/redis/starter/core/Redis/RedisScriptTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/seek/starter/starter/db/redis/starter/core/Redis/RedisStreamTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/seek/starter/starter/db/redis/starter/core/Redis/RedisTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/seek/starter/starter/db/redis/starter/core/Redisson/RedissonTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/classes/seek/starter/starter/db/redis/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/target/redis-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/target/classes/application-example.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/target/classes/seek/starter/starter/mq/kafka/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/target/classes/seek/starter/starter/mq/kafka/starter/config/KafkaConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/target/classes/seek/starter/starter/mq/kafka/starter/config/KafkaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/target/classes/seek/starter/starter/mq/kafka/starter/core/KafkaTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/target/classes/seek/starter/starter/mq/kafka/starter/core/TopicTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/target/classes/seek/starter/starter/mq/kafka/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/target/kafka-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/configuration/ConverterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/configuration/ErrorExchangeConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/configuration/MessageReturnCallBackConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/configuration/PropertiesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/core/CorrleationTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/core/MQTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/util/QueueUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/util/RegisterBindingUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/util/RegisterBindingUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/rabbitmq-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/target/classes/application-example.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/target/classes/seek/starter/starter/mq/rocketmq/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/target/classes/seek/starter/starter/mq/rocketmq/starter/core/ProducerTemplate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/target/classes/seek/starter/starter/mq/rocketmq/starter/core/ProducerTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/target/classes/seek/starter/starter/mq/rocketmq/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/target/classes/seek/starter/starter/mq/rocketmq/starter/support/BizStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/target/classes/seek/starter/starter/mq/rocketmq/starter/support/DefaultTransactionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/target/rocketmq-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/ali/oss/OssData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/caffeine/CaffeineData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/dto/ChangeAmountDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/dto/EsSearchResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/dto/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/dto/SimplePoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/dto/SyncStateDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/exception/BizException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/exception/ErrorCodeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/function/RunFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/function/RunWithParam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/function/RunWithReturnFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/function/RunWithReturnParamFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/function/RunWithReturnTwoParamFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/common/object/function/RunWithTwoParams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/context/TokenIdContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/event/respond/system/EventData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/event/respond/system/EventList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/common/event/respond/system/ValueData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/db/redis/RedisConsumerData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/db/redis/RedisKeyData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/db/redis/RedisStreamData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/mq/kafka/TopicData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/mq/rabbitmq/BindingData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/mq/rabbitmq/DestinationData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/mq/rabbitmq/ExchangeData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/mq/rocketmq/ConsumerData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/web/jwt/JWTGlobalData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/classes/seek/starter/starter/support/config/object/web/jwt/JWTRoleData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/config-object-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/register-bean-util/target/classes/seek/starter/starter/support/register/bean/util/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/register-bean-util/target/classes/seek/starter/starter/support/register/bean/util/util/RegisterBeanUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/register-bean-util/target/classes/seek/starter/starter/support/register/bean/util/util/RegisterBeanUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/register-bean-util/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/register-bean-util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/register-bean-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/register-bean-util/target/register-bean-util-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/target/classes/lua/token_add.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/target/classes/lua/token_clear.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/target/classes/seek/starter/starter/web/jwt/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/target/classes/seek/starter/starter/web/jwt/starter/core/JWTTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/target/classes/seek/starter/starter/web/jwt/starter/core/TokenTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/target/classes/seek/starter/starter/web/jwt/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/target/jwt-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/classes/application-example.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/classes/seek/starter/starter/web/web/starter/autoconfigure/AutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/classes/seek/starter/starter/web/web/starter/config/PropertiesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/classes/seek/starter/starter/web/web/starter/enums/PackageEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/classes/seek/starter/starter/web/web/starter/support/GlobalRequestExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/classes/seek/starter/starter/web/web/starter/support/TokenInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/classes/seek/starter/starter/web/web/starter/support/WebMvcConfigImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/classes/seek/starter/starter/web/web/starter/util/WebFileSaveUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/target/web-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,61 +282,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.00000000008884" />
-      <entry key="MS500" value="1.009766111738947" />
-      <entry key="S2" value="1.3143622752615856" />
-      <entry key="S5" value="1.6298134712388992" />
-      <entry key="S10" value="1.8242891686711773" />
-      <entry key="S30" value="2.7558557605926337" />
-      <entry key="S60" value="4.122097191993067" />
-      <entry key="M2" value="6.608082764917613" />
-      <entry key="M5" value="15.299073615568583" />
-      <entry key="M10" value="29.21495154668148" />
-      <entry key="M15" value="41.680852370289514" />
-      <entry key="M30" value="72.27732402002982" />
-      <entry key="H1" value="112.26843041541981" />
-      <entry key="H2" value="151.37996932004748" />
-      <entry key="H4" value="180.59221022581326" />
-      <entry key="D1" value="212.55272728550204" />
-      <entry key="W1" value="218.9118597280119" />
+      <entry key="MS100" value="1.0283599736036613" />
+      <entry key="MS500" value="1.4903895019942757" />
+      <entry key="S2" value="1.8368262426853046" />
+      <entry key="S5" value="1.9312542420651497" />
+      <entry key="S10" value="1.973045105397894" />
+      <entry key="S30" value="2.430440919077623" />
+      <entry key="S60" value="3.4009469634607337" />
+      <entry key="M2" value="4.682002910932864" />
+      <entry key="M5" value="7.121239096418745" />
+      <entry key="M10" value="12.339945799416776" />
+      <entry key="M15" value="20.222939607409273" />
+      <entry key="M30" value="51.085832311858404" />
+      <entry key="H1" value="108.15876933920177" />
+      <entry key="H2" value="177.27190951396378" />
+      <entry key="H4" value="236.27313202055865" />
+      <entry key="D1" value="307.46230155677483" />
+      <entry key="W1" value="322.4156778907472" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="7.86609796685826E-147" />
-      <entry key="S2" value="3.3831828518691557E-37" />
-      <entry key="S5" value="4.353574032831807E-15" />
-      <entry key="S10" value="1.4125019578228812E-7" />
-      <entry key="S30" value="0.019677263093475148" />
-      <entry key="S60" value="0.44008900106315707" />
-      <entry key="M2" value="2.284642856240346" />
-      <entry key="M5" value="7.959282827575465" />
-      <entry key="M10" value="16.440268844860682" />
-      <entry key="M15" value="24.741443883160198" />
-      <entry key="M30" value="48.23912759358022" />
-      <entry key="H1" value="80.63399134468656" />
-      <entry key="H2" value="110.95866781557609" />
-      <entry key="H4" value="132.44080266361684" />
-      <entry key="D1" value="154.9058594343744" />
-      <entry key="W1" value="159.25879806395056" />
+      <entry key="MS500" value="1.9547265372810747E-70" />
+      <entry key="S2" value="3.807338106954611E-18" />
+      <entry key="S5" value="1.325604414718163E-7" />
+      <entry key="S10" value="5.382908166716994E-4" />
+      <entry key="S30" value="0.16179057518319506" />
+      <entry key="S60" value="0.6925341030351665" />
+      <entry key="M2" value="1.439485736220112" />
+      <entry key="M5" value="2.3324854719109345" />
+      <entry key="M10" value="3.7424142376899168" />
+      <entry key="M15" value="6.1930996825921145" />
+      <entry key="M30" value="18.950371875605953" />
+      <entry key="H1" value="50.10114648992792" />
+      <entry key="H2" value="92.8632042168104" />
+      <entry key="H4" value="130.70955453657572" />
+      <entry key="D1" value="176.6892687662899" />
+      <entry key="W1" value="186.33426046020534" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576468062198" />
-      <entry key="MS500" value="0.9985493137250967" />
-      <entry key="S2" value="1.310071925754864" />
-      <entry key="S5" value="1.6274843153115983" />
-      <entry key="S10" value="1.822954338109662" />
-      <entry key="S30" value="2.77404853218875" />
-      <entry key="S60" value="4.551795086527864" />
-      <entry key="M2" value="8.866169704793231" />
-      <entry key="M5" value="23.219498615735514" />
-      <entry key="M10" value="45.6122333490136" />
-      <entry key="M15" value="66.37917511992539" />
-      <entry key="M30" value="120.47744695466459" />
-      <entry key="H1" value="192.87230583871496" />
-      <entry key="H2" value="262.3187901824522" />
-      <entry key="H4" value="313.021397093372" />
-      <entry key="D1" value="367.4563540064137" />
-      <entry key="W1" value="378.1703305748243" />
+      <entry key="MS100" value="0.03987295701308811" />
+      <entry key="MS500" value="0.8950203969852768" />
+      <entry key="S2" value="1.6341046681973534" />
+      <entry key="S5" value="1.8445918684526827" />
+      <entry key="S10" value="1.9287473607041754" />
+      <entry key="S30" value="2.5577037899964306" />
+      <entry key="S60" value="4.048989462019392" />
+      <entry key="M2" value="6.080922362797941" />
+      <entry key="M5" value="9.428668894973253" />
+      <entry key="M10" value="16.064078460463595" />
+      <entry key="M15" value="26.398009827343433" />
+      <entry key="M30" value="70.01445339644552" />
+      <entry key="H1" value="158.23611857888105" />
+      <entry key="H2" value="270.11520479686516" />
+      <entry key="H4" value="366.96933705373465" />
+      <entry key="D1" value="484.14867213936947" />
+      <entry key="W1" value="508.7495043179958" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -123,6 +358,7 @@
     "Maven.cloud-bom [deploy].executor": "Run",
     "Maven.common-bom [deploy].executor": "Run",
     "Maven.db-bom [deploy].executor": "Run",
+    "Maven.elasticsearch-starter [deploy].executor": "Run",
     "Maven.mq-bom [deploy].executor": "Run",
     "Maven.seek-bom [deploy].executor": "Run",
     "Maven.seek-bom [install].executor": "Run",
@@ -130,6 +366,7 @@
     "Maven.seek-starter [deploy].executor": "Run",
     "Maven.starter [clean].executor": "Run",
     "Maven.web-bom [deploy].executor": "Run",
+    "Maven.web-starter [deploy].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -162,11 +399,11 @@
       <recent name="D:\Projects\seek-starter\.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="seek.util.cloud.nacos.util.enums" />
-      <recent name="seek.util.cloud.gateway.util.enums" />
-      <recent name="seek.util.cloud.gateway.util.autoconfigure" />
-      <recent name="seek.util.cloud.feign.util.support" />
-      <recent name="seek.util.cloud.feign.util.enums" />
+      <recent name="seek.starter.starter.web.web.starter.enums" />
+      <recent name="seek.starter.starter.web.jwt.starter.enums" />
+      <recent name="seek.starter.starter.support.register.bean.util.enums" />
+      <recent name="seek.util.mq.rocketmq.util.enums" />
+      <recent name="seek.starter.starter.mq.rabbitmq.starter.enums" />
     </key>
   </component>
   <component name="RunManager">

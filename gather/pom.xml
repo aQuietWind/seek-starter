@@ -9,8 +9,9 @@
         <version>2.1.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>seek.util.gather</groupId>
+    <groupId>seek.starter.gather</groupId>
     <artifactId>gather</artifactId>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -18,4 +19,22 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <!--         bom文件-->
+            <dependency>
+                <groupId>seek.starter.bom</groupId>
+                <artifactId>seek-bom</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+    <modules>
+        <module>spring-web-starter</module>
+        <module>ali-cloud-web-starter</module>
+    </modules>
 </project>
