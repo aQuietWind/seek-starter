@@ -1,23 +1,23 @@
-package seek.starter.starter.db.redis.starter.util.Redis;
+package seek.starter.starter.db.redis.starter.core.Redis;
 
 import seek.util.common.config.object.db.redis.RedisKeyData;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Random;
 
-public class RedisIdUtil {
+public class RedisIdTemplate {
     private static final Random random=new Random();
-    private final RedisUtil redisUtil;
+    private final RedisTemplate redisTemplate;
     @Autowired
-    public RedisIdUtil(RedisUtil redisUtil) {
-        this.redisUtil=redisUtil;
+    public RedisIdTemplate(RedisTemplate redisTemplate) {
+        this.redisTemplate = redisTemplate;
     }
 
     public long IdGenerateByIncreaseRandom(RedisKeyData key, int randomNumberMax) {
-        return redisUtil.increase(key,null,random.nextInt(randomNumberMax));
+        return redisTemplate.increase(key,null,random.nextInt(randomNumberMax));
     }
     public long IdGenerateByIncrease(RedisKeyData key) {
-        return redisUtil.increase(key,null,1);
+        return redisTemplate.increase(key,null,1);
     }
 }
 

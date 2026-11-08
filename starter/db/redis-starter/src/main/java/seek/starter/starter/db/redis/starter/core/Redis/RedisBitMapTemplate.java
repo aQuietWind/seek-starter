@@ -1,4 +1,4 @@
-package seek.starter.starter.db.redis.starter.util.Redis;
+package seek.starter.starter.db.redis.starter.core.Redis;
 
 import seek.util.common.config.object.db.redis.RedisKeyData;
 import seek.util.common.config.object.common.common.object.function.RunFunction;
@@ -7,13 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 
 @Slf4j
-public class RedisBitMapUtil {
+public class RedisBitMapTemplate {
 
 
     private final StringRedisTemplate stringRedisTemplate;
 
     @Autowired
-    public RedisBitMapUtil(StringRedisTemplate stringRedisTemplate) {
+    public RedisBitMapTemplate(StringRedisTemplate stringRedisTemplate) {
         this.stringRedisTemplate = stringRedisTemplate;
     }
 

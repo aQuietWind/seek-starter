@@ -1,4 +1,4 @@
-package seek.starter.starter.db.redis.starter.util.Redis;
+package seek.starter.starter.db.redis.starter.core.Redis;
 
 import seek.util.common.config.object.db.redis.RedisKeyData;
 import seek.util.common.config.object.common.common.object.exception.BizException;
@@ -13,13 +13,13 @@ import java.util.concurrent.TimeUnit;
 
 
 @Slf4j
-public class RedisUtil {
+public class RedisTemplate {
     public static final String cooldownValue="true";
 
     private final StringRedisTemplate stringRedisTemplate;
 
     @Autowired
-    public RedisUtil(StringRedisTemplate stringRedisTemplate) {
+    public RedisTemplate(StringRedisTemplate stringRedisTemplate) {
         this.stringRedisTemplate = stringRedisTemplate;
     }
 

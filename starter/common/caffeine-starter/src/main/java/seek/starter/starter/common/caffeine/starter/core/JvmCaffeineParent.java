@@ -9,7 +9,7 @@ import seek.util.common.config.object.common.caffeine.CaffeineData;
 import seek.util.common.config.object.db.redis.RedisKeyData;
 import seek.util.common.config.object.common.common.object.exception.BizException;
 import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
-import seek.starter.starter.db.redis.starter.util.Redis.RedisUtil;
+import seek.starter.starter.db.redis.starter.core.Redis.RedisTemplate;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 
 import java.util.concurrent.TimeUnit;
@@ -18,7 +18,7 @@ import java.util.function.Function;
 
 public class JvmCaffeineParent<T,E> {
     public static final String caffeineFail="caffeineFailResult";
-    private final RedisUtil redisUtil;
+    private final RedisTemplate redisTemplate;
     private final RedisKeyData redisKey;
     private final CaffeineData setting;
     private static final ObjectMapper mapper;
@@ -32,8 +32,8 @@ public class JvmCaffeineParent<T,E> {
     // 全局单例缓存（唯一实例）
     protected Cache<T, E> CACHE;
 
-    public JvmCaffeineParent(RedisUtil redisUtil, Class<E> resultClass, RedisKeyData redisKey, CaffeineData setting) {
-        this.redisUtil=redisUtil;
+    public JvmCaffeineParent(RedisTemplate redisTemplate, Class<E> resultClass, RedisKeyData redisKey, CaffeineData setting) {
+        this.redisTemplate = redisTemplate;
         this.resultClass=resultClass;
         this.redisKey=redisKey;
         this.setting=setting;
@@ -85,7 +85,7 @@ public class JvmCaffeineParent<T,E> {
         if (key == null||key.equals("")) return null;
         return CACHE.get(key,k->{
             //从redis中获取分布式缓存
-            String json=redisUtil.getString(redisKey,key);
+            String json= redisTemplate.getString(redisKey,key);
             //判断是否为空
             if (json!=null&& !json.isEmpty()){
                 //判断是否为缓存穿透
@@ -102,12 +102,12 @@ public class JvmCaffeineParent<T,E> {
             //防止缓存穿透,在分布式场景下预先写入redis中，除此，可用额外缓存空值代替方案进行jvm处直接判断是否为缓存
             if (result==null){
                 //切记不要误用set(String,String,long),这个会导致数据偏移，会造成实际字符串的不同,而且它和set(String,String,Duration)很像，也很容易误写
-                redisUtil.trySetStringWithExpire(redisKey,key, caffeineFail);
+                redisTemplate.trySetStringWithExpire(redisKey,key, caffeineFail);
                 return null;
             }
             //不是缓存穿透则存储到redis做分布式缓存后返回
             try {
-                redisUtil.justSetStringWithExpire(redisKey,key, mapper.writeValueAsString(result));
+                redisTemplate.justSetStringWithExpire(redisKey,key, mapper.writeValueAsString(result));
             }
             catch (JsonProcessingException e) {throw new RuntimeException(e);}
             return result;
@@ -121,7 +121,7 @@ public class JvmCaffeineParent<T,E> {
         //执行修改或者删除操作，并且判断该操作是否成功
         if (!loader.apply(key)) throw new BizException(ErrorCodeEnum.DATA_NOT_FOUND);
         //redis清除缓存
-        redisUtil.delete(redisKey,key);
+        redisTemplate.delete(redisKey,key);
         //jvm清除缓存
         CACHE.invalidate(key);
     }
@@ -130,7 +130,7 @@ public class JvmCaffeineParent<T,E> {
     public void deleteAllCaffeine(T key) {
         if (key == null||key.equals("")) return;
         //redis清除缓存
-        redisUtil.delete(redisKey,key);
+        redisTemplate.delete(redisKey,key);
         //jvm清除缓存
         CACHE.invalidate(key);
     }

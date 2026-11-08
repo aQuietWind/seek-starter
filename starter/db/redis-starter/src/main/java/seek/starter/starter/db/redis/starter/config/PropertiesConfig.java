@@ -5,11 +5,12 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import seek.starter.starter.db.redis.starter.enums.PackageEnum;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@ConfigurationProperties("seek.util.db.redis.config")
+@ConfigurationProperties(PackageEnum.Full_Package_Prefix +"config")
 public class PropertiesConfig {
     private RedisConnection redissonConnection=new RedisConnection();
 

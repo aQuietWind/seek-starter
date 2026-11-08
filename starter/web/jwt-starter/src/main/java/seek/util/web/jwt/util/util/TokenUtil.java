@@ -6,8 +6,8 @@ import seek.util.common.config.object.web.jwt.JWTRoleData;
 import seek.util.common.config.object.db.redis.RedisKeyData;
 import seek.util.common.config.object.common.common.object.exception.BizException;
 import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
-import seek.starter.starter.db.redis.starter.util.Redis.RedisScriptUtil;
-import seek.starter.starter.db.redis.starter.util.Redis.RedisUtil;
+import seek.starter.starter.db.redis.starter.core.Redis.RedisScriptTemplate;
+import seek.starter.starter.db.redis.starter.core.Redis.RedisTemplate;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,12 +16,12 @@ import org.springframework.data.redis.core.script.DefaultRedisScript;
 import java.util.List;
 
 public class TokenUtil {
-    private final RedisUtil redisUtil;
+    private final RedisTemplate redisTemplate;
     private final JWTUtil jwtUtil;
-    private final DefaultRedisScript<Boolean> tokenAddScript= RedisScriptUtil.luaQuickInit("lua/token_add.lua");
+    private final DefaultRedisScript<Boolean> tokenAddScript= RedisScriptTemplate.luaQuickInit("lua/token_add.lua");
     @Autowired
-    public TokenUtil(RedisUtil redisUtil,JWTUtil jwtUtil) {
-        this.redisUtil = redisUtil;
+    public TokenUtil(RedisTemplate redisTemplate, JWTUtil jwtUtil) {
+        this.redisTemplate = redisTemplate;
         this.jwtUtil = jwtUtil;
     }
 
@@ -46,7 +46,7 @@ public class TokenUtil {
     }
 
     public void recordToken(Long tokenId,String token,RedisKeyData redisKey,String maxStore){
-        redisUtil.doScript(tokenAddScript         //执行脚本
+        redisTemplate.doScript(tokenAddScript         //执行脚本
                 , List.of(redisKey.getRedisKey(tokenId))       //KEYS参数
                 ,maxStore,token, ""+ System.currentTimeMillis());     //ARGV参数
     }

@@ -2,7 +2,7 @@ package seek.util.web.jwt.util.autoconfigure;
 
 import seek.util.web.jwt.util.util.JWTUtil;
 import seek.util.web.jwt.util.util.TokenUtil;
-import seek.starter.starter.db.redis.starter.util.Redis.RedisUtil;
+import seek.starter.starter.db.redis.starter.core.Redis.RedisTemplate;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
@@ -16,7 +16,7 @@ public class AutoConfig {
     }
     @Bean
     @Lazy
-    public TokenUtil tokenUtil(RedisUtil redisUtil,JWTUtil jwtUtil) {
-        return new TokenUtil(redisUtil,jwtUtil);
+    public TokenUtil tokenUtil(RedisTemplate redisTemplate, JWTUtil jwtUtil) {
+        return new TokenUtil(redisTemplate,jwtUtil);
     }
 }

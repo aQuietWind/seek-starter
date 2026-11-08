@@ -1,4 +1,4 @@
-package seek.starter.starter.db.redis.starter.util.Redis;
+package seek.starter.starter.db.redis.starter.core.Redis;
 
 
 import seek.util.common.config.object.db.redis.RedisStreamData;
@@ -12,13 +12,13 @@ import java.time.Duration;
 import java.util.List;
 
 @Slf4j
-public class RedisStreamUtil {
+public class RedisStreamTemplate {
 
 
     private final StringRedisTemplate stringRedisTemplate;
 
     @Autowired
-    public RedisStreamUtil(StringRedisTemplate stringRedisTemplate) {
+    public RedisStreamTemplate(StringRedisTemplate stringRedisTemplate) {
         this.stringRedisTemplate = stringRedisTemplate;
     }
 
