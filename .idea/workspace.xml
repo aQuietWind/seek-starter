@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/bom/support-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/support-bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/support/bean-register-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/bean-register-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/support/bean-register-util/src/main/java/seek/util/common/bean/register/util/util/QuickRegisterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/bean-register-starter/src/main/java/seek/util/common/bean/register/util/util/QuickRegisterUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/support/bean-register-util/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/bean-register-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/support/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/util/mq/rabbitmq/util/autoconfigure/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/util/mq/rabbitmq/util/autoconfigure/AutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/util/mq/rabbitmq/util/util/CorrleationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/util/mq/rabbitmq/util/core/CorrleationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/util/mq/rabbitmq/util/util/MQUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/util/mq/rabbitmq/util/core/MQUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,61 +32,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000064413044" />
-      <entry key="S2" value="1.0089586682508576" />
-      <entry key="S5" value="1.1516691950310867" />
-      <entry key="S10" value="1.3894472942916511" />
-      <entry key="S30" value="1.730301228219989" />
-      <entry key="S60" value="1.8748570981980608" />
-      <entry key="M2" value="2.5906096169244197" />
-      <entry key="M5" value="8.390768328383906" />
-      <entry key="M10" value="17.43279992091493" />
-      <entry key="M15" value="24.352035972603673" />
-      <entry key="M30" value="39.45521957805295" />
-      <entry key="H1" value="56.42115247617049" />
-      <entry key="H2" value="70.4727660100992" />
-      <entry key="H4" value="79.73978021188303" />
-      <entry key="D1" value="88.96522576359988" />
-      <entry key="W1" value="90.70516022811671" />
+      <entry key="MS100" value="3.386137304894547E-5" />
+      <entry key="MS500" value="0.12762651571339956" />
+      <entry key="S2" value="0.5978461311496478" />
+      <entry key="S5" value="0.8429930973511784" />
+      <entry key="S10" value="1.0822059439545957" />
+      <entry key="S30" value="1.9644542296723502" />
+      <entry key="S60" value="3.0048403269367765" />
+      <entry key="M2" value="4.5378520040062185" />
+      <entry key="M5" value="9.024911625553957" />
+      <entry key="M10" value="17.291506803388465" />
+      <entry key="M15" value="24.531999519766032" />
+      <entry key="M30" value="41.009346938372225" />
+      <entry key="H1" value="59.973593470743005" />
+      <entry key="H2" value="76.02700526874808" />
+      <entry key="H4" value="86.77698264110354" />
+      <entry key="D1" value="97.59806074616918" />
+      <entry key="W1" value="99.65162607557265" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.9460962176340655E-77" />
-      <entry key="S2" value="1.3058431685721703E-19" />
-      <entry key="S5" value="4.2289038472099836E-8" />
-      <entry key="S10" value="2.907689917910867E-4" />
-      <entry key="S30" value="0.11280510432293979" />
-      <entry key="S60" value="0.6963038802808609" />
-      <entry key="M2" value="2.89478243826229" />
-      <entry key="M5" value="11.870216681442855" />
-      <entry key="M10" value="24.216133287868804" />
-      <entry key="M15" value="32.68245823855851" />
-      <entry key="M30" value="46.64945964406711" />
-      <entry key="H1" value="57.666235094899214" />
-      <entry key="H2" value="64.95332493634871" />
-      <entry key="H4" value="69.21977660478753" />
-      <entry key="D1" value="73.16383911555724" />
-      <entry key="W1" value="73.87952775614481" />
+      <entry key="MS100" value="1.0000000001222031" />
+      <entry key="MS500" value="1.0104091783210316" />
+      <entry key="S2" value="1.3195275894596792" />
+      <entry key="S5" value="1.6607254626071368" />
+      <entry key="S10" value="2.0057750032431096" />
+      <entry key="S30" value="3.327595051194208" />
+      <entry key="S60" value="4.536448115799789" />
+      <entry key="M2" value="5.704844050811984" />
+      <entry key="M5" value="10.103882334813996" />
+      <entry key="M10" value="20.280057828597208" />
+      <entry key="M15" value="29.038065366030676" />
+      <entry key="M30" value="45.388829538696534" />
+      <entry key="H1" value="59.33239159009558" />
+      <entry key="H2" value="68.8817033592235" />
+      <entry key="H4" value="74.56457470214994" />
+      <entry key="D1" value="79.86949222415006" />
+      <entry key="W1" value="80.83699800232574" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.22531261565270758" />
-      <entry key="MS500" value="0.7422617917113356" />
-      <entry key="S2" value="0.9371382661494152" />
-      <entry key="S5" value="1.1221986098463832" />
-      <entry key="S10" value="1.3747946113028402" />
-      <entry key="S30" value="1.8359401433345413" />
-      <entry key="S60" value="2.5623386490563376" />
-      <entry key="M2" value="5.4702181504842455" />
-      <entry key="M5" value="20.23376152764071" />
-      <entry key="M10" value="41.620051674675494" />
-      <entry key="M15" value="57.00798685460927" />
-      <entry key="M30" value="86.08468853125231" />
-      <entry key="H1" value="114.0742053897437" />
-      <entry key="H2" value="135.4182960448072" />
-      <entry key="H4" value="148.9552793144176" />
-      <entry key="D1" value="162.12829048276453" />
-      <entry key="W1" value="164.58457572066789" />
+      <entry key="MS100" value="7.000990127003871E-4" />
+      <entry key="MS500" value="0.32021169730678484" />
+      <entry key="S2" value="1.3803846522540733" />
+      <entry key="S5" value="2.1555139380812176" />
+      <entry key="S10" value="2.855997827378686" />
+      <entry key="S30" value="5.170901006818721" />
+      <entry key="S60" value="7.465435296671812" />
+      <entry key="M2" value="10.197620263511245" />
+      <entry key="M5" value="19.10019706124436" />
+      <entry key="M10" value="37.54481803261546" />
+      <entry key="M15" value="53.544874457632666" />
+      <entry key="M30" value="86.37804249074517" />
+      <entry key="H1" value="119.29217415029406" />
+      <entry key="H2" value="144.90035690126646" />
+      <entry key="H4" value="161.3369190916" />
+      <entry key="D1" value="177.4667044793134" />
+      <entry key="W1" value="180.48850084807938" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -101,38 +101,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.ai-bom [deploy].executor": "Run",
-    "Maven.bom [deploy].executor": "Run",
-    "Maven.cloud-bom [deploy].executor": "Run",
-    "Maven.common-bom [deploy].executor": "Run",
-    "Maven.db-bom [deploy].executor": "Run",
-    "Maven.mq-bom [deploy].executor": "Run",
-    "Maven.seek-bom [deploy].executor": "Run",
-    "Maven.seek-bom [install].executor": "Run",
-    "Maven.seek-starter [clean].executor": "Run",
-    "Maven.seek-starter [deploy].executor": "Run",
-    "Maven.starter [clean].executor": "Run",
-    "Maven.web-bom [deploy].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/seek-starter/starter",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.ai-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.db-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mq-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-bom [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-starter [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-starter [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starter [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.web-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/seek-starter/starter/support/register-bean-util/src/main/java/seek/starter/starter/support/register/bean/util&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\seek-starter\starter\support\register-bean-util\src\main\java\seek\starter\starter\support\register\bean\util" />
       <recent name="D:\Projects\seek-starter\starter" />
       <recent name="D:\Projects\seek-starter" />
     </key>
