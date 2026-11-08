@@ -1,4 +1,4 @@
-package seek.util.mq.rabbitmq.util.configuration;
+package seek.starter.starter.mq.rabbitmq.starter.configuration;
 
 
 import lombok.AllArgsConstructor;

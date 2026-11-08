@@ -1,4 +1,4 @@
-package seek.util.mq.rabbitmq.util.util;
+package seek.starter.starter.mq.rabbitmq.starter.util;
 
 import org.springframework.amqp.core.Queue;
 import seek.util.common.config.object.mq.rabbitmq.BindingData;

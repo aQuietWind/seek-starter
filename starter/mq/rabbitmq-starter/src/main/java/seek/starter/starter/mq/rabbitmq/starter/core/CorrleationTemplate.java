@@ -1,4 +1,4 @@
-package seek.util.mq.rabbitmq.util.core;
+package seek.starter.starter.mq.rabbitmq.starter.core;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.connection.CorrelationData;

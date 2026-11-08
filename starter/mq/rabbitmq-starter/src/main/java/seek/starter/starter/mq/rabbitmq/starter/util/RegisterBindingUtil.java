@@ -1,4 +1,4 @@
-package seek.util.mq.rabbitmq.util.util;
+package seek.starter.starter.mq.rabbitmq.starter.util;
 
 import jakarta.annotation.Nonnull;
 import org.springframework.amqp.core.Binding;
@@ -11,7 +11,6 @@ import org.springframework.amqp.core.FanoutExchange;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.core.TopicExchange;
 import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
