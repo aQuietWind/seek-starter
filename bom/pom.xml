@@ -30,6 +30,7 @@
         <module>mq-bom</module>
         <module>web-bom</module>
         <module>index/seek-bom</module>
+        <module>support-bom</module>
     </modules>
 
 

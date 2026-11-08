@@ -26,12 +26,12 @@
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>langchain4j-starter</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>spring-ai-starter</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

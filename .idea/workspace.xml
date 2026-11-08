@@ -7,8 +7,30 @@
     <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/spring-ai-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/spring-ai-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/feign-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/gateway-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/nacos-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/nacos-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/sentinel-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/skywalking-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/skywalking-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/ali-oss-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/ali-oss-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/bean-register-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/bean-register-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/caffeine-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/caffeine-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/common-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/common-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/config-object/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/config-object/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/event-respond-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/elasticsearch-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/elasticsearch-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mongodb-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/mongodb-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/mybatis-plus-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/mybatis-plus-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/redis-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/kafka-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rocketmq-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/jwt-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/web-starter/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,61 +52,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000042373" />
-      <entry key="MS500" value="1.0053139486422107" />
-      <entry key="S2" value="1.2699941399582206" />
-      <entry key="S5" value="1.5923000035941492" />
-      <entry key="S10" value="1.7696103023871044" />
-      <entry key="S30" value="1.9200379328007378" />
-      <entry key="S60" value="2.117162291298073" />
-      <entry key="M2" value="3.198041819182034" />
-      <entry key="M5" value="6.320259608337331" />
-      <entry key="M10" value="9.930384908670755" />
-      <entry key="M15" value="13.794064669550727" />
-      <entry key="M30" value="23.722043805924567" />
-      <entry key="H1" value="34.15039748953271" />
-      <entry key="H2" value="41.87161413739437" />
-      <entry key="H4" value="46.59132815973964" />
-      <entry key="D1" value="51.046488825764044" />
-      <entry key="W1" value="51.86245006602816" />
+      <entry key="MS100" value="2.9998698830667956E-210" />
+      <entry key="MS500" value="1.2457201333820776E-42" />
+      <entry key="S2" value="3.34083572337113E-11" />
+      <entry key="S5" value="6.449737631564821E-5" />
+      <entry key="S10" value="0.008031025856990925" />
+      <entry key="S30" value="0.20027377166917998" />
+      <entry key="S60" value="0.45635785950123414" />
+      <entry key="M2" value="0.9360450439137157" />
+      <entry key="M5" value="3.632029280699151" />
+      <entry key="M10" value="8.256683078584587" />
+      <entry key="M15" value="12.607684540154722" />
+      <entry key="M30" value="23.546315990854033" />
+      <entry key="H1" value="35.67490815182276" />
+      <entry key="H2" value="45.10759644111476" />
+      <entry key="H4" value="51.046061383920346" />
+      <entry key="D1" value="56.763001143703185" />
+      <entry key="W1" value="57.82126932658616" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.7493135038453673E-211" />
-      <entry key="S2" value="3.7398736661244297E-53" />
-      <entry key="S5" value="1.622702997873163E-21" />
-      <entry key="S10" value="6.227280505562251E-11" />
-      <entry key="S30" value="0.0011771450764203114" />
-      <entry key="S60" value="0.09312910941919739" />
-      <entry key="M2" value="0.8621182279262734" />
-      <entry key="M5" value="3.411841107140931" />
-      <entry key="M10" value="5.686317915323362" />
-      <entry key="M15" value="7.078161595743674" />
-      <entry key="M30" value="9.547096985049272" />
-      <entry key="H1" value="11.681828584246158" />
-      <entry key="H2" value="13.150493924168842" />
-      <entry key="H4" value="14.020937196932586" />
-      <entry key="D1" value="14.828630727958865" />
-      <entry key="W1" value="14.97530898660841" />
+      <entry key="MS100" value="1.0000000000002167" />
+      <entry key="MS500" value="1.0029328227591663" />
+      <entry key="S2" value="1.2781562437550944" />
+      <entry key="S5" value="2.1622024673937026" />
+      <entry key="S10" value="3.6413552530930136" />
+      <entry key="S30" value="7.7447986088839516" />
+      <entry key="S60" value="11.078297738834213" />
+      <entry key="M2" value="14.582765305420146" />
+      <entry key="M5" value="19.027027044385864" />
+      <entry key="M10" value="22.676291203922663" />
+      <entry key="M15" value="24.927385315999228" />
+      <entry key="M30" value="28.746090611479097" />
+      <entry key="H1" value="31.966056474020796" />
+      <entry key="H2" value="34.18328968313269" />
+      <entry key="H4" value="35.50473685843433" />
+      <entry key="D1" value="36.737532139258974" />
+      <entry key="W1" value="36.96216313841765" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.44135149814624325" />
-      <entry key="MS500" value="0.8530079154144621" />
-      <entry key="S2" value="1.2100159194523692" />
-      <entry key="S5" value="1.5582036012280762" />
-      <entry key="S10" value="1.7497650463229417" />
-      <entry key="S30" value="1.91378852618083" />
-      <entry key="S60" value="2.2050165751996462" />
-      <entry key="M2" value="4.051361907351965" />
-      <entry key="M5" value="9.720382993742053" />
-      <entry key="M10" value="15.606550101811788" />
-      <entry key="M15" value="20.863019787988005" />
-      <entry key="M30" value="33.26174593808384" />
-      <entry key="H1" value="45.82713272304212" />
-      <entry key="H2" value="55.01905306819223" />
-      <entry key="H4" value="60.61058352152853" />
-      <entry key="D1" value="65.87481505289949" />
-      <entry key="W1" value="66.83771492057501" />
+      <entry key="MS100" value="0.0073400214782368915" />
+      <entry key="MS500" value="0.37542518028693483" />
+      <entry key="S2" value="1.0044161274904397" />
+      <entry key="S5" value="1.9678477129434426" />
+      <entry key="S10" value="3.484593383738535" />
+      <entry key="S30" value="7.8286509873994214" />
+      <entry key="S60" value="11.450411227538668" />
+      <entry key="M2" value="15.461572598836646" />
+      <entry key="M5" value="22.626697732077666" />
+      <entry key="M10" value="30.91160195704235" />
+      <entry key="M15" value="37.518000227328564" />
+      <entry key="M30" value="52.28067454393757" />
+      <entry key="H1" value="67.63342595058025" />
+      <entry key="H2" value="79.28648081160857" />
+      <entry key="H4" value="86.54839728358334" />
+      <entry key="D1" value="93.50010147285357" />
+      <entry key="W1" value="94.783369943043" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -109,6 +131,7 @@
     "Maven.mq-bom [deploy].executor": "Run",
     "Maven.seek-bom [deploy].executor": "Run",
     "Maven.seek-bom [install].executor": "Run",
+    "Maven.seek-starter [clean].executor": "Run",
     "Maven.seek-starter [deploy].executor": "Run",
     "Maven.web-bom [deploy].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -165,6 +188,16 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/starter/web/jwt-util/src/main/java" />
+      <option name="debuggerType" value="1" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
       <method v="2" />
     </configuration>
     <recent_temporary>

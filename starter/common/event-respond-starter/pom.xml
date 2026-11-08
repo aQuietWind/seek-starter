@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>seek.util.common</groupId>
+        <groupId>seek.starter.starter.common</groupId>
         <artifactId>common</artifactId>
         <version>2.1.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>event-respond-system-starter</artifactId>
+    <artifactId>event-respond-starter</artifactId>
 
     <properties>
         <java.version>21</java.version>

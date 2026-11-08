@@ -7,29 +7,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bean-register-util" />
-        <module name="kafka-util" />
-        <module name="event-respond-system" />
-        <module name="rabbitmq-util" />
-        <module name="elasticsearch-util" />
-        <module name="langchain4j-util" />
-        <module name="redis-util" />
-        <module name="gateway-util" />
-        <module name="mongodb-util" />
-        <module name="mybatis-plus-util" />
-        <module name="ali-oss-util" />
-        <module name="rocketmq-util" />
-        <module name="common-util" />
+        <module name="spring-ai-starter" />
+        <module name="gateway-starter" />
+        <module name="jwt-starter" />
+        <module name="nacos-starter" />
+        <module name="skywalking-starter" />
+        <module name="event-respond-starter" />
+        <module name="langchain4j-starter" />
+        <module name="sentinel-starter" />
+        <module name="mongodb-starter" />
+        <module name="redis-starter" />
+        <module name="rabbitmq-starter" />
         <module name="seek-bom" />
-        <module name="spring-ai-util" />
-        <module name="caffeine-util" />
-        <module name="nacos-util" />
-        <module name="sentinel-util" />
+        <module name="rocketmq-starter" />
+        <module name="caffeine-starter" />
         <module name="gather" />
-        <module name="jwt-util" />
-        <module name="web-util" />
-        <module name="skywalking-util" />
+        <module name="web-starter" />
+        <module name="ali-oss-starter" />
+        <module name="elasticsearch-starter" />
+        <module name="common-starter" />
         <module name="config-object" />
-        <module name="feign-util" />
+        <module name="kafka-starter" />
+        <module name="support" />
+        <module name="feign-starter" />
+        <module name="mybatis-plus-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21">
@@ -40,33 +41,34 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ali-oss-util" options="-parameters" />
+      <module name="ali-oss-starter" options="-parameters" />
       <module name="bean-register-util" options="-parameters" />
-      <module name="caffeine-util" options="-parameters" />
-      <module name="common-util" options="-parameters" />
+      <module name="caffeine-starter" options="-parameters" />
+      <module name="common-starter" options="-parameters" />
       <module name="config-object" options="-parameters" />
-      <module name="elasticsearch-util" options="-parameters" />
-      <module name="event-respond-system" options="-parameters" />
-      <module name="feign-util" options="-parameters" />
-      <module name="gateway-util" options="-parameters" />
+      <module name="elasticsearch-starter" options="-parameters" />
+      <module name="event-respond-starter" options="-parameters" />
+      <module name="feign-starter" options="-parameters" />
+      <module name="gateway-starter" options="-parameters" />
       <module name="gather" options="-parameters" />
-      <module name="jwt-util" options="-parameters" />
-      <module name="kafka-util" options="-parameters" />
-      <module name="langchain4j-util" options="-parameters" />
-      <module name="mongodb-util" options="-parameters" />
-      <module name="mybatis-plus-util" options="-parameters" />
-      <module name="nacos-util" options="-parameters" />
-      <module name="rabbitmq-util" options="-parameters" />
-      <module name="redis-util" options="-parameters" />
-      <module name="rocketmq-util" options="-parameters" />
+      <module name="jwt-starter" options="-parameters" />
+      <module name="kafka-starter" options="-parameters" />
+      <module name="langchain4j-starter" options="-parameters" />
+      <module name="mongodb-starter" options="-parameters" />
+      <module name="mybatis-plus-starter" options="-parameters" />
+      <module name="nacos-starter" options="-parameters" />
+      <module name="rabbitmq-starter" options="-parameters" />
+      <module name="redis-starter" options="-parameters" />
+      <module name="rocketmq-starter" options="-parameters" />
       <module name="seek-bom" options="-parameters" />
-      <module name="sentinel-util" options="-parameters" />
-      <module name="skywalking-util" options="-parameters" />
-      <module name="spring-ai-util" options="-parameters" />
+      <module name="sentinel-starter" options="-parameters" />
+      <module name="skywalking-starter" options="-parameters" />
+      <module name="spring-ai-starter" options="-parameters" />
       <module name="starter" options="" />
       <module name="starter (2)" options="-parameters" />
       <module name="starter 2" options="" />
-      <module name="web-util" options="-parameters" />
+      <module name="support" options="-parameters" />
+      <module name="web-starter" options="-parameters" />
     </option>
   </component>
 </project>
