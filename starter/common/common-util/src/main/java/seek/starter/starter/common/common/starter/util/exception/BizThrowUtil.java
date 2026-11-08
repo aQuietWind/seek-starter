@@ -1,4 +1,4 @@
-package seek.util.common.common.util.util.exception;
+package seek.starter.starter.common.common.starter.util.exception;
 
 import seek.util.common.config.object.common.common.object.exception.BizException;
 import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;

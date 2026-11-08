@@ -1,4 +1,4 @@
-package seek.util.common.common.util.util.common;
+package seek.starter.starter.common.common.starter.util.common;
 
 public class DoubleUtil {
 

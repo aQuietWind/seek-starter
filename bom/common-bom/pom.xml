@@ -35,7 +35,7 @@
             </dependency>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
-                <artifactId>common-starter</artifactId>
+                <artifactId>common-util</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

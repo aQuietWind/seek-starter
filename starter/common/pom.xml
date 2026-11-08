@@ -23,7 +23,7 @@
     <modules>
         <module>ali-oss-starter</module>
         <module>caffeine-starter</module>
-        <module>common-starter</module>
+        <module>common-util</module>
         <module>event-respond-starter</module>
     </modules>
 

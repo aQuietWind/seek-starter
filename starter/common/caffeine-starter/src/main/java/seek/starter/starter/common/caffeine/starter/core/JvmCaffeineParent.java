@@ -1,4 +1,4 @@
-package seek.util.common.caffeine.util.support;
+package seek.starter.starter.common.caffeine.starter.core;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

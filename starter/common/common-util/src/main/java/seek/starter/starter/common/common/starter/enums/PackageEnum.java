@@ -1,4 +1,4 @@
-package seek.util.common.caffeine.util.enums;
+package seek.starter.starter.common.common.starter.enums;
 
 public class PackageEnum {
     public static final String Full_Package="seek.starter.starter.ai.langchain4j.starter";
