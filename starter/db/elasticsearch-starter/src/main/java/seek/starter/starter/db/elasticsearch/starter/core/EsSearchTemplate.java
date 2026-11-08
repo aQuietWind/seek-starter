@@ -1,4 +1,4 @@
-package seek.util.db.elasticsearch.util.util;
+package seek.starter.starter.db.elasticsearch.starter.core;
 
 
 import co.elastic.clients.elasticsearch._types.SortOptions;
@@ -15,11 +15,11 @@ import org.springframework.data.elasticsearch.core.mapping.IndexCoordinates;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EsSearchUtil {
+public class EsSearchTemplate {
 
     private final ElasticsearchOperations elasticsearchOperations;
     @Autowired
-    public EsSearchUtil(ElasticsearchOperations elasticsearchOperations) {
+    public EsSearchTemplate(ElasticsearchOperations elasticsearchOperations) {
         this.elasticsearchOperations = elasticsearchOperations;
     }
 

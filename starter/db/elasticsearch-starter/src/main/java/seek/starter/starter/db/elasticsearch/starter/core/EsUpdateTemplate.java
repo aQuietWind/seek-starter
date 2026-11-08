@@ -1,17 +1,16 @@
-package seek.util.db.elasticsearch.util.util;
+package seek.starter.starter.db.elasticsearch.starter.core;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
 import org.springframework.data.elasticsearch.core.mapping.IndexCoordinates;
 import org.springframework.data.elasticsearch.core.query.UpdateResponse;
 
-public class EsUpdateUtil {
-
+public class EsUpdateTemplate {
 
 
     private final ElasticsearchOperations elasticsearchOperations;
     @Autowired
-    public EsUpdateUtil(ElasticsearchOperations elasticsearchOperations) {
+    public EsUpdateTemplate(ElasticsearchOperations elasticsearchOperations) {
         this.elasticsearchOperations = elasticsearchOperations;
     }
 

@@ -1,4 +1,4 @@
-package seek.util.db.elasticsearch.util.config;
+package seek.starter.starter.db.elasticsearch.starter.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
