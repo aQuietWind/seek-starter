@@ -1,13 +1,13 @@
-package seek.util.cloud.sentinel.util.config;
+package seek.starter.starter.cloud.sentinel.starter.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import seek.util.common.config.object.db.redis.RedisKeyData;
+import seek.starter.starter.cloud.sentinel.starter.enums.PackageEnum;
 
 
-@ConfigurationProperties("seek.util.cloud.sentinel.config")
+@ConfigurationProperties(PackageEnum.Full_Package_Prefix +"config")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

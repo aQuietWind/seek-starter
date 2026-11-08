@@ -1,7 +1,10 @@
 seek:
-  util:
-    sentinel:
-      config:
-        al-service-api-name: allServiceApi
-        authority:
-          request-header-name: x-sentinel-authority
+  starter:
+    starter:
+      cloud:
+        sentinel:
+          starter:
+            config:
+              al-service-api-name: allServiceApi
+              authority:
+                request-header-name: x-sentinel-authority

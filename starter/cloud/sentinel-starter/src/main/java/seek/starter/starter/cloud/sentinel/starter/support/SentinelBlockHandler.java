@@ -1,4 +1,4 @@
-package seek.util.cloud.sentinel.util.config;
+package seek.starter.starter.cloud.sentinel.starter.support;
 
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.BlockExceptionHandler;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
@@ -11,8 +11,6 @@ import seek.util.common.config.object.common.common.object.dto.Result;
 import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
-import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 

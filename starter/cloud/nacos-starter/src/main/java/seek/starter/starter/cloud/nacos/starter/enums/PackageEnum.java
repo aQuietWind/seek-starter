@@ -1,4 +1,4 @@
-package seek.util.cloud.nacos.util.enums;
+package seek.starter.starter.cloud.nacos.starter.enums;
 
 public class PackageEnum {
     public static final String Full_Package="seek.starter.starter.cloud.nacos.starter";

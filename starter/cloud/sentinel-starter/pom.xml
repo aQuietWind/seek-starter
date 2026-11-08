@@ -23,6 +23,10 @@
             <groupId>seek.starter.starter.support</groupId>
             <artifactId>config-object</artifactId>
         </dependency>
+        <dependency>
+            <groupId>seek.starter.starter.support</groupId>
+            <artifactId>register-bean-util</artifactId>
+        </dependency>
         <!--        sentinel连接依赖-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
