@@ -5,7 +5,7 @@ chcp 65001 >nul
 
 echo ====================== 开始一键上传 ======================
 git add .
-git commit -m %0
+git commit -m %1
 git push origin main
 echo 成功
 pause
