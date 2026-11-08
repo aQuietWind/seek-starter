@@ -5,12 +5,13 @@ import org.springframework.ai.chat.client.advisor.MessageChatMemoryAdvisor;
 import org.springframework.ai.chat.memory.ChatMemory;
 import org.springframework.ai.chat.memory.InMemoryChatMemoryRepository;
 import org.springframework.ai.chat.memory.MessageWindowChatMemory;
+import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import seek.util.ai.spring.ai.util.enums.PackageEnum;
 import seek.util.ai.spring.ai.util.support.AiLogAdvisor;
-import seek.util.ai.spring.ai.util.util.ChatUtil;
+import seek.util.ai.spring.ai.util.core.ChatTemplate;
 
-@Configuration
+@AutoConfiguration(PackageEnum.Full_Package_Prefix +"AutoConfig")
 public class AutoConfig {
     @Bean
     public ChatMemory chatMemory() {
@@ -28,7 +29,7 @@ public class AutoConfig {
                 .build();
     }
     @Bean
-    public ChatUtil chatUtil(ChatClient chatClient) {
-        return new ChatUtil(chatClient);
+    public ChatTemplate chatUtil(ChatClient chatClient) {
+        return new ChatTemplate(chatClient);
     }
 }

@@ -1,6 +1,0 @@
-seek:
-  util:
-    web:
-      web:
-        config:
-          request-header-token-id-name: tokenId
