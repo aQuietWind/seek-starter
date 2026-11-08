@@ -1,11 +1,12 @@
-package seek.util.web.web.util.config;
+package seek.starter.starter.web.web.starter.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import seek.starter.starter.web.web.starter.enums.PackageEnum;
 
-@ConfigurationProperties("seek.util.web.web.config")
+@ConfigurationProperties(PackageEnum.Full_Package_Prefix +"config")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

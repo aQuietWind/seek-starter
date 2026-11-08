@@ -1,4 +1,4 @@
-package seek.util.web.web.util.config;
+package seek.starter.starter.web.web.starter.support;
 
 import seek.starter.starter.support.config.object.common.common.object.dto.Result;
 import seek.starter.starter.support.config.object.common.common.object.exception.BizException;
@@ -58,14 +58,6 @@ public class GlobalRequestExceptionHandler {
     // 系统异常
     @ExceptionHandler(RuntimeException.class)
     public Result<?> handleRuntimeError(Exception e, HttpServletResponse response){
-        // 判断是不是Seata包装出来的异常,这是Seata自动封装异常的坑，会影响正常的异常捕获
-        if (e.getMessage() != null && e.getMessage().contains("try to proceed invocation error")) {
-            Throwable root = getRootCause(e);
-            if(root instanceof BizException realEx){
-                //交由业务异常处理方法
-                return handleBizException(realEx,response);
-            }
-        }
         // 打印完整堆栈日志，用于线上排查
         log.error("服务发生运行时系统异常",e);
         return quickResponse(ErrorCodeEnum.SERVER_ERROR,response);

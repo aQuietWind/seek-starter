@@ -1,15 +1,10 @@
-package seek.util.web.web.util.config;
+package seek.starter.starter.web.web.starter.support;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-// 仅普通Servlet微服务生效，WebFlux网关不会实例化这个类
-@ConditionalOnWebApplication(type = ConditionalOnWebApplication.Type.SERVLET)
-@Configuration          //声明这是一个对项目进行配置的配置类
-public class WebConfig implements WebMvcConfigurer {            //实现
+public class WebConfigImpl implements WebMvcConfigurer {            //实现
     @Autowired          //依赖注入
     private TokenInterceptor tokenInterceptor;          //获取拦截器的对象
     @Override

@@ -32,6 +32,10 @@
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
         </dependency>
+        <dependency>
+            <groupId>seek.starter.starter.support</groupId>
+            <artifactId>register-bean-util</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

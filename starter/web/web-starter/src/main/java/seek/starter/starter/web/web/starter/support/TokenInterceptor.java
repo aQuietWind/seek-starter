@@ -1,4 +1,4 @@
-package seek.util.web.web.util.config;
+package seek.starter.starter.web.web.starter.support;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import seek.starter.starter.support.config.object.common.context.TokenIdContext;
@@ -6,6 +6,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.servlet.HandlerInterceptor;
+import seek.starter.starter.web.web.starter.config.PropertiesConfig;
 
 @Slf4j
 public class TokenInterceptor implements HandlerInterceptor {

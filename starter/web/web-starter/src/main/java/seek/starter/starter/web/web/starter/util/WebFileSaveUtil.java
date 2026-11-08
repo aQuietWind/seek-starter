@@ -1,4 +1,4 @@
-package seek.util.web.web.util.util;
+package seek.starter.starter.web.web.starter.util;
 
 import seek.starter.starter.support.config.object.common.common.object.exception.BizException;
 import seek.starter.starter.support.config.object.common.common.object.exception.ErrorCodeEnum;
@@ -13,7 +13,7 @@ import java.util.Set;
 import java.util.UUID;
 
 @Slf4j
-public class WebFileSave {
+public class WebFileSaveUtil {
     //直接保存文件，不检查目录
     public static String quickCheckAndSaveFile(MultipartFile file, String dest, long size, Set<String> types) {
         //检查文件格式,并且生成一个随机的文件名
