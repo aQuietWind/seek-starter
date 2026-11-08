@@ -1,4 +1,4 @@
-package seek.util.common.event.respond.system.config;
+package seek.starter.starter.common.event.respond.starter.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package seek.util.common.event.respond.system.support;
+package seek.starter.starter.common.event.respond.starter.support;
 
 import com.google.gson.Gson;
 import seek.util.common.config.object.common.event.respond.system.EventData;
@@ -6,8 +6,7 @@ import seek.util.common.config.object.common.event.respond.system.ValueData;
 import jakarta.annotation.Nonnull;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import seek.util.common.event.respond.system.config.PropertiesConfig;
+import seek.starter.starter.common.event.respond.starter.config.PropertiesConfig;
 
 import java.util.ArrayList;
 import java.util.concurrent.LinkedBlockingDeque;
