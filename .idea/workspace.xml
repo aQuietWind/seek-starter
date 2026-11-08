@@ -5,36 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/src/main/java/seek/util/ai/langchain4j/util/autoconfigure/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/src/main/java/seek/starter/starter/ai/langchain4j/starter/autoconfigure/AutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/src/main/java/seek/util/ai/langchain4j/util/config/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/src/main/java/seek/starter/starter/ai/langchain4j/starter/configure/PropertiesConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/src/main/java/seek/util/ai/langchain4j/util/support/RedisChatMemoryStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/src/main/java/seek/starter/starter/ai/langchain4j/starter/support/RedisChatMemoryStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/src/main/java/seek/util/ai/langchain4j/util/util/ChatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/src/main/java/seek/starter/starter/ai/langchain4j/starter/core/ChatTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/seek/util/ai/langchain4j/util/autoconfigure/AutoConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/seek/util/ai/langchain4j/util/config/PropertiesConfig$RedisSessionMemory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/seek/util/ai/langchain4j/util/config/PropertiesConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/seek/util/ai/langchain4j/util/support/RedisChatMemoryStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/classes/seek/util/ai/langchain4j/util/util/ChatUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/langchain4j-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/langchain4j-starter-2.1.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/util/mq/rabbitmq/util/autoconfigure/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/util/mq/rabbitmq/util/autoconfigure/AutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/util/mq/rabbitmq/util/core/CorrleationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/util/mq/rabbitmq/util/core/CorrleationTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/util/mq/rabbitmq/util/core/MQUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/util/mq/rabbitmq/util/core/MQTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/util/mq/rabbitmq/util/autoconfigure/AutoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/util/mq/rabbitmq/util/autoconfigure/AutoConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/util/mq/rabbitmq/util/core/CorrleationUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/util/mq/rabbitmq/util/core/MQUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/rabbitmq-starter-2.1.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/rabbitmq-starter-2.1.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/src/main/java/seek/starter/starter/ai/langchain4j/starter/configure/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/src/main/java/seek/starter/starter/ai/langchain4j/starter/configure/PropertiesConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,60 +35,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000074058875683" />
-      <entry key="S5" value="1.0166766556515707" />
-      <entry key="S10" value="1.2692412137509077" />
-      <entry key="S30" value="3.14831765109185" />
-      <entry key="S60" value="5.1574875636211095" />
-      <entry key="M2" value="7.967328781023706" />
-      <entry key="M5" value="14.333707234497608" />
-      <entry key="M10" value="23.341721957822706" />
-      <entry key="M15" value="31.386906963251707" />
-      <entry key="M30" value="50.3924353251388" />
-      <entry key="H1" value="73.11116661841152" />
-      <entry key="H2" value="93.06171561619853" />
-      <entry key="H4" value="106.77356958998101" />
-      <entry key="D1" value="120.84256924368349" />
-      <entry key="W1" value="123.54129244080676" />
+      <entry key="MS500" value="1.0000000000000004" />
+      <entry key="S2" value="1.0001893318624806" />
+      <entry key="S5" value="1.0511115027134905" />
+      <entry key="S10" value="1.4175645255678984" />
+      <entry key="S30" value="3.264953654271758" />
+      <entry key="S60" value="4.722016670401478" />
+      <entry key="M2" value="6.636319234903887" />
+      <entry key="M5" value="12.60112643175606" />
+      <entry key="M10" value="22.02909254629372" />
+      <entry key="M15" value="30.511151299485267" />
+      <entry key="M30" value="50.698395020783366" />
+      <entry key="H1" value="75.11010694388983" />
+      <entry key="H2" value="96.8304810144069" />
+      <entry key="H4" value="111.90564409860784" />
+      <entry key="D1" value="127.48794366434335" />
+      <entry key="W1" value="130.489442498074" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.8680959655512357E-6" />
-      <entry key="MS500" value="0.07151023440706267" />
-      <entry key="S2" value="0.6159842761259862" />
-      <entry key="S5" value="1.3785877174377752" />
-      <entry key="S10" value="2.2083263111502274" />
-      <entry key="S30" value="4.922940086585798" />
-      <entry key="S60" value="7.8982354506099135" />
-      <entry key="M2" value="11.285570899910919" />
-      <entry key="M5" value="16.369623129395773" />
-      <entry key="M10" value="24.386686742485292" />
-      <entry key="M15" value="32.61523139764929" />
-      <entry key="M30" value="51.159689003340006" />
-      <entry key="H1" value="69.44896522475712" />
-      <entry key="H2" value="82.95412480346452" />
-      <entry key="H4" value="91.30163465656615" />
-      <entry key="D1" value="99.27856035421168" />
-      <entry key="W1" value="100.75134398398404" />
+      <entry key="MS100" value="1.2248205632363588E-89" />
+      <entry key="MS500" value="2.240868921491301E-18" />
+      <entry key="S2" value="9.538537893439677E-5" />
+      <entry key="S5" value="0.059559551066313686" />
+      <entry key="S10" value="0.6150835817325727" />
+      <entry key="S30" value="3.675333623481449" />
+      <entry key="S60" value="6.121035661608274" />
+      <entry key="M2" value="9.106872223427358" />
+      <entry key="M5" value="16.07340600128589" />
+      <entry key="M10" value="25.506781095698305" />
+      <entry key="M15" value="34.298820910292896" />
+      <entry key="M30" value="54.2944730783382" />
+      <entry key="H1" value="74.66031201335176" />
+      <entry key="H2" value="90.05325845807117" />
+      <entry key="H4" value="99.69361503858343" />
+      <entry key="D1" value="108.98534973826048" />
+      <entry key="W1" value="110.70879034239329" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.01595331558717095" />
-      <entry key="MS500" value="0.4533144449749427" />
-      <entry key="S2" value="1.2388745440342284" />
-      <entry key="S5" value="2.1237061153226677" />
-      <entry key="S10" value="3.2617451621239035" />
-      <entry key="S30" value="7.868596730238178" />
-      <entry key="S60" value="12.87242070969187" />
-      <entry key="M2" value="19.111839369702047" />
-      <entry key="M5" value="30.619061067082715" />
-      <entry key="M10" value="47.67129882832376" />
-      <entry key="M15" value="63.95562433979444" />
-      <entry key="M30" value="101.51967064328113" />
-      <entry key="H1" value="142.5390599187139" />
-      <entry key="H2" value="176.00336197225602" />
-      <entry key="H4" value="198.06832991402084" />
-      <entry key="D1" value="220.11987860757748" />
-      <entry key="W1" value="224.29245487340333" />
+      <entry key="MS100" value="0.8293195458144417" />
+      <entry key="MS500" value="0.9632618940201484" />
+      <entry key="S2" value="0.9909575992791441" />
+      <entry key="S5" value="1.103004416272313" />
+      <entry key="S10" value="2.006953284093499" />
+      <entry key="S30" value="6.884160077216014" />
+      <entry key="S60" value="10.792914234655797" />
+      <entry key="M2" value="15.694935453824607" />
+      <entry key="M5" value="28.623573702431475" />
+      <entry key="M10" value="47.49064777122337" />
+      <entry key="M15" value="64.76958645777562" />
+      <entry key="M30" value="104.96198839099304" />
+      <entry key="H1" value="149.74942540703748" />
+      <entry key="H2" value="186.87101357363102" />
+      <entry key="H4" value="211.59216480982158" />
+      <entry key="D1" value="236.47198937995012" />
+      <entry key="W1" value="241.19804326480485" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
