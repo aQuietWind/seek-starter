@@ -1,4 +1,4 @@
-package seek.util.mq.rocketmq.util.util;
+package seek.starter.starter.mq.rocketmq.starter.core;
 
 import seek.util.common.config.object.common.common.object.exception.BizException;
 import seek.util.common.config.object.common.common.object.function.RunWithParam;
@@ -13,18 +13,18 @@ import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.apache.rocketmq.spring.support.RocketMQHeaders;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.support.MessageBuilder;
-import seek.util.mq.rocketmq.util.support.BizStore;
+import seek.starter.starter.mq.rocketmq.starter.support.BizStore;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Slf4j
-public class ProducerUtil {
+public class ProducerTemplate {
 
     private final RocketMQTemplate rocketMQTemplate;
     private final BizStore bizStore;
     @Autowired
-    public ProducerUtil(RocketMQTemplate rocketMQTemplate, BizStore bizStore) {
+    public ProducerTemplate(RocketMQTemplate rocketMQTemplate, BizStore bizStore) {
         this.rocketMQTemplate = rocketMQTemplate;
         this.bizStore = bizStore;
     }
