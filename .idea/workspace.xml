@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/feign-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/src/main/java/seek/util/cloud/feign/util/FeignTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/feign-starter/src/main/java/seek/util/cloud/feign/util/configure/FeignTokenInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/src/main/java/seek/util/cloud/feign/util/enums/PackageEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/feign-starter/src/main/java/seek/util/cloud/feign/util/enums/PackageEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/feign-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/feign-starter/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/feign-starter/src/main/resources/application-example.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/gateway-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/src/main/java/seek/util/cloud/gateway/util/autoconfigure/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/gateway-starter/src/main/java/seek/util/cloud/gateway/util/autoconfigure/AutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/src/main/java/seek/util/cloud/gateway/util/enums/PackageEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/gateway-starter/src/main/java/seek/util/cloud/gateway/util/enums/PackageEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/src/main/java/seek/util/cloud/gateway/util/util/FilterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/gateway-starter/src/main/java/seek/util/cloud/gateway/util/core/FilterHelperTemplate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,61 +38,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="8.76922874604262E-105" />
-      <entry key="MS500" value="1.5438044191493914E-21" />
-      <entry key="S2" value="6.268275772883455E-6" />
-      <entry key="S5" value="0.008309676159597634" />
-      <entry key="S10" value="0.09839337240053944" />
-      <entry key="S30" value="1.2304724005122378" />
-      <entry key="S60" value="3.71650320871172" />
-      <entry key="M2" value="7.758057245033056" />
-      <entry key="M5" value="16.17802076828204" />
-      <entry key="M10" value="27.650749319150897" />
-      <entry key="M15" value="37.87788573821957" />
-      <entry key="M30" value="62.99439064481442" />
-      <entry key="H1" value="95.08580194221588" />
-      <entry key="H2" value="125.33637410310257" />
-      <entry key="H4" value="147.24455132871927" />
-      <entry key="D1" value="170.6298924545639" />
-      <entry key="W1" value="175.21711846541672" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.243267156933743E-89" />
+      <entry key="S2" value="7.093871605979764E-23" />
+      <entry key="S5" value="1.807175327661412E-9" />
+      <entry key="S10" value="6.596542431898485E-5" />
+      <entry key="S30" value="0.0890231794615867" />
+      <entry key="S60" value="0.6526340043693674" />
+      <entry key="M2" value="2.4845379273238613" />
+      <entry key="M5" value="9.790832616214685" />
+      <entry key="M10" value="21.987523355774904" />
+      <entry key="M15" value="33.05549430732274" />
+      <entry key="M30" value="60.31827507057193" />
+      <entry key="H1" value="95.55150407695656" />
+      <entry key="H2" value="129.31352344274356" />
+      <entry key="H4" value="154.09314438594595" />
+      <entry key="D1" value="180.823531793546" />
+      <entry key="W1" value="186.09870682330848" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000000000038" />
-      <entry key="MS500" value="1.0013334699271619" />
-      <entry key="S2" value="1.3076651296279584" />
-      <entry key="S5" value="2.289674700018047" />
-      <entry key="S10" value="3.3575407061192366" />
-      <entry key="S30" value="5.041654369486534" />
-      <entry key="S60" value="6.051956535769804" />
-      <entry key="M2" value="7.06445045825638" />
-      <entry key="M5" value="9.765109989133865" />
-      <entry key="M10" value="16.65071801997454" />
-      <entry key="M15" value="24.813725190190368" />
-      <entry key="M30" value="47.382217729721944" />
-      <entry key="H1" value="75.1340057253458" />
-      <entry key="H2" value="98.75845281461149" />
-      <entry key="H4" value="114.56474613111915" />
-      <entry key="D1" value="130.46936780961843" />
-      <entry key="W1" value="133.48789999713927" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000010137068284" />
+      <entry key="S2" value="1.056425848895431" />
+      <entry key="S5" value="1.3170935338022298" />
+      <entry key="S10" value="1.5979399294126528" />
+      <entry key="S30" value="2.6710339920269943" />
+      <entry key="S60" value="4.207676668887846" />
+      <entry key="M2" value="6.5748544155406945" />
+      <entry key="M5" value="12.051894240395097" />
+      <entry key="M10" value="19.93506587064106" />
+      <entry key="M15" value="28.101806476260645" />
+      <entry key="M30" value="51.039762396524516" />
+      <entry key="H1" value="80.80787820006891" />
+      <entry key="H2" value="107.2233704716032" />
+      <entry key="H4" value="125.33242841590359" />
+      <entry key="D1" value="143.85205003810813" />
+      <entry key="W1" value="147.3975711617157" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.781999841730307E-6" />
-      <entry key="MS500" value="0.08985189315700426" />
-      <entry key="S2" value="0.731161739368757" />
-      <entry key="S5" value="1.7824936786376573" />
-      <entry key="S10" value="3.0047029909969507" />
-      <entry key="S30" value="6.002176173889627" />
-      <entry key="S60" value="9.589865864049239" />
-      <entry key="M2" value="14.699700953740061" />
-      <entry key="M5" value="25.865598953974697" />
-      <entry key="M10" value="44.24461128418604" />
-      <entry key="M15" value="62.64260078227129" />
-      <entry key="M30" value="110.33861522957777" />
-      <entry key="H1" value="170.1928742995919" />
-      <entry key="H2" value="224.07792568630282" />
-      <entry key="H4" value="261.79966935591204" />
-      <entry key="D1" value="301.0974537430908" />
-      <entry key="W1" value="308.70475484298356" />
+      <entry key="MS100" value="0.005486112795851551" />
+      <entry key="MS500" value="0.3530683630993202" />
+      <entry key="S2" value="0.8175522540205585" />
+      <entry key="S5" value="1.1951158286353256" />
+      <entry key="S10" value="1.5237446869215938" />
+      <entry key="S30" value="2.7005245427638616" />
+      <entry key="S60" value="4.792831873069641" />
+      <entry key="M2" value="8.99088258879011" />
+      <entry key="M5" value="21.777482489867058" />
+      <entry key="M10" value="41.865242144004306" />
+      <entry key="M15" value="61.10551474445673" />
+      <entry key="M30" value="111.31654898683891" />
+      <entry key="H1" value="176.32951443932458" />
+      <entry key="H2" value="236.5179648589758" />
+      <entry key="H4" value="279.4147239728628" />
+      <entry key="D1" value="324.6735343968212" />
+      <entry key="W1" value="333.4959788879212" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -153,10 +153,11 @@
       <recent name="D:\Projects\seek-starter\.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="seek.util.cloud.gateway.util.enums" />
+      <recent name="seek.util.cloud.gateway.util.autoconfigure" />
+      <recent name="seek.util.cloud.feign.util.support" />
       <recent name="seek.util.cloud.feign.util.enums" />
       <recent name="seek.util.cloud.feign.util.config" />
-      <recent name="seek.util.cloud.feign.util.autoconfigure" />
-      <recent name="seek.util.ai.spring.ai.util.enums" />
     </key>
   </component>
   <component name="RunManager">

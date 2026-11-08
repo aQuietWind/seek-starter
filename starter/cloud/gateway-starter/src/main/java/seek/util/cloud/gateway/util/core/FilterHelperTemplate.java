@@ -1,4 +1,4 @@
-package seek.util.cloud.gateway.util.util;
+package seek.util.cloud.gateway.util.core;
 
 import com.google.gson.Gson;
 import seek.util.common.config.object.common.common.object.dto.Result;
@@ -11,13 +11,12 @@ import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
 @Slf4j
-@Component
-public class FilterUtil {
+public class FilterHelperTemplate {
     //字节码化的Result
     private final static byte[] errorBytes = new Gson().toJson(Result.error(ErrorCodeEnum.UNAUTHORIZED)).getBytes();
     //拒绝放行
-    public Mono<Void> reject(ServerWebExchange exchange) {
-        log.warn("非法请求被Filter拦截");
+    public Mono<Void> reject(ServerWebExchange exchange,String reason) {
+        log.warn(reason);
         ServerHttpResponse response=exchange.getResponse();
         response.setStatusCode(ErrorCodeEnum.UNAUTHORIZED.getHttpStatus());      //设置状态码
         try {
@@ -30,8 +29,7 @@ public class FilterUtil {
     }
 
     //追加请求头
-    public ServerWebExchange addAndOverwriteHeader(ServerWebExchange exchange,
-            String headerName,String headerValue){
+    public ServerWebExchange addAndOverwriteHeader(ServerWebExchange exchange, String headerName,String headerValue){
         // 构造新请求，追加解析后的用户信息到请求头
         ServerHttpRequest newReq = exchange.getRequest().mutate()
                 .headers(headers -> {
