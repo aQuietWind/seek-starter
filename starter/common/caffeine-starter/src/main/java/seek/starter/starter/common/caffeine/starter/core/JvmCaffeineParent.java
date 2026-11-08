@@ -9,7 +9,7 @@ import seek.util.common.config.object.common.caffeine.CaffeineData;
 import seek.util.common.config.object.db.redis.RedisKeyData;
 import seek.util.common.config.object.common.common.object.exception.BizException;
 import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
-import seek.util.db.redis.util.util.Redis.RedisUtil;
+import seek.starter.starter.db.redis.starter.util.Redis.RedisUtil;
 import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 
 import java.util.concurrent.TimeUnit;
