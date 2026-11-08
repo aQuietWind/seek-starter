@@ -26,7 +26,7 @@
         <dependencies>
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
-                <artifactId>bean-regsiter-util</artifactId>
+                <artifactId>register-bean-util</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

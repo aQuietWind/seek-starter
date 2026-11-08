@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
-import seek.util.common.bean.register.util.util.QuickRegisterUtil;
+import seek.starter.starter.support.register.bean.util.util.RegisterBeanUtil;
 import seek.util.mq.rabbitmq.util.configuration.ConverterConfig;
 import seek.util.mq.rabbitmq.util.configuration.ErrorExchangeConfig;
 import seek.util.mq.rabbitmq.util.configuration.MessageReturnCallBackConfig;
@@ -20,7 +20,7 @@ public class AutoConfig {
 
     @Bean
     public static BeanDefinitionRegistryPostProcessor beanDefinitionRegistryPostProcessor() {
-        return QuickRegisterUtil.quickRegistrarByClassName(
+        return RegisterBeanUtil.quickRegistrarByClassName(
                 CorrleationUtil.class, MQUtil.class
         );
     }

@@ -1,4 +1,4 @@
-package seek.util.common.bean.register.util.util;
+package seek.starter.starter.support.register.bean.util.util;
 
 import lombok.NonNull;
 import org.springframework.beans.BeansException;
@@ -9,7 +9,7 @@ import org.springframework.beans.factory.support.BeanDefinitionRegistryPostProce
 import org.springframework.context.annotation.ConfigurationClassPostProcessor;
 
 
-public class QuickRegisterUtil {
+public class RegisterBeanUtil {
 
     /**
      * 批量按类名注册 bean。

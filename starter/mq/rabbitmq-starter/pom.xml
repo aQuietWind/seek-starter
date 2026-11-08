@@ -30,7 +30,7 @@
         </dependency>
         <dependency>
             <groupId>seek.starter.starter.support</groupId>
-            <artifactId>bean-register-util</artifactId>
+            <artifactId>register-bean-util</artifactId>
         </dependency>
     </dependencies>
 

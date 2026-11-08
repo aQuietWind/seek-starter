@@ -21,8 +21,8 @@
     </properties>
 
     <modules>
-        <module>bean-register-util</module>
         <module>config-object</module>
+        <module>register-bean-util</module>
     </modules>
 
 </project>

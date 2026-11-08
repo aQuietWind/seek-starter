@@ -2,32 +2,33 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bean-register-util" />
+        <module name="seek-bom" />
         <module name="spring-ai-starter" />
         <module name="gateway-starter" />
-        <module name="jwt-starter" />
-        <module name="nacos-starter" />
-        <module name="skywalking-starter" />
-        <module name="event-respond-starter" />
-        <module name="langchain4j-starter" />
-        <module name="sentinel-starter" />
-        <module name="mongodb-starter" />
-        <module name="redis-starter" />
-        <module name="rabbitmq-starter" />
-        <module name="seek-bom" />
         <module name="rocketmq-starter" />
         <module name="caffeine-starter" />
         <module name="gather" />
         <module name="web-starter" />
+        <module name="jwt-starter" />
         <module name="ali-oss-starter" />
         <module name="elasticsearch-starter" />
+        <module name="bean-register-util22" />
+        <module name="nacos-starter" />
         <module name="common-starter" />
+        <module name="skywalking-starter" />
+        <module name="event-respond-starter" />
         <module name="config-object" />
+        <module name="langchain4j-starter" />
+        <module name="sentinel-starter" />
         <module name="kafka-starter" />
+        <module name="mongodb-starter" />
+        <module name="redis-starter" />
+        <module name="rabbitmq-starter" />
         <module name="feign-starter" />
         <module name="mybatis-plus-starter" />
       </profile>
@@ -41,10 +42,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ali-oss-starter" options="-parameters" />
-      <module name="bean-register-util" options="" />
+      <module name="bean-register-util22" options="-parameters" />
       <module name="caffeine-starter" options="-parameters" />
       <module name="common-starter" options="-parameters" />
-      <module name="config-object" options="" />
+      <module name="config-object" options="-parameters" />
       <module name="elasticsearch-starter" options="-parameters" />
       <module name="event-respond-starter" options="-parameters" />
       <module name="feign-starter" options="-parameters" />
@@ -66,7 +67,7 @@
       <module name="starter" options="" />
       <module name="starter (2)" options="-parameters" />
       <module name="starter 2" options="" />
-      <module name="support" options="-parameters" />
+      <module name="support" options="" />
       <module name="support-bom" options="" />
       <module name="web-starter" options="-parameters" />
     </option>
