@@ -1,4 +1,4 @@
-package seek.util.mq.kafka.util.config;
+package seek.starter.starter.mq.kafka.starter.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.ProducerRecord;

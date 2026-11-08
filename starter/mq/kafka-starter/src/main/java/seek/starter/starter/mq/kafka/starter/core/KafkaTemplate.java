@@ -1,21 +1,20 @@
-package seek.util.mq.kafka.util.util;
+package seek.starter.starter.mq.kafka.starter.core;
 
 import seek.util.common.config.object.common.common.object.exception.BizException;
 import seek.util.common.config.object.common.common.object.function.RunWithParam;
 import seek.util.common.config.object.common.common.object.function.RunWithTwoParams;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
 
 import java.util.Map;
 
 @Slf4j
-public class KafkaUtil {
+public class KafkaTemplate {
 
-    private final KafkaTemplate<String, Object> kafkaTemplate;
+    private final org.springframework.kafka.core.KafkaTemplate<String, Object> kafkaTemplate;
     @Autowired
-    public KafkaUtil(KafkaTemplate<String, Object> kafkaTemplate) {
+    public KafkaTemplate(org.springframework.kafka.core.KafkaTemplate<String, Object> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
     }
 

@@ -1,4 +1,4 @@
-package seek.util.mq.kafka.util.util;
+package seek.starter.starter.mq.kafka.starter.core;
 
 import seek.util.common.config.object.mq.kafka.TopicData;
 import org.apache.kafka.clients.admin.NewTopic;
@@ -6,7 +6,7 @@ import org.apache.kafka.common.config.TopicConfig;
 
 import java.util.Map;
 
-public class TopicUtil {
+public class TopicTemplate {
     public NewTopic createTopic(TopicData topicData) {
         if (topicData == null) return null;
         // 参数：topic名称，分区数量，副本数量
