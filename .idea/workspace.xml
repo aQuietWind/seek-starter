@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/bom/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/ai-bom/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/cloud-bom/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/common-bom/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/db-bom/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/index/seek-bom/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/index/seek-bom/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/index/seek-bom/target/seek-bom-2.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/index/seek-bom/target/seek-bom-2.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/index/seek-bom/target/seek-bom-2.1.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/mq-bom/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bom/web-bom/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gather/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,61 +30,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000315686982173" />
-      <entry key="S2" value="1.1004827973622684" />
-      <entry key="S5" value="1.7303094537418318" />
-      <entry key="S10" value="2.798685460994111" />
-      <entry key="S30" value="5.457682129472678" />
-      <entry key="S60" value="8.376199506353725" />
-      <entry key="M2" value="14.024761398195922" />
-      <entry key="M5" value="24.283459195062385" />
-      <entry key="M10" value="30.74289506105674" />
-      <entry key="M15" value="33.46111664665667" />
-      <entry key="M30" value="36.530055654196424" />
-      <entry key="H1" value="38.21147390160558" />
-      <entry key="H2" value="39.09189291603392" />
-      <entry key="H4" value="39.54242672206525" />
-      <entry key="D1" value="39.92324386494763" />
-      <entry key="W1" value="39.98902267510653" />
+      <entry key="MS100" value="1.0000000000042373" />
+      <entry key="MS500" value="1.0053139486422107" />
+      <entry key="S2" value="1.2699941399582206" />
+      <entry key="S5" value="1.5923000035941492" />
+      <entry key="S10" value="1.7696103023871044" />
+      <entry key="S30" value="1.9200379328007378" />
+      <entry key="S60" value="2.117162291298073" />
+      <entry key="M2" value="3.198041819182034" />
+      <entry key="M5" value="6.320259608337331" />
+      <entry key="M10" value="9.930384908670755" />
+      <entry key="M15" value="13.794064669550727" />
+      <entry key="M30" value="23.722043805924567" />
+      <entry key="H1" value="34.15039748953271" />
+      <entry key="H2" value="41.87161413739437" />
+      <entry key="H4" value="46.59132815973964" />
+      <entry key="D1" value="51.046488825764044" />
+      <entry key="W1" value="51.86245006602816" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="4.2538124253031425E-133" />
-      <entry key="S2" value="1.228696069971609E-33" />
-      <entry key="S5" value="1.0285359712254235E-13" />
-      <entry key="S10" value="4.649505526873564E-7" />
-      <entry key="S30" value="0.017832708094256057" />
-      <entry key="S60" value="0.30584471842863975" />
-      <entry key="M2" value="1.3319476707402667" />
-      <entry key="M5" value="3.2731964280181534" />
-      <entry key="M10" value="4.428759398195658" />
-      <entry key="M15" value="4.899783130295866" />
-      <entry key="M30" value="5.421673737926476" />
-      <entry key="H1" value="5.70341103627546" />
-      <entry key="H2" value="5.849800475603628" />
-      <entry key="H4" value="5.924417763539038" />
-      <entry key="D1" value="5.987335416213216" />
-      <entry key="W1" value="5.9981891125872435" />
+      <entry key="MS500" value="2.7493135038453673E-211" />
+      <entry key="S2" value="3.7398736661244297E-53" />
+      <entry key="S5" value="1.622702997873163E-21" />
+      <entry key="S10" value="6.227280505562251E-11" />
+      <entry key="S30" value="0.0011771450764203114" />
+      <entry key="S60" value="0.09312910941919739" />
+      <entry key="M2" value="0.8621182279262734" />
+      <entry key="M5" value="3.411841107140931" />
+      <entry key="M10" value="5.686317915323362" />
+      <entry key="M15" value="7.078161595743674" />
+      <entry key="M30" value="9.547096985049272" />
+      <entry key="H1" value="11.681828584246158" />
+      <entry key="H2" value="13.150493924168842" />
+      <entry key="H4" value="14.020937196932586" />
+      <entry key="D1" value="14.828630727958865" />
+      <entry key="W1" value="14.97530898660841" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9890022228182539" />
-      <entry key="S2" value="1.097488516695322" />
-      <entry key="S5" value="1.7285014812710038" />
-      <entry key="S10" value="2.7971448889857435" />
-      <entry key="S30" value="5.469623011694422" />
-      <entry key="S60" value="8.659190768770518" />
-      <entry key="M2" value="15.318436321058485" />
-      <entry key="M5" value="27.52285760557608" />
-      <entry key="M10" value="35.14929509375173" />
-      <entry key="M15" value="38.344499015889724" />
-      <entry key="M30" value="41.942695890886334" />
-      <entry key="H1" value="43.910142043177665" />
-      <entry key="H2" value="44.93926300503379" />
-      <entry key="H4" value="45.46561424570761" />
-      <entry key="D1" value="45.91037212436237" />
-      <entry key="W1" value="45.98718214166907" />
+      <entry key="MS100" value="0.44135149814624325" />
+      <entry key="MS500" value="0.8530079154144621" />
+      <entry key="S2" value="1.2100159194523692" />
+      <entry key="S5" value="1.5582036012280762" />
+      <entry key="S10" value="1.7497650463229417" />
+      <entry key="S30" value="1.91378852618083" />
+      <entry key="S60" value="2.2050165751996462" />
+      <entry key="M2" value="4.051361907351965" />
+      <entry key="M5" value="9.720382993742053" />
+      <entry key="M10" value="15.606550101811788" />
+      <entry key="M15" value="20.863019787988005" />
+      <entry key="M30" value="33.26174593808384" />
+      <entry key="H1" value="45.82713272304212" />
+      <entry key="H2" value="55.01905306819223" />
+      <entry key="H4" value="60.61058352152853" />
+      <entry key="D1" value="65.87481505289949" />
+      <entry key="W1" value="66.83771492057501" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -104,6 +92,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3Lo16cRHWOWU1Ewn5mE9YmLgFXo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -118,6 +109,7 @@
     "Maven.mq-bom [deploy].executor": "Run",
     "Maven.seek-bom [deploy].executor": "Run",
     "Maven.seek-bom [install].executor": "Run",
+    "Maven.seek-starter [deploy].executor": "Run",
     "Maven.web-bom [deploy].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -126,7 +118,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/seek-starter",
+    "last_opened_file_path": "D:/Projects/seek-starter/starter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -137,7 +129,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\seek-starter\starter" />
       <recent name="D:\Projects\seek-starter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\seek-starter\.idea" />
     </key>
   </component>
   <component name="RunManager">
