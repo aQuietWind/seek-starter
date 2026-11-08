@@ -1,8 +1,8 @@
 package seek.starter.starter.common.common.starter.util.file;
 
-import seek.util.common.config.object.common.common.object.exception.BizException;
-import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
-import seek.util.common.config.object.common.common.object.function.RunWithTwoParams;
+import seek.starter.starter.support.config.object.common.common.object.exception.BizException;
+import seek.starter.starter.support.config.object.common.common.object.exception.ErrorCodeEnum;
+import seek.starter.starter.support.config.object.common.common.object.function.RunWithTwoParams;
 import lombok.extern.slf4j.Slf4j;
 
 import java.nio.file.Files;

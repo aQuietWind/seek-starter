@@ -1,9 +1,9 @@
 package seek.starter.starter.db.redis.starter.core.Redisson;
 
-import seek.util.common.config.object.db.redis.RedisKeyData;
-import seek.util.common.config.object.common.common.object.exception.BizException;
-import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
-import seek.util.common.config.object.common.common.object.function.RunFunction;
+import seek.starter.starter.support.config.object.db.redis.RedisKeyData;
+import seek.starter.starter.support.config.object.common.common.object.exception.BizException;
+import seek.starter.starter.support.config.object.common.common.object.exception.ErrorCodeEnum;
+import seek.starter.starter.support.config.object.common.common.object.function.RunFunction;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 

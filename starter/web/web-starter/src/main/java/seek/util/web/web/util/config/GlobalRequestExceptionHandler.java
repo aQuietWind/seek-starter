@@ -1,8 +1,8 @@
 package seek.util.web.web.util.config;
 
-import seek.util.common.config.object.common.common.object.dto.Result;
-import seek.util.common.config.object.common.common.object.exception.BizException;
-import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
+import seek.starter.starter.support.config.object.common.common.object.dto.Result;
+import seek.starter.starter.support.config.object.common.common.object.exception.BizException;
+import seek.starter.starter.support.config.object.common.common.object.exception.ErrorCodeEnum;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.HttpRequestMethodNotSupportedException;

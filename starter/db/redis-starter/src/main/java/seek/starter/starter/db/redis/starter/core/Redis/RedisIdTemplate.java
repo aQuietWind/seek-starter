@@ -1,6 +1,6 @@
 package seek.starter.starter.db.redis.starter.core.Redis;
 
-import seek.util.common.config.object.db.redis.RedisKeyData;
+import seek.starter.starter.support.config.object.db.redis.RedisKeyData;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Random;

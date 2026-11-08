@@ -3,7 +3,7 @@ package seek.starter.starter.mq.rabbitmq.starter.core;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import seek.util.common.config.object.mq.rabbitmq.DestinationData;
+import seek.starter.starter.support.config.object.mq.rabbitmq.DestinationData;
 
 import java.util.UUID;
 

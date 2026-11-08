@@ -1,8 +1,8 @@
 package seek.starter.starter.common.event.respond.starter.support;
 
 import com.google.gson.Gson;
-import seek.util.common.config.object.common.event.respond.system.EventData;
-import seek.util.common.config.object.common.event.respond.system.ValueData;
+import seek.starter.starter.support.config.object.common.event.respond.system.EventData;
+import seek.starter.starter.support.config.object.common.event.respond.system.ValueData;
 import jakarta.annotation.Nonnull;
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;

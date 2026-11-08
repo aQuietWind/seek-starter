@@ -1,8 +1,8 @@
 package seek.starter.starter.mq.kafka.starter.core;
 
-import seek.util.common.config.object.common.common.object.exception.BizException;
-import seek.util.common.config.object.common.common.object.function.RunWithParam;
-import seek.util.common.config.object.common.common.object.function.RunWithTwoParams;
+import seek.starter.starter.support.config.object.common.common.object.exception.BizException;
+import seek.starter.starter.support.config.object.common.common.object.function.RunWithParam;
+import seek.starter.starter.support.config.object.common.common.object.function.RunWithTwoParams;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.support.SendResult;

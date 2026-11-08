@@ -1,6 +1,6 @@
 package seek.starter.starter.common.event.respond.starter.core;
 
-import seek.util.common.config.object.common.event.respond.system.ValueData;
+import seek.starter.starter.support.config.object.common.event.respond.system.ValueData;
 import jakarta.annotation.Nonnull;
 import org.springframework.beans.factory.annotation.Autowired;
 import seek.starter.starter.common.event.respond.starter.support.CheckPool;

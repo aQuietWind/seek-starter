@@ -5,8 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import seek.util.common.config.object.mq.rabbitmq.BindingData;
-import seek.util.common.config.object.mq.rabbitmq.ExchangeData;
+import seek.starter.starter.support.config.object.mq.rabbitmq.BindingData;
+import seek.starter.starter.support.config.object.mq.rabbitmq.ExchangeData;
 
 @ConfigurationProperties("seek.util.rabbitmq.config")
 @Data

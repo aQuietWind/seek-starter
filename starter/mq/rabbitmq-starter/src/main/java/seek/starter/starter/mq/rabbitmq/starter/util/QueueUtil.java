@@ -1,7 +1,7 @@
 package seek.starter.starter.mq.rabbitmq.starter.util;
 
 import org.springframework.amqp.core.Queue;
-import seek.util.common.config.object.mq.rabbitmq.BindingData;
+import seek.starter.starter.support.config.object.mq.rabbitmq.BindingData;
 
 import java.util.HashMap;
 import java.util.Map;

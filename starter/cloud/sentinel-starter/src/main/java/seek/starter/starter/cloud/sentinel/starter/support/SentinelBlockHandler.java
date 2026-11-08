@@ -7,8 +7,8 @@ import com.alibaba.csp.sentinel.slots.block.degrade.DegradeException;
 import com.alibaba.csp.sentinel.slots.block.flow.FlowException;
 import com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import seek.util.common.config.object.common.common.object.dto.Result;
-import seek.util.common.config.object.common.common.object.exception.ErrorCodeEnum;
+import seek.starter.starter.support.config.object.common.common.object.dto.Result;
+import seek.starter.starter.support.config.object.common.common.object.exception.ErrorCodeEnum;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 

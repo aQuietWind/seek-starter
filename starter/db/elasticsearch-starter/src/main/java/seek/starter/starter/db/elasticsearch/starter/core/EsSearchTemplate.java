@@ -3,7 +3,7 @@ package seek.starter.starter.db.elasticsearch.starter.core;
 
 import co.elastic.clients.elasticsearch._types.SortOptions;
 import co.elastic.clients.elasticsearch._types.query_dsl.Query;
-import seek.util.common.config.object.common.common.object.dto.EsSearchResult;
+import seek.starter.starter.support.config.object.common.common.object.dto.EsSearchResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.elasticsearch.client.elc.NativeQuery;

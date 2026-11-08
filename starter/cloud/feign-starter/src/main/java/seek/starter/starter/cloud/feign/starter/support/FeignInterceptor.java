@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import seek.starter.starter.cloud.feign.starter.configure.PropertiesConfig;
-import seek.util.common.config.object.common.context.TokenIdContext;
+import seek.starter.starter.support.config.object.common.context.TokenIdContext;
 
 @Slf4j
 public class FeignInterceptor implements RequestInterceptor {

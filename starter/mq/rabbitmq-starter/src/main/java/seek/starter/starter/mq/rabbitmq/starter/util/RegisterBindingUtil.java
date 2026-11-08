@@ -15,8 +15,8 @@ import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor;
-import seek.util.common.config.object.mq.rabbitmq.BindingData;
-import seek.util.common.config.object.mq.rabbitmq.ExchangeData;
+import seek.starter.starter.support.config.object.mq.rabbitmq.BindingData;
+import seek.starter.starter.support.config.object.mq.rabbitmq.ExchangeData;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

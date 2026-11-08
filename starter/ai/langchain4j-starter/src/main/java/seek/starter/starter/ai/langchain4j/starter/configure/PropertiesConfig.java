@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import seek.starter.starter.ai.langchain4j.starter.enums.PackageEnum;
-import seek.util.common.config.object.db.redis.RedisKeyData;
+import seek.starter.starter.support.config.object.db.redis.RedisKeyData;
 
 
 @ConfigurationProperties(PackageEnum.Full_Package_Prefix +"config")
