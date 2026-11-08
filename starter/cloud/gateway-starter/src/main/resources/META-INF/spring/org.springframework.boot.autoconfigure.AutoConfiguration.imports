@@ -1,5 +1,1 @@
-# 基础通用配置（引入依赖自动加载）
-# 全类名即可
-# 如: com.seek.food.config.NacosConfig.Common.JWTConfig
-
-seek.util.cloud.gateway.util.autoconfigure.AutoConfig
+seek.starter.starter.cloud.gateway.starter.autoconfigure.AutoConfig
