@@ -31,7 +31,7 @@
         </dependency>
         <!--        ConfigObject依赖-->
         <dependency>
-            <groupId>seek.util.common</groupId>
+            <groupId>seek.starter.starter.support</groupId>
             <artifactId>config-object</artifactId>
         </dependency>
     </dependencies>

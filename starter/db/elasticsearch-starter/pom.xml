@@ -21,7 +21,7 @@
     <dependencies>
         <!--        ConfigObject依赖-->
         <dependency>
-            <groupId>seek.util.common</groupId>
+            <groupId>seek.starter.starter.support</groupId>
             <artifactId>config-object</artifactId>
         </dependency>
         <!--        es核心客户端依赖 -->

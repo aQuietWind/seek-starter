@@ -17,7 +17,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>seek.util.common</groupId>
+            <groupId>seek.starter.starter.support</groupId>
             <artifactId>config-object</artifactId>
         </dependency>
         <!--        json化工具-->

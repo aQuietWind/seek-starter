@@ -25,12 +25,12 @@
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
         <dependency>
-            <groupId>seek.util.common</groupId>
+            <groupId>seek.starter.starter.support</groupId>
             <artifactId>config-object</artifactId>
         </dependency>
         <dependency>
-            <groupId>seek.util.common</groupId>
-            <artifactId>bean-register-starter</artifactId>
+            <groupId>seek.starter.starter.support</groupId>
+            <artifactId>bean-register-util</artifactId>
         </dependency>
     </dependencies>
 

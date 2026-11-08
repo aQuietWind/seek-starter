@@ -20,8 +20,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>seek.util.db</groupId>
-            <artifactId>redis-util</artifactId>
+            <groupId>seek.starter.starter.db</groupId>
+            <artifactId>redis-starter</artifactId>
         </dependency>
         <!--        jvm缓存依赖-->
         <dependency>

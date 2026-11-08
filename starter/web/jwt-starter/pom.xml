@@ -20,11 +20,11 @@
 
     <dependencies>
         <dependency>
-            <groupId>seek.util.common</groupId>
+            <groupId>seek.starter.starter.support</groupId>
             <artifactId>config-object</artifactId>
         </dependency>
         <dependency>
-            <groupId>seek.util.db</groupId>
+            <groupId>seek.starter.starter.db</groupId>
             <artifactId>redis-starter</artifactId>
         </dependency>
         <!--        jwt依赖1-->
