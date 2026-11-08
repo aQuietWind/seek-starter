@@ -28,7 +28,6 @@
         <module name="common-starter" />
         <module name="config-object" />
         <module name="kafka-starter" />
-        <module name="support" />
         <module name="feign-starter" />
         <module name="mybatis-plus-starter" />
       </profile>
@@ -42,10 +41,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ali-oss-starter" options="-parameters" />
-      <module name="bean-register-util" options="-parameters" />
+      <module name="bean-register-util" options="" />
       <module name="caffeine-starter" options="-parameters" />
       <module name="common-starter" options="-parameters" />
-      <module name="config-object" options="-parameters" />
+      <module name="config-object" options="" />
       <module name="elasticsearch-starter" options="-parameters" />
       <module name="event-respond-starter" options="-parameters" />
       <module name="feign-starter" options="-parameters" />
@@ -68,6 +67,7 @@
       <module name="starter (2)" options="-parameters" />
       <module name="starter 2" options="" />
       <module name="support" options="-parameters" />
+      <module name="support-bom" options="" />
       <module name="web-starter" options="-parameters" />
     </option>
   </component>

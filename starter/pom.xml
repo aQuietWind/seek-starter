@@ -156,7 +156,7 @@
             </dependency>
             <!--         bom文件-->
             <dependency>
-                <groupId>seek.util.bom</groupId>
+                <groupId>seek.starter.bom</groupId>
                 <artifactId>seek-bom</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>

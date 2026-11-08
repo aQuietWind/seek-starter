@@ -24,9 +24,7 @@
         <module>ali-oss-starter</module>
         <module>caffeine-starter</module>
         <module>common-starter</module>
-        <module>config-object</module>
         <module>event-respond-starter</module>
-        <module>bean-register-util</module>
     </modules>
 
 </project>

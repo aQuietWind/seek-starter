@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>seek.starter.starter.common</groupId>
-        <artifactId>common</artifactId>
+        <groupId>seek.starter.starter.support</groupId>
+        <artifactId>support</artifactId>
         <version>2.1.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>bean-register-starter</artifactId>
+    <artifactId>config-object</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -18,19 +18,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-
     <dependencies>
+        <!--        lombok依赖-->
         <dependency>
-            <groupId>seek.util.common</groupId>
-            <artifactId>config-object</artifactId>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
+            <artifactId>spring-web</artifactId>
+            <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
         </dependency>
     </dependencies>
 </project>

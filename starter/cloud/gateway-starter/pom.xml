@@ -31,8 +31,8 @@
         </dependency>
         <!--        nacos依赖-->
         <dependency>
-            <groupId>seek.util.cloud</groupId>
-            <artifactId>nacos-util</artifactId>
+            <groupId>seek.starter.starter.cloud</groupId>
+            <artifactId>nacos-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>seek.util.common</groupId>

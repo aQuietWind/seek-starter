@@ -25,7 +25,7 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
         <dependency>
-            <groupId>seek.util.common</groupId>
+            <groupId>seek.starter.starter.support</groupId>
             <artifactId>config-object</artifactId>
         </dependency>
         <dependency>

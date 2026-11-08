@@ -30,7 +30,7 @@
             <artifactId>langchain4j-spring-boot-starter</artifactId>
         </dependency>
         <dependency>
-            <groupId>seek.util.db</groupId>
+            <groupId>seek.starter.starter.db</groupId>
             <artifactId>redis-starter</artifactId>
         </dependency>
     </dependencies>
