@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>seek.starter.bom</groupId>
+        <artifactId>bom</artifactId>
+        <version>2.1.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>db-bom</artifactId>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <dependency.group.id>seek.starter.starter.db</dependency.group.id>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>${dependency.group.id}</groupId>
+                <artifactId>elasticsearch-starter</artifactId>
+                <version>${version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${dependency.group.id}</groupId>
+                <artifactId>mongodb-starter</artifactId>
+                <version>${version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${dependency.group.id}</groupId>
+                <artifactId>mybatis-plus-starter</artifactId>
+                <version>${version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${dependency.group.id}</groupId>
+                <artifactId>redis-starter</artifactId>
+                <version>${version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>seek.starter</groupId>
+        <artifactId>seek-starter</artifactId>
+        <version>2.1.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <groupId>seek.starter.bom</groupId>
+    <artifactId>bom</artifactId>
+    <description>The dependencies' definitions</description>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>ai-bom</module>
+        <module>cloud-bom</module>
+        <module>common-bom</module>
+        <module>db-bom</module>
+        <module>mq-bom</module>
+        <module>web-bom</module>
+        <module>index/seek-bom</module>
+    </modules>
+
+
+
+    <!-- 对于仓库上传的设置 -->
+    <distributionManagement>
+        <repository>
+            <!-- 该id与maven配置中的要相对应,这样才能找到目标nexus -->
+            <id>self-nexux-server</id>
+            <!-- 设置目标仓库的地址 -->
+            <url>http://localhost:8081/repository/maven-releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>self-nexux-server</id>
+            <url>http://localhost:8081/repository/maven-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+</project>
