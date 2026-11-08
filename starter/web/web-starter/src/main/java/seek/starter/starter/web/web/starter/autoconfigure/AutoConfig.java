@@ -9,16 +9,15 @@ import seek.starter.starter.support.register.bean.util.util.RegisterBeanUtil;
 import seek.starter.starter.web.web.starter.config.PropertiesConfig;
 import seek.starter.starter.web.web.starter.support.GlobalRequestExceptionHandler;
 import seek.starter.starter.web.web.starter.support.TokenInterceptor;
-import seek.starter.starter.web.web.starter.support.WebConfigImpl;
+import seek.starter.starter.web.web.starter.support.WebMvcConfigImpl;
 import seek.starter.starter.web.web.starter.enums.PackageEnum;
 
 @AutoConfiguration(PackageEnum.Full_Package_Prefix +"AutoConfig")
 @EnableConfigurationProperties(PropertiesConfig.class)
-@Import({WebConfigImpl.class})
 public class AutoConfig {
 
     @Bean(PackageEnum.Full_Package_Prefix +"bean.definition")
     public static BeanDefinitionRegistryPostProcessor beanDefinitionRegistryPostProcessor() {
-        return RegisterBeanUtil.quickRegistrarByClassName(TokenInterceptor.class, GlobalRequestExceptionHandler.class,WebConfigImpl.class);
+        return RegisterBeanUtil.quickRegistrarByClassName(TokenInterceptor.class, GlobalRequestExceptionHandler.class, WebMvcConfigImpl.class);
     }
 }
