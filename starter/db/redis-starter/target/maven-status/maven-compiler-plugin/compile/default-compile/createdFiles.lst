@@ -1,0 +1,12 @@
+seek\starter\starter\db\redis\starter\core\Redis\RedisScriptTemplate.class
+seek\starter\starter\db\redis\starter\core\Redis\RedisIdTemplate.class
+seek\starter\starter\db\redis\starter\core\Redis\RedisBitMapTemplate.class
+seek\starter\starter\db\redis\starter\core\Redisson\RedissonTemplate.class
+seek\starter\starter\db\redis\starter\config\PropertiesConfig$RedisConnection.class
+seek\starter\starter\db\redis\starter\enums\PackageEnum.class
+seek\starter\starter\db\redis\starter\core\Redis\RedisTemplate.class
+seek\starter\starter\db\redis\starter\autoconfigure\RedissonImport.class
+seek\starter\starter\db\redis\starter\core\Redis\RedisStreamTemplate.class
+seek\starter\starter\db\redis\starter\autoconfigure\RedissonAutoConfig.class
+seek\starter\starter\db\redis\starter\config\PropertiesConfig.class
+seek\starter\starter\db\redis\starter\autoconfigure\AutoConfig.class

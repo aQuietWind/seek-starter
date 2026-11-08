@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>seek.starter.gather</groupId>
+        <artifactId>gather</artifactId>
+        <version>3.0.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>ali-cloud-rabbitmq-web-starter</artifactId>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>seek.starter.gather</groupId>
+            <artifactId>spring-web-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>seek.starter.starter.cloud</groupId>
+            <artifactId>nacos-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>seek.starter.starter.cloud</groupId>
+            <artifactId>skywalking-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>seek.starter.starter.cloud</groupId>
+            <artifactId>sentinel-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>seek.starter.starter.cloud</groupId>
+            <artifactId>feign-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>seek.starter.starter.mq</groupId>
+            <artifactId>rabbitmq-starter</artifactId>
+        </dependency>
+    </dependencies>
+</project>

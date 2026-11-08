@@ -12,6 +12,7 @@
         <module name="spring-web-starter" />
         <module name="jwt-starter" />
         <module name="nacos-starter" />
+        <module name="ali-cloud-rabbitmq-web-starter" />
         <module name="skywalking-starter" />
         <module name="event-respond-starter" />
         <module name="langchain4j-starter" />
@@ -24,9 +25,10 @@
         <module name="rocketmq-starter" />
         <module name="caffeine-starter" />
         <module name="web-starter" />
-        <module name="ali-cloud-web-starter" />
+        <module name="gather-bom" />
         <module name="ali-oss-starter" />
         <module name="elasticsearch-starter" />
+        <module name="ali-cloud-gateway-starter" />
         <module name="config-object" />
         <module name="register-bean-util" />
         <module name="kafka-starter" />
@@ -43,7 +45,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ali-cloud-web-starter" options="-parameters" />
+      <module name="ali-cloud-gateway-starter" options="-parameters" />
+      <module name="ali-cloud-rabbitmq-web-starter" options="-parameters" />
       <module name="ali-oss-starter" options="-parameters" />
       <module name="bean-register-util22" options="-parameters" />
       <module name="caffeine-starter" options="-parameters" />
@@ -54,6 +57,7 @@
       <module name="feign-starter" options="-parameters" />
       <module name="gateway-starter" options="-parameters" />
       <module name="gather" options="" />
+      <module name="gather-bom" options="-parameters" />
       <module name="jwt-starter" options="-parameters" />
       <module name="kafka-starter" options="-parameters" />
       <module name="langchain4j-starter" options="-parameters" />

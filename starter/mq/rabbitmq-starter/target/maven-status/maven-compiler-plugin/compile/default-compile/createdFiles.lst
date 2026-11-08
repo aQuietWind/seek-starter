@@ -1,0 +1,11 @@
+seek\starter\starter\mq\rabbitmq\starter\configuration\ErrorExchangeConfig.class
+seek\starter\starter\mq\rabbitmq\starter\configuration\MessageReturnCallBackConfig.class
+seek\starter\starter\mq\rabbitmq\starter\core\MQTemplate.class
+seek\starter\starter\mq\rabbitmq\starter\configuration\ConverterConfig.class
+seek\starter\starter\mq\rabbitmq\starter\core\CorrleationTemplate.class
+seek\starter\starter\mq\rabbitmq\starter\configuration\PropertiesConfig.class
+seek\starter\starter\mq\rabbitmq\starter\util\RegisterBindingUtil.class
+seek\starter\starter\mq\rabbitmq\starter\util\QueueUtil.class
+seek\starter\starter\mq\rabbitmq\starter\enums\PackageEnum.class
+seek\starter\starter\mq\rabbitmq\starter\autoconfigure\AutoConfig.class
+seek\starter\starter\mq\rabbitmq\starter\util\RegisterBindingUtil$1.class

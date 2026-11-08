@@ -1,0 +1,11 @@
+seek:
+  starter:
+    starter:
+      langchain4j:
+        starter:
+          config:
+            redis-session-memory:
+              store-max: 10
+              redis-key:
+                name: "seek:util:langchain4j:memory:"
+                duration-millis: 604800000

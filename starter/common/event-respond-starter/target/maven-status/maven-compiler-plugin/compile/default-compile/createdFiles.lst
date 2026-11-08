@@ -1,0 +1,8 @@
+seek\starter\starter\common\event\respond\starter\config\PropertiesConfig.class
+seek\starter\starter\common\event\respond\starter\config\PropertiesConfig$PoolConfig.class
+seek\starter\starter\common\event\respond\starter\enums\PackageEnum.class
+seek\starter\starter\common\event\respond\starter\support\ExecutePool.class
+seek\starter\starter\common\event\respond\starter\core\ValueFactory.class
+seek\starter\starter\common\event\respond\starter\support\DelayPool.class
+seek\starter\starter\common\event\respond\starter\support\CheckPool.class
+seek\starter\starter\common\event\respond\starter\autoconfigure\AutoConfig.class

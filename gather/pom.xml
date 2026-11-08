@@ -6,7 +6,7 @@
     <parent>
         <groupId>seek.starter</groupId>
         <artifactId>seek-starter</artifactId>
-        <version>2.1.1-SNAPSHOT</version>
+        <version>3.0.0-SNAPSHOT</version>
     </parent>
 
     <groupId>seek.starter.gather</groupId>
@@ -35,6 +35,7 @@
 
     <modules>
         <module>spring-web-starter</module>
-        <module>ali-cloud-web-starter</module>
+        <module>ali-cloud-rabbitmq-web-starter</module>
+        <module>ali-cloud-gateway-starter</module>
     </modules>
 </project>

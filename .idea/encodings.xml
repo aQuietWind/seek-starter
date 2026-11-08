@@ -9,6 +9,7 @@
     <file url="file://$PROJECT_DIR$/bom/common-bom/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bom/db-bom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bom/db-bom/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bom/gather-bom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bom/index/seek-bom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bom/mq-bom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bom/mq-bom/src/main/resources" charset="UTF-8" />
@@ -18,7 +19,8 @@
     <file url="file://$PROJECT_DIR$/bom/support-bom/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bom/web-bom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bom/web-bom/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gather/ali-cloud-web-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gather/ali-cloud-gateway-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gather/ali-cloud-rabbitmq-web-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gather/spring-web-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gather/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gather/src/main/resources" charset="UTF-8" />

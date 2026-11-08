@@ -1,0 +1,4 @@
+seek\starter\starter\web\jwt\starter\autoconfigure\AutoConfig.class
+seek\starter\starter\web\jwt\starter\enums\PackageEnum.class
+seek\starter\starter\web\jwt\starter\core\JWTTemplate.class
+seek\starter\starter\web\jwt\starter\core\TokenTemplate.class
