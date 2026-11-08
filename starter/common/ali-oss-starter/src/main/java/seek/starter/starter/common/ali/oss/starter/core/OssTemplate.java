@@ -1,4 +1,4 @@
-package seek.util.common.ali.oss.util.util;
+package seek.starter.starter.common.ali.oss.starter.core;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
@@ -13,7 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Slf4j
 @Component
 @Lazy
-public class OssUtil {
+public class OssTemplate {
 
     public static final String endPointPrefix="https://";
 
