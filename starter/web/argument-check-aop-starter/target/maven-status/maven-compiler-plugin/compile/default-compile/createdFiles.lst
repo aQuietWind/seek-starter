@@ -3,5 +3,6 @@ seek\starter\starter\web\argument\check\aop\starter\support\SkipCheckPointCut.cl
 seek\starter\starter\web\argument\check\aop\starter\enums\PackageEnum.class
 seek\starter\starter\web\argument\check\aop\starter\support\AbleCheckPointCut.class
 seek\starter\starter\web\argument\check\aop\starter\core\CheckAop.class
+seek\starter\starter\web\argument\check\aop\starter\support\RequestParameter.class
 seek\starter\starter\web\argument\check\aop\starter\autoconfigure\AutoConfig.class
 seek\starter\starter\web\argument\check\aop\starter\config\PropertiesConfig.class

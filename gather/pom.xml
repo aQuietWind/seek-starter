@@ -6,7 +6,7 @@
     <parent>
         <groupId>seek.starter</groupId>
         <artifactId>seek-starter</artifactId>
-        <version>3.0.0-SNAPSHOT</version>
+        <version>3.0.1-SNAPSHOT</version>
     </parent>
 
     <groupId>seek.starter.gather</groupId>
