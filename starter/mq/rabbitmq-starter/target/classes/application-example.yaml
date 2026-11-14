@@ -1,0 +1,10 @@
+seek:
+  starter:
+    starter:
+      mq:
+        rabbitmq:
+          starter:
+            config:
+              error-exchange:
+                exchange-name: errorExchange
+              package: seek.util

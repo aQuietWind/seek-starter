@@ -20,10 +20,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
             <groupId>seek.starter.starter.support</groupId>
             <artifactId>config-object</artifactId>
         </dependency>
