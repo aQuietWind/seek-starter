@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/starter/db/redis-redisson-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom/db-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/db-bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/redis-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/autoconfigure/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/autoconfigure/AutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/autoconfigure/RedissonAutoConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/autoconfigure/RedissonImport.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/config/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/configure/PropertiesConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/resources/application-example.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/resources/application-example.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,61 +33,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000000015144" />
-      <entry key="S2" value="1.0026517344722103" />
-      <entry key="S5" value="1.2183787200636282" />
-      <entry key="S10" value="2.337102369255792" />
-      <entry key="S30" value="7.0601336882692385" />
-      <entry key="S60" value="11.37904433166578" />
-      <entry key="M2" value="16.51065406909384" />
-      <entry key="M5" value="28.442886133998055" />
-      <entry key="M10" value="45.16015874746003" />
-      <entry key="M15" value="58.26010690080776" />
-      <entry key="M30" value="91.14204493603975" />
-      <entry key="H1" value="150.4298604267842" />
-      <entry key="H2" value="234.98908894705235" />
-      <entry key="H4" value="317.5862625931959" />
-      <entry key="D1" value="428.13122220264165" />
-      <entry key="W1" value="452.70769606736627" />
+      <entry key="MS100" value="2.962460967427661E-128" />
+      <entry key="MS500" value="3.121264172849028E-26" />
+      <entry key="S2" value="4.203224935502813E-7" />
+      <entry key="S5" value="0.0028150465436371777" />
+      <entry key="S10" value="0.05428922682674529" />
+      <entry key="S30" value="0.9466103465603961" />
+      <entry key="S60" value="3.8486434384814916" />
+      <entry key="M2" value="9.587187774226939" />
+      <entry key="M5" value="23.024709128213146" />
+      <entry key="M10" value="40.77589029066478" />
+      <entry key="M15" value="54.5428400407283" />
+      <entry key="M30" value="88.38433129959438" />
+      <entry key="H1" value="148.30168254142487" />
+      <entry key="H2" value="233.53530457660327" />
+      <entry key="H4" value="316.9245019175306" />
+      <entry key="D1" value="428.75716149717505" />
+      <entry key="W1" value="453.6511729571736" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.654414992123193E-5" />
-      <entry key="MS500" value="0.12958763762746509" />
-      <entry key="S2" value="0.5999856911866077" />
-      <entry key="S5" value="0.8151853332529055" />
-      <entry key="S10" value="0.9028762357642878" />
-      <entry key="S30" value="0.9740950174299673" />
-      <entry key="S60" value="1.1627610427175148" />
-      <entry key="M2" value="2.1302183940173576" />
-      <entry key="M5" value="6.873669399686266" />
-      <entry key="M10" value="16.032994354840053" />
-      <entry key="M15" value="25.214426256422513" />
-      <entry key="M30" value="49.68666986885436" />
-      <entry key="H1" value="89.9098753405574" />
-      <entry key="H2" value="145.5598582604022" />
-      <entry key="H4" value="199.80152661346608" />
-      <entry key="D1" value="272.16894970046656" />
-      <entry key="W1" value="288.20217744233366" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000002277887763" />
+      <entry key="S10" value="1.0004772722725652" />
+      <entry key="S30" value="1.0787615007294944" />
+      <entry key="S60" value="1.330633460863214" />
+      <entry key="M2" value="2.135931899299544" />
+      <entry key="M5" value="6.345150111162632" />
+      <entry key="M10" value="15.138400268400588" />
+      <entry key="M15" value="24.18673040469621" />
+      <entry key="M30" value="48.646949515509434" />
+      <entry key="H1" value="89.04506147474751" />
+      <entry key="H2" value="145.04242583738366" />
+      <entry key="H4" value="199.75735267180062" />
+      <entry key="D1" value="272.9313701486909" />
+      <entry key="W1" value="289.1662246829503" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.005802789278924E-5" />
-      <entry key="MS500" value="0.16879910822788605" />
-      <entry key="S2" value="1.043491077104849" />
-      <entry key="S5" value="1.753715575503654" />
-      <entry key="S10" value="3.088113677538725" />
-      <entry key="S30" value="7.979229223276773" />
-      <entry key="S60" value="12.504726881391196" />
-      <entry key="M2" value="18.60244506605524" />
-      <entry key="M5" value="35.26960838793411" />
-      <entry key="M10" value="61.14205217943929" />
-      <entry key="M15" value="83.42328435988068" />
-      <entry key="M30" value="140.78113795833454" />
-      <entry key="H1" value="240.29871020120586" />
-      <entry key="H2" value="380.51730449977447" />
-      <entry key="H4" value="517.3667925766878" />
-      <entry key="D1" value="700.2955546518053" />
-      <entry key="W1" value="740.9091789924323" />
+      <entry key="MS100" value="3.953518398797525E-12" />
+      <entry key="MS500" value="0.005240789940946334" />
+      <entry key="S2" value="0.26906045079071017" />
+      <entry key="S5" value="0.5942927161250553" />
+      <entry key="S10" value="0.8237448623962951" />
+      <entry key="S30" value="1.9370806779116116" />
+      <entry key="S60" value="5.125881139656684" />
+      <entry key="M2" value="11.680963072044433" />
+      <entry key="M5" value="29.32462745162635" />
+      <entry key="M10" value="55.86485614455128" />
+      <entry key="M15" value="78.67952612292412" />
+      <entry key="M30" value="136.9841975565312" />
+      <entry key="H1" value="237.30583932433169" />
+      <entry key="H2" value="378.5460524898673" />
+      <entry key="H4" value="516.6607851291382" />
+      <entry key="D1" value="701.6838879960104" />
+      <entry key="W1" value="742.8166988624371" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -238,5 +227,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
