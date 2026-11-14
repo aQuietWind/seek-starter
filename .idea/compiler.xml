@@ -21,6 +21,7 @@
         <module name="mongodb-starter" />
         <module name="redis-starter" />
         <module name="rabbitmq-starter" />
+        <module name="redis-redisson-starter" />
         <module name="common-util" />
         <module name="seek-bom" />
         <module name="rocketmq-starter" />
@@ -67,6 +68,7 @@
       <module name="nacos-starter" options="-parameters" />
       <module name="rabbitmq-error-system-starter" options="-parameters" />
       <module name="rabbitmq-starter" options="-parameters" />
+      <module name="redis-redisson-starter" options="-parameters" />
       <module name="redis-starter" options="-parameters" />
       <module name="register-bean-util" options="-parameters" />
       <module name="rocketmq-starter" options="-parameters" />

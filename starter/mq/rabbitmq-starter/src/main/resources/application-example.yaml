@@ -7,5 +7,4 @@ seek:
             config:
               error-exchange:
                 exchange-name: errorExchange
-                queue-name: errorQueue
               package: seek.util

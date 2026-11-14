@@ -1,9 +1,9 @@
-package seek.starter.starter.db.redis.starter.core.Redis;
+package seek.starter.starter.db.redis.starter.util;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.data.redis.core.script.DefaultRedisScript;
 
-public class RedisScriptTemplate {
+public class RedisScriptUtil {
 
     public static DefaultRedisScript<Boolean> luaQuickInit(String path){
         //初始化脚本对象

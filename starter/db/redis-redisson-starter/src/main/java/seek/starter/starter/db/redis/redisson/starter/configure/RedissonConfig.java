@@ -1,20 +1,12 @@
-package seek.starter.starter.db.redis.starter.autoconfigure;
+package seek.starter.starter.db.redis.redisson.starter.configure;
 
-import org.springframework.boot.autoconfigure.AutoConfiguration;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import seek.starter.starter.db.redis.starter.config.PropertiesConfig;
-import seek.starter.starter.db.redis.starter.core.Redisson.RedissonTemplate;
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
 import org.redisson.config.Config;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import seek.starter.starter.db.redis.starter.enums.PackageEnum;
+import seek.starter.starter.db.redis.redisson.starter.core.RedissonTemplate;
 
-//此处可能属于过度引入redisson，可以将redisson的工具封装拆出来，作为另外一个模块使用
-@Configuration@AutoConfiguration(PackageEnum.Full_Package_Prefix +"AutoConfig")
-@EnableConfigurationProperties({PropertiesConfig.class})
-public class RedissonAutoConfig {
+public class RedissonConfig {
 
     @Bean
     public RedissonClient redissonClient(PropertiesConfig propertiesConfig) {
@@ -30,7 +22,7 @@ public class RedissonAutoConfig {
     }
 
     @Bean
-    public RedissonTemplate redissonUtil(RedissonClient redissonClient) {
+    public RedissonTemplate redissonTemplate(RedissonClient redissonClient) {
         return new RedissonTemplate(redissonClient);
     }
 }

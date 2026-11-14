@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/java/seek/starter/starter/mq/rabbitmq/error/system/starter/autoconfigure/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/java/seek/starter/starter/mq/rabbitmq/error/system/starter/autoconfigure/AutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/java/seek/starter/starter/mq/rabbitmq/error/system/starter/configuration/ConverterConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/java/seek/starter/starter/mq/rabbitmq/error/system/starter/configuration/ErrorExchangeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/java/seek/starter/starter/mq/rabbitmq/error/system/starter/configuration/ErrorExchangeConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/java/seek/starter/starter/mq/rabbitmq/error/system/starter/configuration/MessageReturnCallBackConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/java/seek/starter/starter/mq/rabbitmq/error/system/starter/configuration/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/java/seek/starter/starter/mq/rabbitmq/error/system/starter/configuration/PropertiesConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/java/seek/starter/starter/mq/rabbitmq/error/system/starter/core/CorrleationTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/java/seek/starter/starter/mq/rabbitmq/error/system/starter/core/MQTemplate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/java/seek/starter/starter/mq/rabbitmq/error/system/starter/util/QueueUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/java/seek/starter/starter/mq/rabbitmq/error/system/starter/util/RegisterBindingUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/autoconfigure/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/autoconfigure/AutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/configuration/ErrorExchangeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/configuration/ErrorExchangeDefaultBindingConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/configuration/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/configuration/PropertiesConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/util/RegisterBindingUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/util/BindingRegisterBeanUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/resources/application-example.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/starter/db/redis-redisson-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bom/db-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/db-bom/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/redis-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/autoconfigure/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/autoconfigure/AutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/autoconfigure/RedissonAutoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/autoconfigure/RedissonImport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/config/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/configure/PropertiesConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/resources/application-example.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/resources/application-example.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -49,61 +44,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0914406809051968E-8" />
-      <entry key="MS500" value="0.031608809337793274" />
-      <entry key="S2" value="0.8122468373065262" />
-      <entry key="S5" value="1.831016012340249" />
-      <entry key="S10" value="2.615115607977976" />
-      <entry key="S30" value="4.862921333170577" />
-      <entry key="S60" value="9.071544564874335" />
-      <entry key="M2" value="17.239238242079928" />
-      <entry key="M5" value="31.74063649369551" />
-      <entry key="M10" value="44.055324218479406" />
-      <entry key="M15" value="53.60763553320999" />
-      <entry key="M30" value="81.79065975447438" />
-      <entry key="H1" value="138.23921573429476" />
-      <entry key="H2" value="219.09773917443988" />
-      <entry key="H4" value="296.9058488676357" />
-      <entry key="D1" value="399.4633461197365" />
-      <entry key="W1" value="422.0602141695033" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000015144" />
+      <entry key="S2" value="1.0026517344722103" />
+      <entry key="S5" value="1.2183787200636282" />
+      <entry key="S10" value="2.337102369255792" />
+      <entry key="S30" value="7.0601336882692385" />
+      <entry key="S60" value="11.37904433166578" />
+      <entry key="M2" value="16.51065406909384" />
+      <entry key="M5" value="28.442886133998055" />
+      <entry key="M10" value="45.16015874746003" />
+      <entry key="M15" value="58.26010690080776" />
+      <entry key="M30" value="91.14204493603975" />
+      <entry key="H1" value="150.4298604267842" />
+      <entry key="H2" value="234.98908894705235" />
+      <entry key="H4" value="317.5862625931959" />
+      <entry key="D1" value="428.13122220264165" />
+      <entry key="W1" value="452.70769606736627" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000004387648893" />
-      <entry key="S2" value="1.0385963061349521" />
-      <entry key="S5" value="1.4074623767821843" />
-      <entry key="S10" value="1.9120527845043465" />
-      <entry key="S30" value="3.2867300946862232" />
-      <entry key="S60" value="5.130904203180318" />
-      <entry key="M2" value="7.429787779364107" />
-      <entry key="M5" value="12.753543631385142" />
-      <entry key="M10" value="21.907001859479628" />
-      <entry key="M15" value="30.897193509939537" />
-      <entry key="M30" value="54.1601527231428" />
-      <entry key="H1" value="92.5811997869061" />
-      <entry key="H2" value="145.64648967764182" />
-      <entry key="H4" value="196.65988189479853" />
-      <entry key="D1" value="263.71259969407686" />
-      <entry key="W1" value="278.43532119755855" />
+      <entry key="MS100" value="3.654414992123193E-5" />
+      <entry key="MS500" value="0.12958763762746509" />
+      <entry key="S2" value="0.5999856911866077" />
+      <entry key="S5" value="0.8151853332529055" />
+      <entry key="S10" value="0.9028762357642878" />
+      <entry key="S30" value="0.9740950174299673" />
+      <entry key="S60" value="1.1627610427175148" />
+      <entry key="M2" value="2.1302183940173576" />
+      <entry key="M5" value="6.873669399686266" />
+      <entry key="M10" value="16.032994354840053" />
+      <entry key="M15" value="25.214426256422513" />
+      <entry key="M30" value="49.68666986885436" />
+      <entry key="H1" value="89.9098753405574" />
+      <entry key="H2" value="145.5598582604022" />
+      <entry key="H4" value="199.80152661346608" />
+      <entry key="D1" value="272.16894970046656" />
+      <entry key="W1" value="288.20217744233366" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.002152167110164216" />
-      <entry key="MS500" value="0.3224077840413229" />
-      <entry key="S2" value="1.547741609914966" />
-      <entry key="S5" value="2.959657400647377" />
-      <entry key="S10" value="4.250673701695172" />
-      <entry key="S30" value="7.951218218469802" />
-      <entry key="S60" value="14.043485564794436" />
-      <entry key="M2" value="24.54907855559668" />
-      <entry key="M5" value="44.41103183700397" />
-      <entry key="M10" value="65.89469448693545" />
-      <entry key="M15" value="84.44393498548023" />
-      <entry key="M30" value="135.90019470017032" />
-      <entry key="H1" value="230.77893122889938" />
-      <entry key="H2" value="364.7130316194465" />
-      <entry key="H4" value="493.54532577952165" />
-      <entry key="D1" value="663.1715200571275" />
-      <entry key="W1" value="700.4948713581088" />
+      <entry key="MS100" value="4.005802789278924E-5" />
+      <entry key="MS500" value="0.16879910822788605" />
+      <entry key="S2" value="1.043491077104849" />
+      <entry key="S5" value="1.753715575503654" />
+      <entry key="S10" value="3.088113677538725" />
+      <entry key="S30" value="7.979229223276773" />
+      <entry key="S60" value="12.504726881391196" />
+      <entry key="M2" value="18.60244506605524" />
+      <entry key="M5" value="35.26960838793411" />
+      <entry key="M10" value="61.14205217943929" />
+      <entry key="M15" value="83.42328435988068" />
+      <entry key="M30" value="140.78113795833454" />
+      <entry key="H1" value="240.29871020120586" />
+      <entry key="H2" value="380.51730449977447" />
+      <entry key="H4" value="517.3667925766878" />
+      <entry key="D1" value="700.2955546518053" />
+      <entry key="W1" value="740.9091789924323" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -144,7 +139,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/seek-starter/starter/mq/rabbitmq-error-system-starter/src/main/resources/META-INF",
+    "last_opened_file_path": "D:/Projects/seek-starter/starter/db/redis-redisson-starter/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -158,22 +153,22 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\seek-starter\starter\db\redis-redisson-starter\src\main\resources" />
+      <recent name="D:\Projects\seek-starter\starter\db\redis-redisson-starter\src\main\resources\META-INF" />
+      <recent name="D:\Projects\seek-starter\starter\db\redis-redisson-starter\src\main\java\seek\starter\starter\db\redis\redisson" />
       <recent name="D:\Projects\seek-starter\starter\mq\rabbitmq-error-system-starter\src\main\resources\META-INF" />
       <recent name="D:\Projects\seek-starter\starter\mq\rabbitmq-error-system-starter\src\main\resources" />
-      <recent name="D:\Projects\seek-starter\starter\mq\rabbitmq-error-system-starter\src\main\java" />
-      <recent name="D:\Projects\seek-starter\starter\web\web-starter\src\main\java\seek\util\web\web\util" />
-      <recent name="D:\Projects\seek-starter\starter\web\jwt-starter\src\main\java\seek\util\web\jwt\util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\seek-starter\starter\support" />
       <recent name="D:\Projects\seek-starter\.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="seek.starter.starter.db.redis.redisson.starter.config" />
       <recent name="seek.starter.starter.web.web.starter.enums" />
       <recent name="seek.starter.starter.web.jwt.starter.enums" />
       <recent name="seek.starter.starter.support.register.bean.util.enums" />
       <recent name="seek.util.mq.rocketmq.util.enums" />
-      <recent name="seek.starter.starter.mq.rabbitmq.starter.enums" />
     </key>
   </component>
   <component name="RunManager">

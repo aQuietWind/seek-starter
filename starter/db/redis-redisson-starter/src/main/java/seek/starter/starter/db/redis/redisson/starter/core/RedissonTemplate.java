@@ -1,4 +1,4 @@
-package seek.starter.starter.db.redis.starter.core.Redisson;
+package seek.starter.starter.db.redis.redisson.starter.core;
 
 import seek.starter.starter.support.config.object.db.redis.RedisKeyData;
 import seek.starter.starter.support.config.object.common.common.object.exception.BizException;

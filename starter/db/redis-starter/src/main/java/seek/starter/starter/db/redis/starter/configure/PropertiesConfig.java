@@ -1,4 +1,4 @@
-package seek.starter.starter.db.redis.starter.config;
+package seek.starter.starter.db.redis.starter.configure;
 
 
 import lombok.AllArgsConstructor;
@@ -12,14 +12,4 @@ import seek.starter.starter.db.redis.starter.enums.PackageEnum;
 @AllArgsConstructor
 @ConfigurationProperties(PackageEnum.Full_Package_Prefix +"config")
 public class PropertiesConfig {
-    private RedisConnection redissonConnection=new RedisConnection();
-
-    @Data
-    @NoArgsConstructor
-    @AllArgsConstructor
-    public static class RedisConnection {
-        private String host="localhost";
-        private String port="6379";
-        private String password="123456";
-    }
 }

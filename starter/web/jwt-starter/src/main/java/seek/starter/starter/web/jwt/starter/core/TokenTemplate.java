@@ -6,8 +6,8 @@ import seek.starter.starter.support.config.object.web.jwt.JWTRoleData;
 import seek.starter.starter.support.config.object.db.redis.RedisKeyData;
 import seek.starter.starter.support.config.object.common.common.object.exception.BizException;
 import seek.starter.starter.support.config.object.common.common.object.exception.ErrorCodeEnum;
-import seek.starter.starter.db.redis.starter.core.Redis.RedisScriptTemplate;
-import seek.starter.starter.db.redis.starter.core.Redis.RedisTemplate;
+import seek.starter.starter.db.redis.starter.util.RedisScriptUtil;
+import seek.starter.starter.db.redis.starter.core.RedisTemplate;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ import java.util.List;
 public class TokenTemplate {
     private final RedisTemplate redisTemplate;
     private final JWTTemplate jwtTemplate;
-    private final DefaultRedisScript<Boolean> tokenAddScript= RedisScriptTemplate.luaQuickInit("lua/token_add.lua");
+    private final DefaultRedisScript<Boolean> tokenAddScript= RedisScriptUtil.luaQuickInit("lua/token_add.lua");
     @Autowired
     public TokenTemplate(RedisTemplate redisTemplate, JWTTemplate jwtTemplate) {
         this.redisTemplate = redisTemplate;

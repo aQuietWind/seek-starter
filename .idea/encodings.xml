@@ -46,6 +46,7 @@
     <file url="file://$PROJECT_DIR$/starter/db/elasticsearch-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/db/mongodb-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/db/mybatis-plus-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter/db/redis-redisson-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/db/redis-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/db/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/db/src/main/resources" charset="UTF-8" />
