@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="rabbitmq-error-system-starter" />
         <module name="spring-ai-starter" />
         <module name="gateway-starter" />
         <module name="spring-web-starter" />
@@ -64,6 +65,7 @@
       <module name="mongodb-starter" options="-parameters" />
       <module name="mybatis-plus-starter" options="-parameters" />
       <module name="nacos-starter" options="-parameters" />
+      <module name="rabbitmq-error-system-starter" options="-parameters" />
       <module name="rabbitmq-starter" options="-parameters" />
       <module name="redis-starter" options="-parameters" />
       <module name="register-bean-util" options="-parameters" />

@@ -24,6 +24,7 @@
         <module>kafka-starter</module>
         <module>rabbitmq-starter</module>
         <module>rocketmq-starter</module>
+        <module>rabbitmq-error-system-starter</module>
     </modules>
 
 </project>
