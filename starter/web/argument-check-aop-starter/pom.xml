@@ -6,7 +6,7 @@
     <parent>
         <groupId>seek.starter.starter.web</groupId>
         <artifactId>web</artifactId>
-        <version>3.0.1-SNAPSHOT</version>
+        <version>3.0.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>argument-check-aop-starter</artifactId>
@@ -46,6 +46,10 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>seek.starter.starter.support</groupId>
+            <artifactId>aop-util</artifactId>
         </dependency>
     </dependencies>
 </project>

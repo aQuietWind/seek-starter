@@ -18,8 +18,8 @@ import static org.springframework.core.NestedExceptionUtils.getRootCause;
 @Slf4j
 public class GlobalRequestExceptionHandler {
 
-    private Result quickResponse(ErrorCodeEnum errorCodeEnum, HttpServletResponse response) {
-        response.setStatus(errorCodeEnum.getCode());
+    private Result<?> quickResponse(ErrorCodeEnum errorCodeEnum, HttpServletResponse response) {
+        response.setStatus(errorCodeEnum.getHttpStatus().value());
         return Result.error(errorCodeEnum);
     }
 

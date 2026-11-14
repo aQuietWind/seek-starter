@@ -6,7 +6,7 @@
     <parent>
         <groupId>seek.starter.bom</groupId>
         <artifactId>bom</artifactId>
-        <version>3.0.1-SNAPSHOT</version>
+        <version>3.0.2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -32,6 +32,11 @@
             <dependency>
                 <groupId>${dependency.group.id}</groupId>
                 <artifactId>config-object</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${dependency.group.id}</groupId>
+                <artifactId>aop-util</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>

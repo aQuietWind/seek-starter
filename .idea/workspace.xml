@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="" />
+    <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/autoconfigure/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/autoconfigure/AutoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/core/CheckAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/core/ControllerCheckAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/support/AbleCheckPointCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/support/AbleCheckPointCut.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,61 +38,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.962460967427661E-128" />
-      <entry key="MS500" value="3.121264172849028E-26" />
-      <entry key="S2" value="4.203224935502813E-7" />
-      <entry key="S5" value="0.0028150465436371777" />
-      <entry key="S10" value="0.05428922682674529" />
-      <entry key="S30" value="0.9466103465603961" />
-      <entry key="S60" value="3.8486434384814916" />
-      <entry key="M2" value="9.587187774226939" />
-      <entry key="M5" value="23.024709128213146" />
-      <entry key="M10" value="40.77589029066478" />
-      <entry key="M15" value="54.5428400407283" />
-      <entry key="M30" value="88.38433129959438" />
-      <entry key="H1" value="148.30168254142487" />
-      <entry key="H2" value="233.53530457660327" />
-      <entry key="H4" value="316.9245019175306" />
-      <entry key="D1" value="428.75716149717505" />
-      <entry key="W1" value="453.6511729571736" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000002277887763" />
-      <entry key="S10" value="1.0004772722725652" />
-      <entry key="S30" value="1.0787615007294944" />
-      <entry key="S60" value="1.330633460863214" />
-      <entry key="M2" value="2.135931899299544" />
-      <entry key="M5" value="6.345150111162632" />
-      <entry key="M10" value="15.138400268400588" />
-      <entry key="M15" value="24.18673040469621" />
-      <entry key="M30" value="48.646949515509434" />
-      <entry key="H1" value="89.04506147474751" />
-      <entry key="H2" value="145.04242583738366" />
-      <entry key="H4" value="199.75735267180062" />
-      <entry key="D1" value="272.9313701486909" />
-      <entry key="W1" value="289.1662246829503" />
+      <entry key="S5" value="1.000000011928683" />
+      <entry key="S10" value="1.00013438249132" />
+      <entry key="S30" value="1.1219070536249138" />
+      <entry key="S60" value="1.7805718464176934" />
+      <entry key="M2" value="3.248416204025308" />
+      <entry key="M5" value="6.997250500437876" />
+      <entry key="M10" value="15.874314030282571" />
+      <entry key="M15" value="27.164337464004166" />
+      <entry key="M30" value="57.606139910332715" />
+      <entry key="H1" value="97.18468599520942" />
+      <entry key="H2" value="164.0282637540567" />
+      <entry key="H4" value="277.39822022958197" />
+      <entry key="D1" value="537.3403215392009" />
+      <entry key="W1" value="614.705248320791" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.0303841865217586E-67" />
+      <entry key="S2" value="1.791828638193261E-17" />
+      <entry key="S5" value="2.0636305363303392E-7" />
+      <entry key="S10" value="5.652949581912767E-4" />
+      <entry key="S30" value="0.17489831089145272" />
+      <entry key="S60" value="0.8284036251014082" />
+      <entry key="M2" value="2.051551331067896" />
+      <entry key="M5" value="5.564185230646615" />
+      <entry key="M10" value="13.954555922819077" />
+      <entry key="M15" value="23.67322677313227" />
+      <entry key="M30" value="47.971015936199436" />
+      <entry key="H1" value="77.87919122163729" />
+      <entry key="H2" value="124.131875637654" />
+      <entry key="H4" value="199.05965374775167" />
+      <entry key="D1" value="368.4880071985715" />
+      <entry key="W1" value="418.7236136863099" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.953518398797525E-12" />
-      <entry key="MS500" value="0.005240789940946334" />
-      <entry key="S2" value="0.26906045079071017" />
-      <entry key="S5" value="0.5942927161250553" />
-      <entry key="S10" value="0.8237448623962951" />
-      <entry key="S30" value="1.9370806779116116" />
-      <entry key="S60" value="5.125881139656684" />
-      <entry key="M2" value="11.680963072044433" />
-      <entry key="M5" value="29.32462745162635" />
-      <entry key="M10" value="55.86485614455128" />
-      <entry key="M15" value="78.67952612292412" />
-      <entry key="M30" value="136.9841975565312" />
-      <entry key="H1" value="237.30583932433169" />
-      <entry key="H2" value="378.5460524898673" />
-      <entry key="H4" value="516.6607851291382" />
-      <entry key="D1" value="701.6838879960104" />
-      <entry key="W1" value="742.8166988624371" />
+      <entry key="MS100" value="0.9659363289248456" />
+      <entry key="MS500" value="0.9930924954370359" />
+      <entry key="S2" value="0.9982686325973925" />
+      <entry key="S5" value="0.9993073026143907" />
+      <entry key="S10" value="1.0003333719248875" />
+      <entry key="S30" value="1.29334951363189" />
+      <entry key="S60" value="2.5999714889292003" />
+      <entry key="M2" value="5.28799291261515" />
+      <entry key="M5" value="12.543159493893935" />
+      <entry key="M10" value="29.794418123856985" />
+      <entry key="M15" value="50.79353559864689" />
+      <entry key="M30" value="105.528586755362" />
+      <entry key="H1" value="175.02352273858736" />
+      <entry key="H2" value="288.12853739637325" />
+      <entry key="H4" value="476.4336570829191" />
+      <entry key="D1" value="905.8213232350121" />
+      <entry key="W1" value="1033.4277389774809" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -105,10 +110,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven.ai-bom [deploy].executor": "Run",
+    "Maven.argument-check-aop-starter [deploy].executor": "Run",
     "Maven.bom [clean].executor": "Run",
     "Maven.bom [deploy].executor": "Run",
     "Maven.cloud-bom [deploy].executor": "Run",
     "Maven.common-bom [deploy].executor": "Run",
+    "Maven.common-util [deploy].executor": "Run",
     "Maven.db-bom [deploy].executor": "Run",
     "Maven.elasticsearch-starter [deploy].executor": "Run",
     "Maven.mq-bom [deploy].executor": "Run",
@@ -128,7 +135,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/seek-starter/starter/db/redis-redisson-starter/src/main/resources",
+    "last_opened_file_path": "D:/Projects/seek-starter/starter/web/pramas-check-aop-starter/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -137,16 +144,16 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\seek-starter\starter\web\pramas-check-aop-starter\src\main\resources" />
+      <recent name="D:\Projects\seek-starter\starter\web\pramas-check-aop-starter\src\main\resources\META-INF" />
+      <recent name="D:\Projects\seek-starter\starter\web\pramas-check-aop-starter\src\main\java\seek\starter\starter\web\pramas\check" />
       <recent name="D:\Projects\seek-starter\starter\db\redis-redisson-starter\src\main\resources" />
       <recent name="D:\Projects\seek-starter\starter\db\redis-redisson-starter\src\main\resources\META-INF" />
-      <recent name="D:\Projects\seek-starter\starter\db\redis-redisson-starter\src\main\java\seek\starter\starter\db\redis\redisson" />
-      <recent name="D:\Projects\seek-starter\starter\mq\rabbitmq-error-system-starter\src\main\resources\META-INF" />
-      <recent name="D:\Projects\seek-starter\starter\mq\rabbitmq-error-system-starter\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\seek-starter\starter\support" />
@@ -238,5 +245,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

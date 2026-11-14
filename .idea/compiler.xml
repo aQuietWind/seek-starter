@@ -24,6 +24,7 @@
         <module name="redis-redisson-starter" />
         <module name="common-util" />
         <module name="seek-bom" />
+        <module name="argument-check-aop-starter" />
         <module name="rocketmq-starter" />
         <module name="caffeine-starter" />
         <module name="web-starter" />
@@ -50,6 +51,7 @@
       <module name="ali-cloud-gateway-starter" options="-parameters" />
       <module name="ali-cloud-rabbitmq-web-starter" options="-parameters" />
       <module name="ali-oss-starter" options="-parameters" />
+      <module name="argument-check-aop-starter" options="-parameters" />
       <module name="bean-register-util22" options="-parameters" />
       <module name="caffeine-starter" options="-parameters" />
       <module name="common-util" options="-parameters" />
