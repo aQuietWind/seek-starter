@@ -3,11 +3,15 @@ package seek.starter.starter.web.argument.check.aop.starter.core;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
+import seek.starter.starter.web.argument.check.aop.starter.enums.PackageEnum;
 
 @Aspect
 public class CheckAop {
 
-    @Around("@within(seek.starter.starter.web.argument.check.aop.starter.support.AbleCheckImpl)")
+    @Around(
+            "@within("+ PackageEnum.Full_Package_Prefix +"support.AbleCheckPointCut)"
+            + "&& !@annotation("+PackageEnum.Full_Package_Prefix+"support.SkipCheckPointCut)"
+    )
     //设置所要测试的类的范围
     public Object recordTime(ProceedingJoinPoint pjp) throws Throwable{
         long start = System.currentTimeMillis();
