@@ -14,7 +14,7 @@ import seek.starter.starter.support.config.object.mq.rabbitmq.ExchangeData;
 @NoArgsConstructor
 @AllArgsConstructor
 public class PropertiesConfig {
+    public static final String ErrorQueueDestination="${"+PackageEnum.Full_Package_Prefix+"config.error-binding.queue-name}";
     private ExchangeData errorExchange=new ExchangeData("ex.error",ExchangeData.Fanout);
     private BindingData errorBinding=new BindingData(errorExchange,"q.error",null);
-    private String converterPackage="seek.util";
 }

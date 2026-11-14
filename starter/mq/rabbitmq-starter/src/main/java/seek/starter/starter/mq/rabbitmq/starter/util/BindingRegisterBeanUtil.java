@@ -33,7 +33,7 @@ import java.util.Map;
  * 自动创建交换机、创建队列并完成绑定。
  */
 
-public class RegisterBindingUtil {
+public class BindingRegisterBeanUtil {
 
     /**
      * 批量注册交换机、队列与绑定关系（注册为单个 Declarables bean）

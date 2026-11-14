@@ -1,5 +1,8 @@
 package seek.starter.starter.mq.rabbitmq.error.system.starter.configuration;
 
+import org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor;
+import seek.starter.starter.mq.rabbitmq.error.system.starter.enums.PackageEnum;
+import seek.starter.starter.mq.rabbitmq.starter.util.BindingRegisterBeanUtil;
 import seek.starter.starter.mq.rabbitmq.starter.util.QueueUtil;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
@@ -12,6 +15,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.List;
+
 @Configuration
 public class ErrorExchangeConfig {
     private final RabbitTemplate rabbitTemplate;
@@ -23,21 +28,15 @@ public class ErrorExchangeConfig {
         this.propertiesConfig = propertiesConfig;
     }
 
-    //创建一个用于失败消息接受的队列
+    //创建异常处理交换机
     @Bean
-    public Queue errorQueue(){
-        return QueueUtil.generateQuorumQueue(propertiesConfig.getErrorBinding().getQueueName());
+    public BeanDefinitionRegistryPostProcessor beanDefinitionRegistryPostProcessor() {
+        return BindingRegisterBeanUtil.quickRegistrar(
+                PackageEnum.appendByFullPackage("ErrorExchangeBinding")
+                , List.of(propertiesConfig.getErrorExchange())
+                , List.of(propertiesConfig.getErrorBinding()));
     }
-    //创建一个用于失败消息投递的交换机
-    @Bean
-    public FanoutExchange errorExchange(){
-        return new FanoutExchange(propertiesConfig.getErrorExchange().getExchangeName());
-    }
-    //绑定交换机与队列
-    @Bean
-    public Binding errorBinding(Queue errorQueue, FanoutExchange errorExchange){
-        return BindingBuilder.bind(errorQueue).to(errorExchange);
-    }
+
     @Bean
     public MessageRecoverer recoverer(){
         //声明目标交换机以及key，返回该处理器

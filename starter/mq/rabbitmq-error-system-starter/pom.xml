@@ -19,18 +19,13 @@
 
 
     <dependencies>
-        <!--        MQ的amqp连接依赖-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
+            <groupId>seek.starter.starter.web</groupId>
+            <artifactId>web-starter</artifactId>
         </dependency>
         <dependency>
-            <groupId>seek.starter.starter.support</groupId>
-            <artifactId>config-object</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>seek.starter.starter.support</groupId>
-            <artifactId>register-bean-util</artifactId>
+            <groupId>seek.starter.starter.mq</groupId>
+            <artifactId>rabbitmq-starter</artifactId>
         </dependency>
     </dependencies>
 </project>

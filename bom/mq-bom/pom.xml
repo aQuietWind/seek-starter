@@ -38,6 +38,11 @@
                 <artifactId>rocketmq-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>${dependency.group.id}</groupId>
+                <artifactId>rabbitmq-error-system-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
