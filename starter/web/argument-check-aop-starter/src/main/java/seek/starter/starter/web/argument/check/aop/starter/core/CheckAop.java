@@ -10,6 +10,12 @@ public class CheckAop {
 
     @Around(
             "@within("+ PackageEnum.Full_Package_Prefix +"support.AbleCheckPointCut)"
+//                    + """
+//                    && (@annotation(org.springframework.web.bind.annotation.GetMapping)
+//                    || @annotation(org.springframework.web.bind.annotation.PostMapping)
+//                    || @annotation(org.springframework.web.bind.annotation.PutMapping)
+//                    || @annotation(org.springframework.web.bind.annotation.DeleteMapping)
+//                    || @annotation(org.springframework.web.bind.annotation.RequestMapping) )"""
             + "&& !@annotation("+PackageEnum.Full_Package_Prefix+"support.SkipCheckPointCut)"
     )
     //设置所要测试的类的范围
