@@ -31,7 +31,7 @@ public class CheckStore {
         return true;
     }
 
-    public boolean[] putIfAbsent(CheckEntry<?> ... entries){
+    public boolean[] putIfAbsent(@NonNull CheckEntry<?> ... entries){
         if (entries==null)throw new BizException(ErrorCodeEnum.DATA_IS_EMPTY);
         boolean[] result=new boolean[entries.length];
         for (int i = 0; i < entries.length; i++) {

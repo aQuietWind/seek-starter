@@ -27,4 +27,14 @@ public class CheckEntry<T> {
     public void check(T arg){
         if (!check.run(arg))throw new BizException(ErrorCodeEnum.PARAM_ERROR);
     }
+
+    public static<T> CheckEntry<T> quickBuildDefaultCheckEntry(String checkName,Class<T> parameterClazz,RunWithReturnParamFunction<Boolean,T> check){
+        return new CheckEntry<>(CheckLevel.Default,checkName,parameterClazz,check);
+    }
+    public static<T> CheckEntry<T> quickBuildCustomCheckEntry(String checkName,Class<T> parameterClazz,RunWithReturnParamFunction<Boolean,T> check){
+        return new CheckEntry<>(CheckLevel.Custom,checkName,parameterClazz,check);
+    }
+    public static<T> CheckEntry<T> quickBuildExtensionCheckEntry(String checkName,Class<T> parameterClazz,RunWithReturnParamFunction<Boolean,T> check){
+        return new CheckEntry<>(CheckLevel.Extension,checkName,parameterClazz,check);
+    }
 }
