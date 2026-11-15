@@ -39,6 +39,7 @@ public class CooldownAop {
 
     @PostConstruct
     public void init() {
+        //初始化参数存储集
         parameterHash=new SecureHashGet<>(
                 method->{
                     //获取注解信息
@@ -71,16 +72,12 @@ public class CooldownAop {
 
     //校验参数
     private void cooldown(CooldownRedisKeyData key,Object[] args){
-        if (key.index()>args.length)throw new BizException(ErrorCodeEnum.ERROR_USE,"无可使用参数进行冷却校验");
+        if (key.index()>=args.length)throw new BizException(ErrorCodeEnum.ERROR_USE,"无可使用参数进行冷却校验");
         redisTemplate.checkCooldown(key.redisKeyData(),args[key.index()]);
     }
 
 
     //存储冷却信息
-    public record CooldownRedisKeyData(Integer index, RedisKeyData redisKeyData) {
-            public String getRedisKey(Object[] args) {
-                return redisKeyData.getRedisKey(args[index]);
-            }
-        }
+    public record CooldownRedisKeyData(Integer index, RedisKeyData redisKeyData) {}
 
 }

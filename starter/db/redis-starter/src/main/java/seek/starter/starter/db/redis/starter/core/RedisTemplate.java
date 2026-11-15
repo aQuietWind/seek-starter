@@ -25,15 +25,12 @@ public class RedisTemplate {
 
     //快速鉴别是否处于冷却期
     public void checkCooldown(RedisKeyData key, Object id){
-        if (Boolean.FALSE.equals(stringRedisTemplate.opsForValue().setIfAbsent(
-                key.getRedisKey(id)
-                , cooldownValue,
-                key.getDurationMillis(), TimeUnit.MICROSECONDS ))) throw new BizException(ErrorCodeEnum.REQUEST_IN_COOLDOWN);
+        if (!trySetStringWithExpire(key, id, cooldownValue)) throw new BizException(ErrorCodeEnum.REQUEST_IN_COOLDOWN);
     }
 
     //快速设置
     public boolean trySetStringWithExpire(RedisKeyData key,Object id,String value){
-        return Boolean.TRUE.equals(stringRedisTemplate.opsForValue().setIfAbsent(key.getRedisKey(id), value, key.getDurationMillis(), TimeUnit.MICROSECONDS));
+        return Boolean.TRUE.equals(stringRedisTemplate.opsForValue().setIfAbsent(key.getRedisKey(id), value, key.getDurationMillis(), TimeUnit.MILLISECONDS));
     }
 
     //快速设置
@@ -43,7 +40,7 @@ public class RedisTemplate {
 
     //快速设置
     public void justSetStringWithExpire(RedisKeyData key,Object id,String value){
-        stringRedisTemplate.opsForValue().set(key.getRedisKey(id), value,key.getDurationMillis(), TimeUnit.MICROSECONDS);
+        stringRedisTemplate.opsForValue().set(key.getRedisKey(id), value,key.getDurationMillis(), TimeUnit.MILLISECONDS);
     }
 
 
@@ -64,7 +61,7 @@ public class RedisTemplate {
 
     //快速设置过期
     public boolean expire(RedisKeyData key,Object id){
-        return stringRedisTemplate.expire(key.getRedisKey(id), key.getDurationMillis(), TimeUnit.MICROSECONDS);
+        return stringRedisTemplate.expire(key.getRedisKey(id), key.getDurationMillis(), TimeUnit.MILLISECONDS);
     }
 
     //快速检查zset中某个value值是否存在

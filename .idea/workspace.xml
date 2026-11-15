@@ -5,57 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/bom/ai-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/ai-bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom/cloud-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/cloud-bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom/common-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/common-bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom/db-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/db-bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom/gather-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/gather-bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom/index/seek-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/index/seek-bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom/mq-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/mq-bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom/support-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/support-bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bom/web-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/web-bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gather/ali-cloud-gateway-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gather/ali-cloud-gateway-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gather/ali-cloud-rabbitmq-web-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gather/ali-cloud-rabbitmq-web-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gather/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gather/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gather/spring-web-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gather/spring-web-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/langchain4j-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/langchain4j-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/ai/spring-ai-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/ai/spring-ai-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/feign-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/feign-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/gateway-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/gateway-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/nacos-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/nacos-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/sentinel-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/sentinel-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/cloud/skywalking-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/cloud/skywalking-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/common/ali-oss-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/ali-oss-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/common/caffeine-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/caffeine-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/common-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/common/event-respond-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/event-respond-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/elasticsearch-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/elasticsearch-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/mongodb-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/mongodb-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/mybatis-plus-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/mybatis-plus-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/redis-aop-help-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/redis-aop-help-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/redis-redisson-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/redis-redisson-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/redis-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/kafka-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/kafka-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-error-system-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rocketmq-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rocketmq-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/support/aop-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/aop-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/support/config-object/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/config-object/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/support/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/support/register-bean-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/register-bean-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-common-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-common-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/jwt-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/web/web-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/web-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-aop-help-starter/src/main/java/seek/starter/starter/db/redis/aop/help/starter/core/CooldownAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/redis-aop-help-starter/src/main/java/seek/starter/starter/db/redis/aop/help/starter/core/CooldownAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/core/RedisTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/db/redis-starter/src/main/java/seek/starter/starter/db/redis/starter/core/RedisTemplate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +19,8 @@
       <list>
         <option value="package-info" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -87,61 +39,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0014598137193724" />
-      <entry key="MS500" value="1.2721720249085235" />
-      <entry key="S2" value="2.040933802569818" />
-      <entry key="S5" value="3.105324439651618" />
-      <entry key="S10" value="4.291154620941956" />
-      <entry key="S30" value="8.398766852206013" />
-      <entry key="S60" value="13.187415757556401" />
-      <entry key="M2" value="20.852826953288204" />
-      <entry key="M5" value="40.77190983870514" />
-      <entry key="M10" value="67.82429790417932" />
-      <entry key="M15" value="89.07116688881572" />
-      <entry key="M30" value="137.69978965722305" />
-      <entry key="H1" value="213.4986502741141" />
-      <entry key="H2" value="327.5638588330307" />
-      <entry key="H4" value="488.57321082268925" />
-      <entry key="D1" value="882.7121798584279" />
-      <entry key="W1" value="1012.4129581250731" />
+      <entry key="MS100" value="1.9905086469602564E-12" />
+      <entry key="MS500" value="0.0045705056303587755" />
+      <entry key="S2" value="0.3376601607323531" />
+      <entry key="S5" value="1.3745962326592231" />
+      <entry key="S10" value="2.527949250312813" />
+      <entry key="S30" value="3.9531915523592334" />
+      <entry key="S60" value="4.478767199014014" />
+      <entry key="M2" value="5.1925175462358775" />
+      <entry key="M5" value="7.85987921112279" />
+      <entry key="M10" value="12.444219219873451" />
+      <entry key="M15" value="18.24119093706885" />
+      <entry key="M30" value="42.08670703460538" />
+      <entry key="H1" value="104.19662525103145" />
+      <entry key="H2" value="230.83031549470894" />
+      <entry key="H4" value="428.49840525015253" />
+      <entry key="D1" value="951.9910779369258" />
+      <entry key="W1" value="1136.4110678546806" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="7.505133517423701E-86" />
-      <entry key="S5" value="9.078493064978333E-35" />
-      <entry key="S10" value="1.1194668293529004E-17" />
-      <entry key="S30" value="7.708907149871852E-6" />
-      <entry key="S60" value="0.012239661490336675" />
-      <entry key="M2" value="0.627533153978016" />
-      <entry key="M5" value="9.700749027414755" />
-      <entry key="M10" value="31.07706933221436" />
-      <entry key="M15" value="50.11834951498499" />
-      <entry key="M30" value="95.54226917070912" />
-      <entry key="H1" value="166.39821941646244" />
-      <entry key="H2" value="266.820358904923" />
-      <entry key="H4" value="394.14431543719917" />
-      <entry key="D1" value="677.2738565612124" />
-      <entry key="W1" value="767.0772946484716" />
+      <entry key="MS100" value="1.0117597402148055" />
+      <entry key="MS500" value="1.4153287904409921" />
+      <entry key="S2" value="2.2927707260358856" />
+      <entry key="S5" value="3.46544497112608" />
+      <entry key="S10" value="4.3717866179202005" />
+      <entry key="S30" value="5.3405728889116135" />
+      <entry key="S60" value="5.753814285341123" />
+      <entry key="M2" value="6.652231362777624" />
+      <entry key="M5" value="10.239976443462718" />
+      <entry key="M10" value="17.176185375430343" />
+      <entry key="M15" value="25.88143104658238" />
+      <entry key="M30" value="56.529277904661726" />
+      <entry key="H1" value="120.82813142444277" />
+      <entry key="H2" value="237.44097778030064" />
+      <entry key="H4" value="403.94352128920036" />
+      <entry key="D1" value="801.9050358539744" />
+      <entry key="W1" value="935.4538712323249" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9673661001122947" />
-      <entry key="MS500" value="1.2641313915851689" />
-      <entry key="S2" value="2.0378425429691966" />
-      <entry key="S5" value="3.103316239474061" />
-      <entry key="S10" value="4.289726184256721" />
-      <entry key="S30" value="8.397819427591378" />
-      <entry key="S60" value="13.198596639221172" />
-      <entry key="M2" value="21.472095616209124" />
-      <entry key="M5" value="50.42418762077066" />
-      <entry key="M10" value="98.8250779485812" />
-      <entry key="M15" value="139.10849955241076" />
-      <entry key="M30" value="233.16511773143552" />
-      <entry key="H1" value="379.827678499469" />
-      <entry key="H2" value="594.3263599353699" />
-      <entry key="H4" value="882.6737922807395" />
-      <entry key="D1" value="1559.9735015940753" />
-      <entry key="W1" value="1779.488231745471" />
+      <entry key="MS100" value="0.012090351603532157" />
+      <entry key="MS500" value="0.42931286705081345" />
+      <entry key="S2" value="1.785384680771359" />
+      <entry key="S5" value="4.153526204054596" />
+      <entry key="S10" value="6.40363602431525" />
+      <entry key="S30" value="9.071496648458073" />
+      <entry key="S60" value="10.110112972126407" />
+      <entry key="M2" value="11.774011783501328" />
+      <entry key="M5" value="18.058537544949022" />
+      <entry key="M10" value="29.58565932207127" />
+      <entry key="M15" value="44.0857604621841" />
+      <entry key="M30" value="98.57200669842199" />
+      <entry key="H1" value="224.9756297527392" />
+      <entry key="H2" value="468.22129274338477" />
+      <entry key="H4" value="832.398258976051" />
+      <entry key="D1" value="1753.8814823028522" />
+      <entry key="W1" value="2071.8625032162363" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -160,6 +112,7 @@
   "keyToString": {
     "Maven.ai-bom [deploy].executor": "Run",
     "Maven.argument-check-aop-starter [deploy].executor": "Run",
+    "Maven.argument-check-common-starter [deploy].executor": "Run",
     "Maven.bom [clean].executor": "Run",
     "Maven.bom [deploy].executor": "Run",
     "Maven.cloud-bom [deploy].executor": "Run",
@@ -168,6 +121,8 @@
     "Maven.db-bom [deploy].executor": "Run",
     "Maven.elasticsearch-starter [deploy].executor": "Run",
     "Maven.mq-bom [deploy].executor": "Run",
+    "Maven.redis-aop-help-starter [deploy].executor": "Run",
+    "Maven.redis-starter [deploy].executor": "Run",
     "Maven.seek-bom [deploy].executor": "Run",
     "Maven.seek-bom [install].executor": "Run",
     "Maven.seek-starter [clean].executor": "Run",
@@ -184,7 +139,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/seek-starter/starter/web/common-arguement-check-starter/src/main/resources",
+    "last_opened_file_path": "D:/Projects/seek-starter/starter/db/redis-aop-help-starter/src/main/resources/META-INF",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -198,11 +153,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\seek-starter\starter\db\redis-aop-help-starter\src\main\resources\META-INF" />
+      <recent name="D:\Projects\seek-starter\starter\db\redis-aop-help-starter\src\main\java\seek\starter\starter\db\redis\aop\help" />
       <recent name="D:\Projects\seek-starter\starter\web\common-arguement-check-starter\src\main\resources" />
       <recent name="D:\Projects\seek-starter\starter\web\common-arguement-check-starter\src\main\java\seek\starter\starter\web\common\argument\check" />
       <recent name="D:\Projects\seek-starter\starter\support\aop-starter\src\main\java\seek\starter\starter\support\aop" />
-      <recent name="D:\Projects\seek-starter\starter\web\pramas-check-aop-starter\src\main\resources" />
-      <recent name="D:\Projects\seek-starter\starter\web\pramas-check-aop-starter\src\main\resources\META-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\seek-starter\starter\web\common-arguement-check-starter\src\main\resources\META-INF" />
@@ -210,11 +165,11 @@
       <recent name="D:\Projects\seek-starter\.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="seek.starter.starter.db.redis.aop.help.starter.core" />
       <recent name="seek.starter.starter.db.redis.redisson.starter.config" />
       <recent name="seek.starter.starter.web.web.starter.enums" />
       <recent name="seek.starter.starter.web.jwt.starter.enums" />
       <recent name="seek.starter.starter.support.register.bean.util.enums" />
-      <recent name="seek.util.mq.rocketmq.util.enums" />
     </key>
   </component>
   <component name="RunManager">
