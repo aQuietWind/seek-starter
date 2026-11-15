@@ -1,8 +1,7 @@
-package seek.starter.starter.web.argument.check.aop.starter.support;
+package seek.starter.starter.web.argument.check.aop.starter.core;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import seek.starter.starter.support.config.object.common.common.object.exception.BizException;
 import seek.starter.starter.support.config.object.common.common.object.exception.ErrorCodeEnum;

@@ -1,4 +1,4 @@
-package seek.starter.starter.web.argument.check.aop.starter.support;
+package seek.starter.starter.web.argument.check.aop.starter.core;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,7 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @NoArgsConstructor
 public class CheckStore {
 
-    private ConcurrentHashMap<String,CheckEntry<?>> map=new ConcurrentHashMap<>();
+    private ConcurrentHashMap<String, CheckEntry<?>> map=new ConcurrentHashMap<>();
 
     public CheckEntry<?> get(String key){
         return map.get(key);

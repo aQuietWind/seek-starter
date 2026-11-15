@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import seek.starter.starter.support.register.bean.util.util.RegisterBeanUtil;
 import seek.starter.starter.web.argument.check.aop.starter.core.ControllerCheckAop;
 import seek.starter.starter.web.argument.check.aop.starter.enums.PackageEnum;
-import seek.starter.starter.web.argument.check.aop.starter.support.CheckStore;
+import seek.starter.starter.web.argument.check.aop.starter.core.CheckStore;
 
 @AutoConfiguration(PackageEnum.Full_Package_Prefix +"AutoConfig")
 //@EnableConfigurationProperties(PropertiesConfig.class)

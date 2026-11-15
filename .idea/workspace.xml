@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/starter/web/argument-check-common-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bom/web-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bom/web-bom/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/autoconfigure/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/autoconfigure/AutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/core/CheckAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/core/ControllerCheckAop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/support/AbleCheckPointCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/support/AbleCheckPointCut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/core/ControllerCheckAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/core/ControllerCheckAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/support/AbleCheckPointCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/core/AbleCheckPointCut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/support/CheckEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/core/CheckEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/support/CheckMark.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/core/CheckMark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/support/CheckStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/core/CheckStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/support/SkipCheckPointCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java/seek/starter/starter/web/argument/check/aop/starter/core/SkipCheckPointCut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/resources/application-example.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,59 +51,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.000000011928683" />
-      <entry key="S10" value="1.00013438249132" />
-      <entry key="S30" value="1.1219070536249138" />
-      <entry key="S60" value="1.7805718464176934" />
-      <entry key="M2" value="3.248416204025308" />
-      <entry key="M5" value="6.997250500437876" />
-      <entry key="M10" value="15.874314030282571" />
-      <entry key="M15" value="27.164337464004166" />
-      <entry key="M30" value="57.606139910332715" />
-      <entry key="H1" value="97.18468599520942" />
-      <entry key="H2" value="164.0282637540567" />
-      <entry key="H4" value="277.39822022958197" />
-      <entry key="D1" value="537.3403215392009" />
-      <entry key="W1" value="614.705248320791" />
+      <entry key="S2" value="1.0000000000001297" />
+      <entry key="S5" value="1.0000086686623975" />
+      <entry key="S10" value="1.0055199481772104" />
+      <entry key="S30" value="1.644794076998329" />
+      <entry key="S60" value="3.5078801425020854" />
+      <entry key="M2" value="6.679943789449554" />
+      <entry key="M5" value="12.327858744067122" />
+      <entry key="M10" value="21.41814770738263" />
+      <entry key="M15" value="33.026853121311646" />
+      <entry key="M30" value="69.5594363383174" />
+      <entry key="H1" value="128.56668881092787" />
+      <entry key="H2" value="215.4510710332794" />
+      <entry key="H4" value="346.132947233695" />
+      <entry key="D1" value="658.054786252505" />
+      <entry key="W1" value="755.7295742633067" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.0303841865217586E-67" />
-      <entry key="S2" value="1.791828638193261E-17" />
-      <entry key="S5" value="2.0636305363303392E-7" />
-      <entry key="S10" value="5.652949581912767E-4" />
-      <entry key="S30" value="0.17489831089145272" />
-      <entry key="S60" value="0.8284036251014082" />
-      <entry key="M2" value="2.051551331067896" />
-      <entry key="M5" value="5.564185230646615" />
-      <entry key="M10" value="13.954555922819077" />
-      <entry key="M15" value="23.67322677313227" />
-      <entry key="M30" value="47.971015936199436" />
-      <entry key="H1" value="77.87919122163729" />
-      <entry key="H2" value="124.131875637654" />
-      <entry key="H4" value="199.05965374775167" />
-      <entry key="D1" value="368.4880071985715" />
-      <entry key="W1" value="418.7236136863099" />
+      <entry key="MS100" value="8.862491751144149E-4" />
+      <entry key="MS500" value="0.2451947509971378" />
+      <entry key="S2" value="0.7036841876626988" />
+      <entry key="S5" value="0.868862672375718" />
+      <entry key="S10" value="0.9323416855638611" />
+      <entry key="S30" value="1.0468238379558712" />
+      <entry key="S60" value="1.4791802576971007" />
+      <entry key="M2" value="2.80752913055314" />
+      <entry key="M5" value="6.659976658350654" />
+      <entry key="M10" value="15.375567150321702" />
+      <entry key="M15" value="26.953775569034594" />
+      <entry key="M30" value="62.19651123795953" />
+      <entry key="H1" value="115.0750378120567" />
+      <entry key="H2" value="184.46281407515028" />
+      <entry key="H4" value="278.04602434646614" />
+      <entry key="D1" value="488.9880901409875" />
+      <entry key="W1" value="553.8915824538389" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9659363289248456" />
-      <entry key="MS500" value="0.9930924954370359" />
-      <entry key="S2" value="0.9982686325973925" />
-      <entry key="S5" value="0.9993073026143907" />
-      <entry key="S10" value="1.0003333719248875" />
-      <entry key="S30" value="1.29334951363189" />
-      <entry key="S60" value="2.5999714889292003" />
-      <entry key="M2" value="5.28799291261515" />
-      <entry key="M5" value="12.543159493893935" />
-      <entry key="M10" value="29.794418123856985" />
-      <entry key="M15" value="50.79353559864689" />
-      <entry key="M30" value="105.528586755362" />
-      <entry key="H1" value="175.02352273858736" />
-      <entry key="H2" value="288.12853739637325" />
-      <entry key="H4" value="476.4336570829191" />
-      <entry key="D1" value="905.8213232350121" />
-      <entry key="W1" value="1033.4277389774809" />
+      <entry key="MS100" value="9.121730817549249E-4" />
+      <entry key="MS500" value="0.30975518117654627" />
+      <entry key="S2" value="1.206048595521678" />
+      <entry key="S5" value="1.6280524796703515" />
+      <entry key="S10" value="1.8090693576946257" />
+      <entry key="S30" value="2.636639740753638" />
+      <entry key="S60" value="4.934880548947866" />
+      <entry key="M2" value="9.430568687292494" />
+      <entry key="M5" value="18.937316772013297" />
+      <entry key="M10" value="36.74244040325804" />
+      <entry key="M15" value="59.92369018280209" />
+      <entry key="M30" value="131.6924008746042" />
+      <entry key="H1" value="243.58308883451804" />
+      <entry key="H2" value="399.8671424742022" />
+      <entry key="H4" value="624.1445971152029" />
+      <entry key="D1" value="1147.0333098575072" />
+      <entry key="W1" value="1309.6196272646473" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -135,7 +146,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/seek-starter/starter/web/pramas-check-aop-starter/src/main/resources",
+    "last_opened_file_path": "D:/Projects/seek-starter/starter/web/common-arguement-check-starter/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -149,11 +160,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\seek-starter\starter\support\aop-starter\src\main\java\seek\starter\starter\support\aop" />
       <recent name="D:\Projects\seek-starter\starter\web\pramas-check-aop-starter\src\main\resources" />
       <recent name="D:\Projects\seek-starter\starter\web\pramas-check-aop-starter\src\main\resources\META-INF" />
       <recent name="D:\Projects\seek-starter\starter\web\pramas-check-aop-starter\src\main\java\seek\starter\starter\web\pramas\check" />
       <recent name="D:\Projects\seek-starter\starter\db\redis-redisson-starter\src\main\resources" />
-      <recent name="D:\Projects\seek-starter\starter\db\redis-redisson-starter\src\main\resources\META-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\seek-starter\starter\support" />

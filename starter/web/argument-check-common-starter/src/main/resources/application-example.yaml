@@ -1,0 +1,10 @@
+seek:
+  starter:
+    starter:
+      web:
+        argument:
+          check:
+            common:
+              starter:
+                config:
+                  request-header-token-id-name: tokenId

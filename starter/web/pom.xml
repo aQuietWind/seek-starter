@@ -25,5 +25,6 @@
         <module>jwt-starter</module>
         <module>web-starter</module>
         <module>argument-check-aop-starter</module>
+        <module>argument-check-common-starter</module>
     </modules>
 </project>

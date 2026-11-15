@@ -39,6 +39,11 @@
                 <artifactId>argument-check-aop-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>${dependency.group.id}</groupId>
+                <artifactId>argument-check-common-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
