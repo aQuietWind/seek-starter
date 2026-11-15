@@ -1,0 +1,9 @@
+seek\starter\starter\web\argument\check\aop\starter\core\AbleCheckPointCut.class
+seek\starter\starter\web\argument\check\aop\starter\enums\CheckLevel.class
+seek\starter\starter\web\argument\check\aop\starter\enums\PackageEnum.class
+seek\starter\starter\web\argument\check\aop\starter\core\CheckMark.class
+seek\starter\starter\web\argument\check\aop\starter\core\CheckStore.class
+seek\starter\starter\web\argument\check\aop\starter\core\SkipCheckPointCut.class
+seek\starter\starter\web\argument\check\aop\starter\core\CheckEntry.class
+seek\starter\starter\web\argument\check\aop\starter\autoconfigure\AutoConfig.class
+seek\starter\starter\web\argument\check\aop\starter\core\ControllerCheckAop.class

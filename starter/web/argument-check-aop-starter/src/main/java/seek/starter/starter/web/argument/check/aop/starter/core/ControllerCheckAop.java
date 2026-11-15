@@ -13,19 +13,22 @@ import seek.starter.starter.web.argument.check.aop.starter.enums.PackageEnum;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 @Aspect
 public class ControllerCheckAop {
 
     @Pointcut(
-            "@within("+ PackageEnum.Full_Package_Prefix +"support.AbleCheckPointCut)"
-                    + """
-                    && (@annotation(org.springframework.web.bind.annotation.GetMapping)
-                    || @annotation(org.springframework.web.bind.annotation.PostMapping)
-                    || @annotation(org.springframework.web.bind.annotation.PutMapping)
-                    || @annotation(org.springframework.web.bind.annotation.DeleteMapping)
-                    || @annotation(org.springframework.web.bind.annotation.RequestMapping) )"""
-                    + "&& !@annotation("+PackageEnum.Full_Package_Prefix+"support.SkipCheckPointCut)")
+            "@within("+ PackageEnum.Full_Package_Prefix +"core.AbleCheckPointCut)"
+            + "&&("
+            + "@annotation(org.springframework.web.bind.annotation.GetMapping)"
+            + "|| @annotation(org.springframework.web.bind.annotation.PostMapping)"
+            + "|| @annotation(org.springframework.web.bind.annotation.PutMapping)"
+            + "|| @annotation(org.springframework.web.bind.annotation.DeleteMapping)"
+            + "|| @annotation(org.springframework.web.bind.annotation.RequestMapping) "
+            + ")"
+            + "&& !@annotation("+PackageEnum.Full_Package_Prefix+"core.SkipCheckPointCut)"
+    )
     public void checkPointCut() {}
 
     private final CheckStore checkStore;
@@ -60,12 +63,14 @@ public class ControllerCheckAop {
 
     //设置所要测试的类的范围
     @Around("checkPointCut()")
-    public Object recordTime(ProceedingJoinPoint pjp) throws Throwable{
+    public Object checkArguments(ProceedingJoinPoint pjp) throws Throwable{
         String[] parameterCheckNames = parameterHash.get(AopUtil.getMethod(pjp));
         Object[] args = pjp.getArgs();
+        System.err.println("parameterCheckNames:"+ Arrays.toString(parameterCheckNames));
         // 遍历每个参数
         for (int i = 0; i < parameterCheckNames.length; i++) {
             String checkName=parameterCheckNames[i];
+            System.err.println("checkName:"+checkName);
             if (checkName==null)continue;
             CheckEntry<?> checkEntry=checkStore.get(checkName);
             if(checkEntry==null)continue;

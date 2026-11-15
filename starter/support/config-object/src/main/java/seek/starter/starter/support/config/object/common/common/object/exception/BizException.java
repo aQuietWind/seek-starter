@@ -1,15 +1,16 @@
 package seek.starter.starter.support.config.object.common.common.object.exception;
 
+import lombok.Getter;
+
+@Getter
 public class BizException extends RuntimeException{
     // 绑定错误码枚举
     private final ErrorCodeEnum errorCode;
 
     // 传错误枚举，使用默认文案
     public BizException(ErrorCodeEnum errorCode) {
+        super(errorCode.getDefaultMsg());
         this.errorCode = errorCode;
     }
 
-    public ErrorCodeEnum getErrorCode() {
-        return errorCode;
-    }
 }

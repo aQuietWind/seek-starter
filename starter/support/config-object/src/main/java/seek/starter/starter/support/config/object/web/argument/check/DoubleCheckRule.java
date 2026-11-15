@@ -22,9 +22,6 @@ public class DoubleCheckRule implements CheckRule<Double>{
         this.maxAndEqual=maxAndEqual;
         this.minAndEqual=minAndEqual;
         this.scaleNumber=scaleNumber;
-    }
-
-    {
         if (this.scaleNumber<=0)throw new BizException(ErrorCodeEnum.DATA_NOT_RIGHT);
         regex="\\d{0,}.\\d{0,"+scaleNumber+"}";
     }

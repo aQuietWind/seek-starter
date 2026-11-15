@@ -1,0 +1,5 @@
+seek\starter\starter\mq\rabbitmq\error\system\starter\core\ErrorConsumer.class
+seek\starter\starter\mq\rabbitmq\error\system\starter\configuration\PropertiesConfig.class
+seek\starter\starter\mq\rabbitmq\error\system\starter\autoconfigure\AutoConfig.class
+seek\starter\starter\mq\rabbitmq\error\system\starter\enums\PackageEnum.class
+seek\starter\starter\mq\rabbitmq\error\system\starter\configuration\ErrorExchangeConfig.class

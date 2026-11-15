@@ -18,8 +18,8 @@ public enum ArgumentEnum{
     TxtFile("txtFile",String.class),;
 
 
-    private final String checkName;
-    private final Class<?> parameterClass;
+    public final String checkName;
+    public final Class<?> parameterClass;
 
 
 }

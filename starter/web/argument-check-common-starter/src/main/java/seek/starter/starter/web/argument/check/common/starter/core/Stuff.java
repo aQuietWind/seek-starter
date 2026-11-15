@@ -31,6 +31,6 @@ public class Stuff {
     }
 
     public static <T> CheckEntry<T> quickBuild(ArgumentEnum argumentEnum,CheckRule<T> checkRule){
-        return CheckEntry.quickBuildDefaultCheckEntry(argumentEnum.getCheckName(), (Class<T>) argumentEnum.getParameterClass(), checkRule::check);
+        return CheckEntry.quickBuildDefaultCheckEntry(argumentEnum.checkName, (Class<T>) argumentEnum.parameterClass, checkRule::check);
     }
 }

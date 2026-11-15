@@ -9,7 +9,6 @@ import seek.starter.starter.web.argument.check.aop.starter.enums.PackageEnum;
 import seek.starter.starter.web.argument.check.aop.starter.core.CheckStore;
 
 @AutoConfiguration(PackageEnum.Full_Package_Prefix +"AutoConfig")
-//@EnableConfigurationProperties(PropertiesConfig.class)
 public class AutoConfig {
 
     @Bean(PackageEnum.Full_Package_Prefix +"bean.definition")
