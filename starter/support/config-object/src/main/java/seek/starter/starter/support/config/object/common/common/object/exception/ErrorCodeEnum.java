@@ -1,7 +1,9 @@
 package seek.starter.starter.support.config.object.common.common.object.exception;
 
+import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
+@Getter
 public enum ErrorCodeEnum {
     //请求自身异常
     PARAM_ERROR(14101,HttpStatus.BAD_REQUEST, "参数错误"),
@@ -14,6 +16,7 @@ public enum ErrorCodeEnum {
     REQUEST_NOT_QUALIFIED(14108,HttpStatus.BAD_REQUEST,"该请求没有资格"),
     DATA_IS_EXPIRE(14109,HttpStatus.BAD_REQUEST,"请求数据已过期"),
     DATA_IS_EMPTY(14110,HttpStatus.NOT_FOUND,"目标数据不存在"),
+    ERROR_USE(14111,HttpStatus.BAD_REQUEST,"错误使用方式"),
     //验证码异常,
     OPT_SURVIVE(14201,HttpStatus.LOCKED,"验证码已存在"),
     OPT_NOT_SURVIVE(14202,HttpStatus.NOT_FOUND,"验证码不存在"),
@@ -43,6 +46,7 @@ public enum ErrorCodeEnum {
 
     //http标准码
     private final HttpStatus httpStatus;
+    // getter
     //业务错误码（对外返回给前端）
     private final Integer code;
     //默认提示文案
@@ -57,8 +61,4 @@ public enum ErrorCodeEnum {
         return defaultMsg+",补充信息:"+supplement;
     }
 
-    // getter
-    public Integer getCode() { return code; }
-    public String getDefaultMsg() { return defaultMsg; }
-    public HttpStatus getHttpStatus() { return httpStatus; }
 }
