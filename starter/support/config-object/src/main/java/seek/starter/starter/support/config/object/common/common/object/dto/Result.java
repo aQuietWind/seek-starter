@@ -27,4 +27,7 @@ public class Result<T> {
     public static Result<Void> error(ErrorCodeEnum errorCodeEnum) {
         return new Result<>(errorCodeEnum.getCode(),errorCodeEnum.getDefaultMsg(),null);
     }
+    public static Result<Void> error(ErrorCodeEnum errorCodeEnum,String msg) {
+        return new Result<>(errorCodeEnum.getCode(),msg,null);
+    }
 }

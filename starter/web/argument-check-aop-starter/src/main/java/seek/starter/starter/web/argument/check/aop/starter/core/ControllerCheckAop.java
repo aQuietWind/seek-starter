@@ -66,11 +66,9 @@ public class ControllerCheckAop {
     public Object checkArguments(ProceedingJoinPoint pjp) throws Throwable{
         String[] parameterCheckNames = parameterHash.get(AopUtil.getMethod(pjp));
         Object[] args = pjp.getArgs();
-        System.err.println("parameterCheckNames:"+ Arrays.toString(parameterCheckNames));
         // 遍历每个参数
         for (int i = 0; i < parameterCheckNames.length; i++) {
             String checkName=parameterCheckNames[i];
-            System.err.println("checkName:"+checkName);
             if (checkName==null)continue;
             CheckEntry<?> checkEntry=checkStore.get(checkName);
             if(checkEntry==null)continue;

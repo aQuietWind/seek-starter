@@ -12,5 +12,10 @@ public class BizException extends RuntimeException{
         super(errorCode.getDefaultMsg());
         this.errorCode = errorCode;
     }
+    // 传错误枚举，使用默认文案
+    public BizException(ErrorCodeEnum errorCode,String supplement) {
+        super(errorCode.stuffMsg(supplement));
+        this.errorCode = errorCode;
+    }
 
 }

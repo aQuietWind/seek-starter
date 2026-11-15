@@ -1,6 +1,0 @@
-seek\starter\starter\mq\rocketmq\starter\autoconfigure\AutoConfig.class
-seek\starter\starter\mq\rocketmq\starter\support\BizStore.class
-seek\starter\starter\mq\rocketmq\starter\enums\PackageEnum.class
-seek\starter\starter\mq\rocketmq\starter\core\ProducerTemplate.class
-seek\starter\starter\mq\rocketmq\starter\support\DefaultTransactionListener.class
-seek\starter\starter\mq\rocketmq\starter\core\ProducerTemplate$1.class

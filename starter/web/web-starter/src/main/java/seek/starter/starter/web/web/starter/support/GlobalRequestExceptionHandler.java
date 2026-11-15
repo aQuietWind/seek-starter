@@ -22,12 +22,16 @@ public class GlobalRequestExceptionHandler {
         response.setStatus(errorCodeEnum.getHttpStatus().value());
         return Result.error(errorCodeEnum);
     }
+    private Result<?> quickResponse(ErrorCodeEnum errorCodeEnum, HttpServletResponse response,Exception e) {
+        response.setStatus(errorCodeEnum.getHttpStatus().value());
+        return Result.error(errorCodeEnum,e.getMessage());
+    }
 
     // 捕获自定义业务异常（最高优先级）
     @ExceptionHandler(BizException.class)
     public Result<?> handleBizException(BizException e, HttpServletResponse response) {
         ErrorCodeEnum codeEnum = e.getErrorCode();
-        return quickResponse(codeEnum, response);
+        return quickResponse(codeEnum, response,e);
     }
 
     // 参数校验异常

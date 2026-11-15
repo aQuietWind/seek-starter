@@ -25,7 +25,7 @@ public class CheckEntry<T> {
 
     //校验参数
     public void check(T arg){
-        if (!check.run(arg))throw new BizException(ErrorCodeEnum.PARAM_ERROR);
+        if (!check.run(arg))throw new BizException(ErrorCodeEnum.PARAM_ERROR,checkName+"验证失败");
     }
 
     public static<T> CheckEntry<T> quickBuildDefaultCheckEntry(String checkName,Class<T> parameterClazz,RunWithReturnParamFunction<Boolean,T> check){

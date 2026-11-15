@@ -53,6 +53,9 @@ public enum ErrorCodeEnum {
         this.httpStatus = httpStatus;
         this.defaultMsg = defaultMsg;
     }
+    public String stuffMsg(String supplement) {
+        return defaultMsg+",补充信息:"+supplement;
+    }
 
     // getter
     public Integer getCode() { return code; }
