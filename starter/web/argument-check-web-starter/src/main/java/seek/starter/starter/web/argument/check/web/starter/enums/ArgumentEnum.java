@@ -2,6 +2,7 @@ package seek.starter.starter.web.argument.check.web.starter.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import org.springframework.web.multipart.MultipartFile;
 
 @Getter
 @AllArgsConstructor
@@ -14,7 +15,7 @@ public enum ArgumentEnum{
     Password(CheckEnum.Password,String.class),
     CommonId(CheckEnum.CommonId,Long.class),
     Cost(CheckEnum.Cost, Double.class),
-    Image(CheckEnum.Image,String.class),
+    Image(CheckEnum.Image, MultipartFile.class),
     TxtFile(CheckEnum.TxtFile,String.class);
 
 

@@ -36,7 +36,6 @@ public class ControllerCheckAop extends NormalCheckAop {
 
     @Override
     public String getCheckName(MethodParameter mp) {
-        System.out.println(11);
         //获取checkName,方便后续对应check方法
         CheckMark checkMark = mp.getParameterAnnotation(CheckMark.class);
         if (checkMark != null) return checkMark.value();

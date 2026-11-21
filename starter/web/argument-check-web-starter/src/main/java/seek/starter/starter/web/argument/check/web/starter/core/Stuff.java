@@ -26,7 +26,8 @@ public class Stuff {
                 quickBuild(ArgumentEnum.RealAddress, propertiesConfig.getRealAddress()),
                 quickBuild(ArgumentEnum.Password, propertiesConfig.getPassword()),
                 quickBuild(ArgumentEnum.CommonId, propertiesConfig.getCommonId()),
-                quickBuild(ArgumentEnum.Cost, propertiesConfig.getCost())
+                quickBuild(ArgumentEnum.Cost, propertiesConfig.getCost()),
+                quickBuild(ArgumentEnum.Image, propertiesConfig.getImage())
         );
     }
 

@@ -58,3 +58,10 @@ seek:
                     max-and-equal: 10000
                     min-and-equal: 0
                     scale-number: 2
+                  image:
+                    able-null: false
+                    byte-max-size: 3145728
+                    types:
+                      - ".img"
+                      - ".png"
+                      - ".jpg"

@@ -7,7 +7,9 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import seek.starter.starter.support.config.object.web.argument.check.DoubleCheckRule;
 import seek.starter.starter.support.config.object.web.argument.check.LongCheckRule;
 import seek.starter.starter.support.config.object.web.argument.check.StringCheckRule;
-import seek.starter.starter.support.argument.check.aop.starter.enums.PackageEnum;
+import seek.starter.starter.web.argument.check.web.starter.enums.PackageEnum;
+import seek.starter.starter.web.argument.check.web.starter.support.MultiPartFileCheckRule;
+
 
 @ConfigurationProperties(PackageEnum.Full_Package_Prefix +"config")
 @Data
@@ -23,4 +25,7 @@ public class PropertiesConfig {
     private StringCheckRule password=new StringCheckRule(false,false,false,20,0);
     private LongCheckRule commonId=new LongCheckRule(false,2*idCapacity,idCapacity);
     private DoubleCheckRule cost=new DoubleCheckRule(false,10000,0,2);
+    //3mb的数值,1mb是1048576
+    private MultiPartFileCheckRule image=new MultiPartFileCheckRule(3145728,".img",".png",".jpg");
+
 }
