@@ -27,9 +27,6 @@ public class MultiPartFileCheckRule extends FileCheckRule<MultipartFile> {
 
     @Override
     public boolean check(MultipartFile arg) {
-        System.err.println(3131);
-        System.err.println(types);
-        System.err.println(byteMaxSize);
         //检查文件是否为空
         if (arg==null||arg.isEmpty()){
             if (ableNull)return true;
@@ -39,7 +36,6 @@ public class MultiPartFileCheckRule extends FileCheckRule<MultipartFile> {
         if (arg.getSize() > byteMaxSize) throw new BizException(ErrorCodeEnum.TOO_BIG_FILE);
         //检测头像的后缀名
         if (!types.contains(getType(arg))) throw new BizException(ErrorCodeEnum.ERROR_FILE_TYPE);
-        System.err.println("true");
         return true;
 
     }

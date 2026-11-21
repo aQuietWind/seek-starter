@@ -1,5 +1,6 @@
 package seek.starter.starter.db.redis.starter.core;
 
+import seek.starter.starter.db.redis.starter.enums.PropertiesEnum;
 import seek.starter.starter.support.config.object.db.redis.RedisKeyData;
 import seek.starter.starter.support.config.object.common.common.object.exception.BizException;
 import seek.starter.starter.support.config.object.common.common.object.exception.ErrorCodeEnum;
@@ -30,7 +31,9 @@ public class RedisTemplate {
 
     //快速设置
     public boolean trySetStringWithExpire(RedisKeyData key,Object id,String value){
-        return Boolean.TRUE.equals(stringRedisTemplate.opsForValue().setIfAbsent(key.getRedisKey(id), value, key.getDurationMillis(), TimeUnit.MILLISECONDS));
+        return Boolean.TRUE.equals(
+                stringRedisTemplate.opsForValue().setIfAbsent(
+                        key.getRedisKey(id), value, key.getDurationMillis(), PropertiesEnum.DEFAULT_TIME_UNIT));
     }
 
     //快速设置
@@ -40,7 +43,7 @@ public class RedisTemplate {
 
     //快速设置
     public void justSetStringWithExpire(RedisKeyData key,Object id,String value){
-        stringRedisTemplate.opsForValue().set(key.getRedisKey(id), value,key.getDurationMillis(), TimeUnit.MILLISECONDS);
+        stringRedisTemplate.opsForValue().set(key.getRedisKey(id), value,key.getDurationMillis(), PropertiesEnum.DEFAULT_TIME_UNIT);
     }
 
 
@@ -61,7 +64,7 @@ public class RedisTemplate {
 
     //快速设置过期
     public boolean expire(RedisKeyData key,Object id){
-        return stringRedisTemplate.expire(key.getRedisKey(id), key.getDurationMillis(), TimeUnit.MILLISECONDS);
+        return stringRedisTemplate.expire(key.getRedisKey(id), key.getDurationMillis(), PropertiesEnum.DEFAULT_TIME_UNIT);
     }
 
     //快速检查zset中某个value值是否存在
