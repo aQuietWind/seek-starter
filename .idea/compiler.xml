@@ -10,11 +10,13 @@
         <module name="rabbitmq-error-system-starter" />
         <module name="spring-ai-starter" />
         <module name="gateway-starter" />
+        <module name="redis-plus-starter" />
         <module name="spring-web-starter" />
         <module name="jwt-starter" />
         <module name="argument-check-common-starter" />
         <module name="nacos-starter" />
         <module name="ali-cloud-rabbitmq-web-starter" />
+        <module name="argument-check-web-starter" />
         <module name="skywalking-starter" />
         <module name="event-respond-starter" />
         <module name="aop-util" />
@@ -57,6 +59,7 @@
       <module name="aop-util" options="-parameters" />
       <module name="argument-check-aop-starter" options="-parameters" />
       <module name="argument-check-common-starter" options="-parameters" />
+      <module name="argument-check-web-starter" options="-parameters" />
       <module name="bean-register-util22" options="-parameters" />
       <module name="caffeine-starter" options="-parameters" />
       <module name="common-util" options="-parameters" />
@@ -76,6 +79,7 @@
       <module name="rabbitmq-error-system-starter" options="-parameters" />
       <module name="rabbitmq-starter" options="-parameters" />
       <module name="redis-aop-help-starter" options="-parameters" />
+      <module name="redis-plus-starter" options="-parameters" />
       <module name="redis-redisson-starter" options="-parameters" />
       <module name="redis-starter" options="-parameters" />
       <module name="register-bean-util" options="-parameters" />

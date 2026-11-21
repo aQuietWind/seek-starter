@@ -6,7 +6,7 @@
     <parent>
         <groupId>seek.starter.gather</groupId>
         <artifactId>gather</artifactId>
-        <version>3.1.0-SNAPSHOT</version>
+        <version>3.1.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -33,11 +33,7 @@
         </dependency>
         <dependency>
             <groupId>seek.starter.starter.web</groupId>
-            <artifactId>argument-check-common-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>seek.starter.starter.web</groupId>
-            <artifactId>argument-check-aop-starter</artifactId>
+            <artifactId>argument-check-web-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>seek.starter.gather</groupId>

@@ -6,7 +6,7 @@
     <parent>
         <groupId>seek.starter.starter</groupId>
         <artifactId>starter</artifactId>
-        <version>3.1.0-SNAPSHOT</version>
+        <version>3.1.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -24,7 +24,6 @@
     <modules>
         <module>jwt-starter</module>
         <module>web-starter</module>
-        <module>argument-check-aop-starter</module>
-        <module>argument-check-common-starter</module>
+        <module>argument-check-web-starter</module>
     </modules>
 </project>

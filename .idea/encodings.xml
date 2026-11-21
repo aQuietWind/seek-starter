@@ -21,6 +21,7 @@
     <file url="file://$PROJECT_DIR$/bom/web-bom/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gather/ali-cloud-gateway-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gather/ali-cloud-rabbitmq-web-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gather/redis-plus-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gather/spring-web-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gather/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gather/src/main/resources" charset="UTF-8" />
@@ -38,6 +39,7 @@
     <file url="file://$PROJECT_DIR$/starter/cloud/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/cloud/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/common/ali-oss-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter/common/argument-check-common-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/common/caffeine-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/common/common-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/common/event-respond-starter/src/main/java" charset="UTF-8" />
@@ -60,13 +62,13 @@
     <file url="file://$PROJECT_DIR$/starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/support/aop-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter/support/argument-check-aop-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/support/bean-register-util22/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/support/config-object/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/support/register-bean-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/support/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/support/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/starter/web/argument-check-aop-starter/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/starter/web/argument-check-common-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter/web/argument-check-web-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/web/jwt-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter/web/src/main/resources" charset="UTF-8" />

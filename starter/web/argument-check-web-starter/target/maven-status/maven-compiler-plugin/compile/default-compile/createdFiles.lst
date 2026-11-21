@@ -1,0 +1,8 @@
+seek\starter\starter\web\argument\check\web\starter\config\PropertiesConfig.class
+seek\starter\starter\web\argument\check\web\starter\enums\PackageEnum.class
+seek\starter\starter\web\argument\check\web\starter\autoconfigure\AutoConfig.class
+seek\starter\starter\web\argument\check\web\starter\enums\ArgumentEnum.class
+seek\starter\starter\web\argument\check\web\starter\core\Stuff.class
+seek\starter\starter\web\argument\check\web\starter\core\ControllerCheckAop.class
+seek\starter\starter\web\argument\check\web\starter\support\MultiPartFileCheckRule.class
+seek\starter\starter\web\argument\check\web\starter\enums\ArgumentEnum$CheckEnum.class

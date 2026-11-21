@@ -1,0 +1,12 @@
+seek:
+  starter:
+    starter:
+      cloud:
+        feign:
+          starter:
+            config:
+              request-header-token-id-name: token-id
+              sentinel-authority:
+                  request-header-name: x-sentinel-authority
+                  request-header-value: service
+

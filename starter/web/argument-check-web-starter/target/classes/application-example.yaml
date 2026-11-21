@@ -1,0 +1,60 @@
+seek:
+  starter:
+    starter:
+      web:
+        argument:
+          check:
+            web:
+              starter:
+                config:
+                  phone:
+                    regex: "\\d{11}"
+                    able-null: false
+                    able-empty: false
+                    need-trim: false
+                    max-and-equal-length: 0
+                    min-and-equal-length: 0
+                  name:
+                    regex:
+                    able-null: false
+                    able-empty: false
+                    need-trim: true
+                    max-and-equal-length: 15
+                    min-and-equal-length: 0
+                  text:
+                    regex:
+                    able-null: false
+                    able-empty: false
+                    need-trim: true
+                    max-and-equal-length: 2000
+                    min-and-equal-length: 0
+                  description:
+                    regex:
+                    able-null: true
+                    able-empty: true
+                    need-trim: true
+                    max-and-equal-length: 500
+                    min-and-equal-length: 0
+                  real-address:
+                    regex:
+                    able-null: true
+                    able-empty: true
+                    need-trim: true
+                    max-and-equal-length: 50
+                    min-and-equal-length: 0
+                  password:
+                    regex:
+                    able-null: false
+                    able-empty: false
+                    need-trim: false
+                    max-and-equal-length: 20
+                    min-and-equal-length: 0
+                  common-id:
+                    able-null: false
+                    max-and-equal: 20000000000
+                    min-and-equal: 10000000000
+                  cost:
+                    able-null: false
+                    max-and-equal: 10000
+                    min-and-equal: 0
+                    scale-number: 2
