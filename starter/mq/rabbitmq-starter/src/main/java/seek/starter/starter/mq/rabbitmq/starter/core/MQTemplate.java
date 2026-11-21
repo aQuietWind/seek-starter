@@ -11,19 +11,20 @@ import java.util.UUID;
 public class MQTemplate {
 
     private final RabbitTemplate rabbitTemplate;
-    private final CorrleationTemplate corrleationTemplate;
+    private final GlobalCorrelationTemplate globalCorrelationTemplate;
 
     @Autowired
-    public MQTemplate(RabbitTemplate rabbitTemplate, CorrleationTemplate corrleationTemplate) {
+    public MQTemplate(RabbitTemplate rabbitTemplate, GlobalCorrelationTemplate globalCorrelationTemplate) {
         this.rabbitTemplate = rabbitTemplate;
-        this.corrleationTemplate = corrleationTemplate;
+        this.globalCorrelationTemplate = globalCorrelationTemplate;
     }
 
 
 
     //发送消息
     public void send(DestinationData destination, Object message){
-        rabbitTemplate.convertAndSend(destination.getExchangeName(),destination.getRoutingKey(),message, corrleationTemplate.getCorrelation(destination.getExchangeName(), destination.getRoutingKey()));
+        rabbitTemplate.convertAndSend(destination.getExchangeName(),destination.getRoutingKey(),message,
+                globalCorrelationTemplate.getCorrelation(destination));
     }
 
 
@@ -37,7 +38,7 @@ public class MQTemplate {
             msg.getMessageProperties().setExpiration(tllMilliSeconds);
             msg.getMessageProperties().setMessageId(letterId);
             return msg;}
-                , corrleationTemplate.getCorrelationWithId(destination.getExchangeName(), destination.getRoutingKey(),letterId));
+                , globalCorrelationTemplate.getCorrelationWithId(destination,letterId));
         return letterId;
     }
 
@@ -49,7 +50,7 @@ public class MQTemplate {
             //设置ttl
             msg.getMessageProperties().setExpiration(tllMilliSeconds);
             return msg;}
-                , corrleationTemplate.getCorrelation(destination.getExchangeName(), destination.getRoutingKey()));
+                , globalCorrelationTemplate.getCorrelation(destination));
     }
 
     //分钟转毫秒
