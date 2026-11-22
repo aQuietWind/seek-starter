@@ -2,30 +2,34 @@ package seek.starter.starter.mq.rabbitmq.starter.util;
 
 import org.springframework.amqp.core.Queue;
 import seek.starter.starter.support.config.object.mq.rabbitmq.BindingData;
+import seek.starter.starter.support.config.object.mq.rabbitmq.ExchangeData;
+import seek.starter.starter.support.config.object.mq.rabbitmq.QueueData;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class QueueUtil {
 
-    //生成一个仲裁队列
-    public static Queue generateQuorumQueue(String queueName){
+    public static Queue getCustomizedQueue(QueueData queueData){
         Map<String, Object> args = new HashMap<>();
-        //设置队列模式为quorum仲裁模式
-        args.put("x-queue-type", "quorum");
-        return new Queue(queueName, true, false, false, args);
+        if (queueData.isToQuorum())putQuorumArg(args);
+        if (queueData.getDeadLetterExchange()!=null)putDeadLetterExchange(args,queueData.getDeadLetterExchange(),queueData.getDeadLetterRoutingKey());
+        if (queueData.getDelayMillis()!=null)putTTL(args,queueData.getDelayMillis());
+        return new Queue(queueData.getQueueName(), queueData.isDurable(), queueData.isExclusive(), queueData.isAutoDelete(), args);
     }
 
-    //生成一个死信仲裁队列
-    public static Queue getDeadQuorumQueue(BindingData bindingData){
-        Map<String, Object> args = new HashMap<>();
-        //设置队列模式为quorum仲裁模式
-        args.put("x-queue-type", "quorum");
-        //绑定死信交换机
-        args.put("x-dead-letter-exchange", bindingData.getExchange().getExchangeName());
-        //死信转发时使用的routingKey
-        args.put("x-dead-letter-routing-key", bindingData.getRoutingKey());
-        return new Queue(bindingData.getQueueName(), true, false, false, args);
+    public static void putQuorumArg(Map<String,Object> map){
+        map.put("x-queue-type", "quorum");
     }
-
+    public static void putTTL(Map<String,Object> map,long delayMillis){
+        map.put("x-message-ttl", delayMillis);
+    }
+    public static void putDeadLetterExchange(Map<String,Object> map, BindingData bindingData){
+        map.put("x-dead-letter-exchange", bindingData.getExchange().getExchangeName());
+        map.put("x-dead-letter-routing-key", bindingData.getRoutingKey());
+    }
+    public static void putDeadLetterExchange(Map<String,Object> map, ExchangeData exchange, String deadLetterRoutingKey){
+        map.put("x-dead-letter-exchange", exchange.getExchangeName());
+        map.put("x-dead-letter-routing-key", deadLetterRoutingKey);
+    }
 }

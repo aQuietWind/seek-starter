@@ -8,6 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import seek.starter.starter.mq.rabbitmq.starter.enums.PackageEnum;
 import seek.starter.starter.support.config.object.mq.rabbitmq.BindingData;
 import seek.starter.starter.support.config.object.mq.rabbitmq.ExchangeData;
+import seek.starter.starter.support.config.object.mq.rabbitmq.QueueData;
 
 @ConfigurationProperties(PackageEnum.Full_Package_Prefix +"config")
 @Data
@@ -16,5 +17,5 @@ import seek.starter.starter.support.config.object.mq.rabbitmq.ExchangeData;
 public class PropertiesConfig {
     public static final String ErrorQueueDestination="${"+PackageEnum.Full_Package_Prefix+"config.error-binding.queue-name}";
     private ExchangeData errorExchange=new ExchangeData("ex.error",ExchangeData.Fanout);
-    private BindingData errorBinding=new BindingData(errorExchange,"q.error",null);
+    private BindingData errorBinding=new BindingData(errorExchange,new QueueData("q.error"),null);
 }

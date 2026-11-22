@@ -1,4 +1,5 @@
 seek\starter\starter\support\config\object\common\common\object\exception\BizException.class
+seek\starter\starter\support\config\object\web\context\RequestContext.class
 seek\starter\starter\support\config\object\common\common\object\dto\Result.class
 seek\starter\starter\support\config\object\common\common\object\function\RunWithReturnFunction.class
 seek\starter\starter\support\config\object\mq\rabbitmq\DestinationData.class
@@ -23,11 +24,13 @@ seek\starter\starter\support\config\object\web\argument\check\LongCheckRule.clas
 seek\starter\starter\support\config\object\web\argument\check\IntegerCheckRule.class
 seek\starter\starter\support\config\object\common\common\object\function\RunWithTwoParams.class
 seek\starter\starter\support\config\object\common\common\object\function\RunWithReturnParamFunction.class
+seek\starter\starter\support\config\object\mq\rabbitmq\QueueData.class
 seek\starter\starter\support\config\object\db\redis\RedisStreamData.class
 seek\starter\starter\support\config\object\common\event\respond\system\EventData.class
 seek\starter\starter\support\config\object\common\common\object\dto\SimplePoint.class
 seek\starter\starter\support\config\object\common\common\object\exception\ErrorCodeEnum.class
 seek\starter\starter\support\config\object\common\event\respond\system\ValueData.class
+seek\starter\starter\support\config\object\mq\rabbitmq\Message.class
 seek\starter\starter\support\config\object\common\common\object\dto\SyncStateDTO.class
 seek\starter\starter\support\config\object\common\common\object\dto\EsSearchResult.class
 seek\starter\starter\support\config\object\mq\rabbitmq\ExchangeData.class

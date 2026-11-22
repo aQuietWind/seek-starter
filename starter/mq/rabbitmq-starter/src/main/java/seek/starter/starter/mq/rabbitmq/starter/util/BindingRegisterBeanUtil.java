@@ -15,6 +15,8 @@ import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor;
+import seek.starter.starter.support.config.object.common.common.object.exception.BizException;
+import seek.starter.starter.support.config.object.common.common.object.exception.ErrorCodeEnum;
 import seek.starter.starter.support.config.object.mq.rabbitmq.BindingData;
 import seek.starter.starter.support.config.object.mq.rabbitmq.ExchangeData;
 
@@ -82,14 +84,17 @@ public class BindingRegisterBeanUtil {
     //对一个Binding关系进行处理
     private static void addBinding(Map<String, Exchange> exchanges,Map<String, Queue> queues,List<Binding> binds,BindingData binding) {
         //校验Binding是否合规
-        if (binding == null || binding.getQueueName() == null || binding.getExchange() == null) throw new IllegalArgumentException("a queueData is empty");
+        if (binding == null || binding.getQueue() == null || binding.getExchange() == null) {
+            throw new BizException(ErrorCodeEnum.PARAM_ERROR, "RabbitMQ绑定时出现空BindingData");
+        }
         //存放交换机
         addExchange(exchanges,binding.getExchange());
         //获取并存放队列
-        if (!queues.containsKey(binding.getQueueName())) queues.putIfAbsent(binding.getQueueName(), QueueUtil.generateQuorumQueue(binding.getQueueName()));
+        if (!queues.containsKey(binding.getQueue().getQueueName())) queues.putIfAbsent(binding.getQueue().getQueueName()
+                , QueueUtil.getCustomizedQueue(binding.getQueue()));
         //从集合拿出队列和交换机进行绑定
         binds.add(BindingBuilder
-                .bind(queues.get(binding.getQueueName()))
+                .bind(queues.get(binding.getQueue().getQueueName()))
                 .to(exchanges.get(binding.getExchange().getExchangeName()))
                 .with(binding.getRoutingKey()).noargs());
     }

@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 //绑定队列与交换机关系用
 public class BindingData {
     private ExchangeData exchange;
-    private String queueName;
+    private QueueData queue;
     private String routingKey;
 }
