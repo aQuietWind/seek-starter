@@ -18,5 +18,6 @@ public enum DelayPropertiesEnum {
 
     public String levelKey;
     public long millisSeconds;
-    public static final String RedeliverPropertiesDestination=PackageEnum.Full_Package_Prefix+"config.delay.redeliver.queue.queue-name";
+    public static final String RedeliverPropertiesDestination="${"+
+            PackageEnum.Full_Package_Prefix+"config.delay.redeliver-binding.queue.queue-name}";
 }

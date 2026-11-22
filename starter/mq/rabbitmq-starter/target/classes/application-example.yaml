@@ -1,0 +1,20 @@
+seek:
+  starter:
+    starter:
+      mq:
+        rabbitmq:
+          starter:
+            config:
+              error-exchange:
+                exchange-name: ex.error
+              package: seek.util
+              delay:
+                delay-exchange:
+                  exchange-name: ex.delay
+                  type: direct
+                redeliver-binding:
+                  exchange: ${seek.starter.starter.mq.rabbitmq.starter.config.delay.delay-exchange}
+                  queue:
+                    queue-name: q.delay.redeliver
+                    routing-key: redeliver
+                delay-queue-name-prefix: "q.delay.dlq."

@@ -1,0 +1,15 @@
+seek\starter\starter\mq\rabbitmq\starter\util\BindingRegisterBeanUtil.class
+seek\starter\starter\mq\rabbitmq\starter\configuration\MessageReturnCallBackConfig.class
+seek\starter\starter\mq\rabbitmq\starter\core\MQTemplate.class
+seek\starter\starter\mq\rabbitmq\starter\support\DelayData.class
+seek\starter\starter\mq\rabbitmq\starter\configuration\ConverterConfig.class
+seek\starter\starter\mq\rabbitmq\starter\configuration\PropertiesConfig.class
+seek\starter\starter\mq\rabbitmq\starter\configuration\ErrorExchangeDefaultBindingConfig.class
+seek\starter\starter\mq\rabbitmq\starter\enums\DelayPropertiesEnum.class
+seek\starter\starter\mq\rabbitmq\starter\core\GlobalCorrelationTemplate.class
+seek\starter\starter\mq\rabbitmq\starter\util\QueueUtil.class
+seek\starter\starter\mq\rabbitmq\starter\core\RedeliverConsumer.class
+seek\starter\starter\mq\rabbitmq\starter\util\BindingRegisterBeanUtil$1.class
+seek\starter\starter\mq\rabbitmq\starter\configuration\PropertiesConfig$DelayProperties.class
+seek\starter\starter\mq\rabbitmq\starter\enums\PackageEnum.class
+seek\starter\starter\mq\rabbitmq\starter\autoconfigure\AutoConfig.class
