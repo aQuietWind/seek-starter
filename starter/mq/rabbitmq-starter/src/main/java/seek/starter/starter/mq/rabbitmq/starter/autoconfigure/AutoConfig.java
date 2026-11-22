@@ -25,7 +25,7 @@ public class AutoConfig {
 
     @Bean(PackageEnum.Full_Package_Prefix +"bean.definition")
     public static BeanDefinitionRegistryPostProcessor beanDefinitionRegistryPostProcessor() {
-        return RegisterBeanUtil.quickRegistrarByClassName(GlobalCorrelationTemplate.class, MQTemplate.class);
+        return RegisterBeanUtil.quickRegistrarByClassName( MQTemplate.class);
     }
 
     @Bean(PackageEnum.Full_Package_Prefix +"core.GlobalCorrelationTemplate")

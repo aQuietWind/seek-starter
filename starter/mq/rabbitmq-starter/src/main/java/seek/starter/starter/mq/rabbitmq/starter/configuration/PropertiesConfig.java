@@ -18,7 +18,7 @@ import seek.starter.starter.support.config.object.mq.rabbitmq.QueueData;
 public class PropertiesConfig {
     private ExchangeData errorExchange=new ExchangeData("ex.error",null);
     private String converterPackage="seek.util";
-    private DelayProperties delay;
+    private DelayProperties delay=new DelayProperties();
 
     @Data
     @NoArgsConstructor
