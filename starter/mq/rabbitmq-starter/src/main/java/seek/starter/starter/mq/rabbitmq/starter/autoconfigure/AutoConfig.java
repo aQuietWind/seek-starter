@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
+import seek.starter.starter.mq.rabbitmq.starter.core.RedeliverConsumer;
 import seek.starter.starter.mq.rabbitmq.starter.enums.PackageEnum;
 import seek.starter.starter.mq.rabbitmq.starter.util.BindingRegisterBeanUtil;
 import seek.starter.starter.support.register.bean.util.util.RegisterBeanUtil;
@@ -25,7 +26,7 @@ public class AutoConfig {
 
     @Bean(PackageEnum.Full_Package_Prefix +"bean.definition")
     public static BeanDefinitionRegistryPostProcessor beanDefinitionRegistryPostProcessor() {
-        return RegisterBeanUtil.quickRegistrarByClassName( MQTemplate.class);
+        return RegisterBeanUtil.quickRegistrarByClassName( MQTemplate.class, RedeliverConsumer.class);
     }
 
     @Bean(PackageEnum.Full_Package_Prefix +"core.GlobalCorrelationTemplate")
@@ -42,7 +43,7 @@ public class AutoConfig {
                 PackageEnum.appendByFullPackage("DelayExchangeAndQueues")
                 , List.of(propertiesConfig.getDelay().getDelayExchange())
                 , List.of(
-                        propertiesConfig.getDelay().getRedeliver()
+                        propertiesConfig.getDelay().getRedeliverBinding()
                         ,propertiesConfig.getDelay().getLevelOne()
                         ,propertiesConfig.getDelay().getLevelTwo()
                         ,propertiesConfig.getDelay().getLevelThree()

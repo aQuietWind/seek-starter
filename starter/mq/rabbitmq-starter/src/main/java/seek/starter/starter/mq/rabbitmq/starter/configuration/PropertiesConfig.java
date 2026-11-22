@@ -8,6 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import seek.starter.starter.mq.rabbitmq.starter.enums.DelayPropertiesEnum;
 import seek.starter.starter.mq.rabbitmq.starter.enums.PackageEnum;
 import seek.starter.starter.support.config.object.mq.rabbitmq.BindingData;
+import seek.starter.starter.support.config.object.mq.rabbitmq.DestinationData;
 import seek.starter.starter.support.config.object.mq.rabbitmq.ExchangeData;
 import seek.starter.starter.support.config.object.mq.rabbitmq.QueueData;
 
@@ -25,46 +26,59 @@ public class PropertiesConfig {
     public static class DelayProperties{
         private String delayQueueNamePrefix="q.delay.dlq.";
         private ExchangeData delayExchange=new ExchangeData("ex.delay",ExchangeData.Direct);
-        private BindingData redeliver =new BindingData(delayExchange,new QueueData("q.redeliver"),"redeliver");
+        private BindingData redeliverBinding =new BindingData(delayExchange,new QueueData("q.delay.redeliver"),"redeliver");
         private BindingData levelOne=new BindingData(
                 delayExchange
-                ,new QueueData(delayQueueNamePrefix+"one",DelayPropertiesEnum.Level_One_One_Second.millisSeconds, redeliver)
+                ,new QueueData(delayQueueNamePrefix+"one",DelayPropertiesEnum.Level_One_One_Second.millisSeconds, redeliverBinding)
                 ,DelayPropertiesEnum.Level_One_One_Second.levelKey);
         private BindingData levelTwo=new BindingData(
                 delayExchange
-                ,new QueueData(delayQueueNamePrefix+"two",DelayPropertiesEnum.Level_Two_Five_Seconds.millisSeconds, redeliver)
+                ,new QueueData(delayQueueNamePrefix+"two",DelayPropertiesEnum.Level_Two_Five_Seconds.millisSeconds, redeliverBinding)
                 ,DelayPropertiesEnum.Level_Two_Five_Seconds.levelKey);
         private BindingData levelThree=new BindingData(
                 delayExchange
-                ,new QueueData(delayQueueNamePrefix+"three",DelayPropertiesEnum.Level_Three_Ten_Seconds.millisSeconds, redeliver)
+                ,new QueueData(delayQueueNamePrefix+"three",DelayPropertiesEnum.Level_Three_Ten_Seconds.millisSeconds, redeliverBinding)
                 ,DelayPropertiesEnum.Level_Three_Ten_Seconds.levelKey);
         private BindingData levelFour=new BindingData(
                 delayExchange
-                ,new QueueData(delayQueueNamePrefix+"four",DelayPropertiesEnum.Level_Four_Fifteen_Seconds.millisSeconds, redeliver)
+                ,new QueueData(delayQueueNamePrefix+"four",DelayPropertiesEnum.Level_Four_Fifteen_Seconds.millisSeconds, redeliverBinding)
                 ,DelayPropertiesEnum.Level_Four_Fifteen_Seconds.levelKey);
         private BindingData levelFive=new BindingData(
                 delayExchange
-                ,new QueueData(delayQueueNamePrefix+"five",DelayPropertiesEnum.Level_Five_Thirty_Seconds.millisSeconds, redeliver)
+                ,new QueueData(delayQueueNamePrefix+"five",DelayPropertiesEnum.Level_Five_Thirty_Seconds.millisSeconds, redeliverBinding)
                 ,DelayPropertiesEnum.Level_Five_Thirty_Seconds.levelKey);
         private BindingData levelSix=new BindingData(
                 delayExchange
-                ,new QueueData(delayQueueNamePrefix+"six",DelayPropertiesEnum.Level_Six_One_Minute.millisSeconds, redeliver)
+                ,new QueueData(delayQueueNamePrefix+"six",DelayPropertiesEnum.Level_Six_One_Minute.millisSeconds, redeliverBinding)
                 ,DelayPropertiesEnum.Level_Six_One_Minute.levelKey);
         private BindingData levelSeven=new BindingData(
                 delayExchange
-                ,new QueueData(delayQueueNamePrefix+"seven",DelayPropertiesEnum.Level_Seven_Five_Minutes.millisSeconds, redeliver)
+                ,new QueueData(delayQueueNamePrefix+"seven",DelayPropertiesEnum.Level_Seven_Five_Minutes.millisSeconds, redeliverBinding)
                 ,DelayPropertiesEnum.Level_Seven_Five_Minutes.levelKey);
         private BindingData levelEight=new BindingData(
                 delayExchange
-                ,new QueueData(delayQueueNamePrefix+"eight",DelayPropertiesEnum.Level_Eight_Ten_Minutes.millisSeconds, redeliver)
+                ,new QueueData(delayQueueNamePrefix+"eight",DelayPropertiesEnum.Level_Eight_Ten_Minutes.millisSeconds, redeliverBinding)
                 ,DelayPropertiesEnum.Level_Eight_Ten_Minutes.levelKey);
         private BindingData levelNine=new BindingData(
                 delayExchange
-                ,new QueueData(delayQueueNamePrefix+"nine",DelayPropertiesEnum.Level_Nine_Thirty_Minutes.millisSeconds, redeliver)
+                ,new QueueData(delayQueueNamePrefix+"nine",DelayPropertiesEnum.Level_Nine_Thirty_Minutes.millisSeconds, redeliverBinding)
                 ,DelayPropertiesEnum.Level_Nine_Thirty_Minutes.levelKey);
         private BindingData levelTen=new BindingData(
                 delayExchange
-                ,new QueueData(delayQueueNamePrefix+"ten",DelayPropertiesEnum.Level_Ten_One_Hour.millisSeconds, redeliver)
+                ,new QueueData(delayQueueNamePrefix+"ten",DelayPropertiesEnum.Level_Ten_One_Hour.millisSeconds, redeliverBinding)
                 ,DelayPropertiesEnum.Level_Ten_One_Hour.levelKey);
+
+        private DestinationData[] destinations={
+                new DestinationData(delayExchange.getExchangeName(),DelayPropertiesEnum.Level_One_One_Second.levelKey),
+                new DestinationData(delayExchange.getExchangeName(),DelayPropertiesEnum.Level_Two_Five_Seconds.levelKey),
+                new DestinationData(delayExchange.getExchangeName(),DelayPropertiesEnum.Level_Three_Ten_Seconds.levelKey),
+                new DestinationData(delayExchange.getExchangeName(),DelayPropertiesEnum.Level_Four_Fifteen_Seconds.levelKey),
+                new DestinationData(delayExchange.getExchangeName(),DelayPropertiesEnum.Level_Five_Thirty_Seconds.levelKey),
+                new DestinationData(delayExchange.getExchangeName(),DelayPropertiesEnum.Level_Six_One_Minute.levelKey),
+                new DestinationData(delayExchange.getExchangeName(),DelayPropertiesEnum.Level_Seven_Five_Minutes.levelKey),
+                new DestinationData(delayExchange.getExchangeName(),DelayPropertiesEnum.Level_Eight_Ten_Minutes.levelKey),
+                new DestinationData(delayExchange.getExchangeName(),DelayPropertiesEnum.Level_Nine_Thirty_Minutes.levelKey),
+                new DestinationData(delayExchange.getExchangeName(),DelayPropertiesEnum.Level_Ten_One_Hour.levelKey)
+        };
     }
 }
