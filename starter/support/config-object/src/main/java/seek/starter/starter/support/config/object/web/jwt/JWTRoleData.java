@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class JWTRoleData {
+    private String roleName;
     private String headerSign;
-    private String secretKey;
     private String subject;
     private Long tokenDurationMillis;
 }

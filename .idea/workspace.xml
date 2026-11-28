@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/autoconfigure/AutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/autoconfigure/AutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/configuration/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/configuration/PropertiesConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/core/MQTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/core/MQTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/enums/DelayPropertiesEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/java/seek/starter/starter/mq/rabbitmq/starter/enums/DelayPropertiesEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/resources/application-example.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/src/main/resources/application-example.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/configuration/PropertiesConfig$DelayProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/core/GlobalCorrelationTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/enums/DelayPropertiesEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/mq/rabbitmq-starter/target/classes/seek/starter/starter/mq/rabbitmq/starter/support/DelayData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/support/config-object/src/main/java/seek/starter/starter/support/config/object/mq/rabbitmq/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/config-object/src/main/java/seek/starter/starter/support/config/object/mq/rabbitmq/MessageData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/common/argument-check-common-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/argument-check-common-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/src/main/java/seek/starter/starter/support/config/object/web/context/RequestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/config-object/src/main/java/seek/starter/starter/support/config/object/web/context/RequestContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/src/main/java/seek/starter/starter/support/config/object/web/jwt/JWTGlobalData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/support/config-object/src/main/java/seek/starter/starter/support/config/object/web/jwt/JWTRoleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/config-object/src/main/java/seek/starter/starter/support/config/object/web/jwt/JWTRoleData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/src/main/java/seek/starter/starter/web/jwt/starter/core/JWTTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/jwt-starter/src/main/java/seek/starter/starter/web/jwt/starter/core/JWTTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/src/main/java/seek/starter/starter/web/jwt/starter/core/TokenTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/jwt-starter/src/main/java/seek/starter/starter/web/jwt/starter/core/TokenTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/src/main/resources/lua/token_clear.lua" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/jwt-starter/src/main/resources/lua/token_clear.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000000123909" />
-      <entry key="MS500" value="1.0104380787374228" />
-      <entry key="S2" value="1.3196355988638246" />
-      <entry key="S5" value="1.6336699845085203" />
-      <entry key="S10" value="1.7982243856674975" />
-      <entry key="S30" value="2.3857203206122652" />
-      <entry key="S60" value="5.162952457049733" />
-      <entry key="M2" value="13.570702866344742" />
-      <entry key="M5" value="35.224975852776474" />
-      <entry key="M10" value="60.04119384407602" />
-      <entry key="M15" value="79.38647563158548" />
-      <entry key="M30" value="128.84151823949327" />
-      <entry key="H1" value="210.5350328154629" />
-      <entry key="H2" value="345.4678390261805" />
-      <entry key="H4" value="571.5222390916357" />
-      <entry key="D1" value="1304.200798075177" />
-      <entry key="W1" value="1602.3599880806378" />
+      <entry key="MS100" value="6.2563714394200715E-65" />
+      <entry key="MS500" value="1.449222280277383E-13" />
+      <entry key="S2" value="7.743112610294442E-4" />
+      <entry key="S5" value="0.08242475097873012" />
+      <entry key="S10" value="0.43154055013995674" />
+      <entry key="S30" value="2.027296247890522" />
+      <entry key="S60" value="3.732288398425963" />
+      <entry key="M2" value="6.368232758585936" />
+      <entry key="M5" value="16.449540715941023" />
+      <entry key="M10" value="37.53929077855513" />
+      <entry key="M15" value="56.66257115739996" />
+      <entry key="M30" value="99.98097995528241" />
+      <entry key="H1" value="170.48944783620706" />
+      <entry key="H2" value="306.10919120285195" />
+      <entry key="H4" value="549.6959861829315" />
+      <entry key="D1" value="1419.425616974264" />
+      <entry key="W1" value="1801.8810842483108" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="9.18882198053809E-252" />
-      <entry key="S2" value="1.7625245305782756E-63" />
-      <entry key="S5" value="9.91225297372731E-26" />
-      <entry key="S10" value="4.835284767041251E-13" />
-      <entry key="S30" value="1.8937424237275524E-4" />
-      <entry key="S60" value="0.04146807998603261" />
-      <entry key="M2" value="0.8922122878758183" />
-      <entry key="M5" value="8.24957765379328" />
-      <entry key="M10" value="23.773537804993428" />
-      <entry key="M15" value="39.87406983442948" />
-      <entry key="M30" value="87.03419617528982" />
-      <entry key="H1" value="165.64877989434086" />
-      <entry key="H2" value="294.1875076916754" />
-      <entry key="H4" value="500.4309274273625" />
-      <entry key="D1" value="1103.4419541878922" />
-      <entry key="W1" value="1334.3844911605931" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000546279950795" />
+      <entry key="S2" value="1.0863795459328243" />
+      <entry key="S5" value="1.419097239539757" />
+      <entry key="S10" value="1.8541582385975173" />
+      <entry key="S30" value="3.470035638423377" />
+      <entry key="S60" value="5.553263128917697" />
+      <entry key="M2" value="9.07861049438477" />
+      <entry key="M5" value="19.358520180619074" />
+      <entry key="M10" value="36.59562584810846" />
+      <entry key="M15" value="51.14289846783946" />
+      <entry key="M30" value="84.2695527571293" />
+      <entry key="H1" value="141.832340844966" />
+      <entry key="H2" value="260.42818724543395" />
+      <entry key="H4" value="477.8085213110815" />
+      <entry key="D1" value="1205.0109772765845" />
+      <entry key="W1" value="1507.9168232622822" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.01277971978057651" />
-      <entry key="MS500" value="0.4284175745799544" />
-      <entry key="S2" value="1.1226593762501187" />
-      <entry key="S5" value="1.549287830320872" />
-      <entry key="S10" value="1.755009890597206" />
-      <entry key="S30" value="2.370985666396142" />
-      <entry key="S60" value="5.193010264323682" />
-      <entry key="M2" value="14.440487082586204" />
-      <entry key="M5" value="43.41793969933141" />
-      <entry key="M10" value="83.73101993001569" />
-      <entry key="M15" value="119.16608701887274" />
-      <entry key="M30" value="215.77530369537797" />
-      <entry key="H1" value="376.09342659207925" />
-      <entry key="H2" value="639.5802418653452" />
-      <entry key="H4" value="1071.8924735721334" />
-      <entry key="D1" value="2407.6215036381764" />
-      <entry key="W1" value="2936.740842003027" />
+      <entry key="MS100" value="0.006301888743922862" />
+      <entry key="MS500" value="0.363030513647542" />
+      <entry key="S2" value="0.8572362744468016" />
+      <entry key="S5" value="1.3854543106469785" />
+      <entry key="S10" value="2.199686158940438" />
+      <entry key="S30" value="5.419617474506979" />
+      <entry key="S60" value="9.213680145141748" />
+      <entry key="M2" value="15.379785455629435" />
+      <entry key="M5" value="35.73348819313208" />
+      <entry key="M10" value="74.03523550265993" />
+      <entry key="M15" value="107.69311848348727" />
+      <entry key="M30" value="184.13866822353992" />
+      <entry key="H1" value="312.22543385597356" />
+      <entry key="H2" value="566.4559787767956" />
+      <entry key="H4" value="1027.4371083925455" />
+      <entry key="D1" value="2624.4114798856467" />
+      <entry key="W1" value="3309.7935151763822" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -116,52 +114,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.ai-bom [deploy].executor": "Run",
-    "Maven.argument-check-aop-starter [deploy].executor": "Run",
-    "Maven.argument-check-common-starter [deploy].executor": "Run",
-    "Maven.argument-check-web-starter [clean].executor": "Run",
-    "Maven.argument-check-web-starter [deploy].executor": "Run",
-    "Maven.bom [clean].executor": "Run",
-    "Maven.bom [deploy].executor": "Run",
-    "Maven.cloud-bom [deploy].executor": "Run",
-    "Maven.common-bom [deploy].executor": "Run",
-    "Maven.common-util [deploy].executor": "Run",
-    "Maven.db-bom [deploy].executor": "Run",
-    "Maven.elasticsearch-starter [deploy].executor": "Run",
-    "Maven.mq-bom [deploy].executor": "Run",
-    "Maven.rabbitmq-starter [deploy].executor": "Run",
-    "Maven.redis-aop-help-starter [deploy].executor": "Run",
-    "Maven.redis-starter [deploy].executor": "Run",
-    "Maven.seek-bom [deploy].executor": "Run",
-    "Maven.seek-bom [install].executor": "Run",
-    "Maven.seek-starter [clean].executor": "Run",
-    "Maven.seek-starter [deploy].executor": "Run",
-    "Maven.seek-starter [org.codehaus.mojo:versions-maven-plugin:2.16.2:commit].executor": "Run",
-    "Maven.seek-starter [org.codehaus.mojo:versions-maven-plugin:2.16.2:set].executor": "Run",
-    "Maven.starter [clean].executor": "Run",
-    "Maven.web-bom [deploy].executor": "Run",
-    "Maven.web-starter [deploy].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/seek-starter/starter/common/argument-check-common-starter/src/main/resources/META-INF",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.ai-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.argument-check-aop-starter [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.argument-check-common-starter [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.argument-check-web-starter [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.argument-check-web-starter [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bom [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cloud-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common-util [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.db-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.elasticsearch-starter [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mq-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rabbitmq-starter [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.redis-aop-help-starter [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.redis-starter [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-bom [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-starter [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-starter [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-starter [org.codehaus.mojo:versions-maven-plugin:2.16.2:commit].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seek-starter [org.codehaus.mojo:versions-maven-plugin:2.16.2:set].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.starter [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.web-bom [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.web-starter [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/seek-starter/starter/common/argument-check-common-starter/src/main/resources/META-INF&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\seek-starter\starter\common\argument-check-common-starter\src\main\resources\META-INF" />
@@ -176,11 +174,11 @@
       <recent name="D:\Projects\seek-starter\.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="seek.starter.starter.web.jwt.starter.config" />
       <recent name="seek.starter.starter.web.argument.check.aop.starter.core" />
       <recent name="seek.starter.starter.db.redis.aop.help.starter.core" />
       <recent name="seek.starter.starter.db.redis.redisson.starter.config" />
       <recent name="seek.starter.starter.web.web.starter.enums" />
-      <recent name="seek.starter.starter.web.jwt.starter.enums" />
     </key>
   </component>
   <component name="RunManager">

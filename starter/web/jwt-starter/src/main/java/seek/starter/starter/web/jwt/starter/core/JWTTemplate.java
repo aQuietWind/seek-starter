@@ -1,6 +1,8 @@
 package seek.starter.starter.web.jwt.starter.core;
 
-import seek.starter.starter.support.config.object.web.jwt.JWTGlobalData;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import seek.starter.starter.db.redis.starter.core.RedisTemplate;
 import seek.starter.starter.support.config.object.web.jwt.JWTRoleData;
 import seek.starter.starter.support.config.object.common.common.object.exception.BizException;
 import seek.starter.starter.support.config.object.common.common.object.exception.ErrorCodeEnum;
@@ -9,6 +11,7 @@ import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
 import lombok.extern.slf4j.Slf4j;
+import seek.starter.starter.web.jwt.starter.config.PropertiesConfig;
 
 import javax.crypto.SecretKey;
 import java.nio.charset.StandardCharsets;
@@ -21,13 +24,22 @@ import java.util.concurrent.ConcurrentHashMap;
 public class JWTTemplate {
     public static final String IdName="tokenId";
     private final ConcurrentHashMap<String,SecretKey> secretKeys=new ConcurrentHashMap<>();
+    private final PropertiesConfig propertiesConfig;
+    private final RedisTemplate redisTemplate;
+    private final StringRedisTemplate stringRedisTemplate;
+    @Autowired
+    public JWTTemplate(PropertiesConfig propertiesConfig,RedisTemplate redisTemplate){
+        this.propertiesConfig=propertiesConfig;
+        this.redisTemplate=redisTemplate;
+    }
     //获取密钥
-    private SecretKey getSecretKey(String secretKey){
+    private SecretKey getSecretKey(String roleName,Integer version,String secretKey){
+        String secretKey=stringRedisTemplate.opsForZSet().;
         //根据字符串密钥来生成HS256形式的密钥
         SecretKey key=secretKeys.get(secretKey);
         if(key==null||key.getEncoded()==null) {
             key = Keys.hmacShaKeyFor(secretKey.getBytes(StandardCharsets.UTF_8));
-            secretKeys.put(secretKey,key);
+            secretKeys.put(secretKey+":"+version,key);
         }
         return key;
     }
@@ -52,8 +64,8 @@ public class JWTTemplate {
     }
 
     //解析并获取令牌内容的方法
-    public Long jwtCheck(String token,JWTRoleData jwtRoleData){
-        return jwtCheck(token,jwtRoleData.getSecretKey());
+    public Long jwtCheck(String token,String roleName){
+        return jwtCheck(token,roleName);
     }
 
     public Long jwtCheckByList(String token,String headerSeparator,HashMap<String,String> jwtHeaders){
@@ -67,7 +79,7 @@ public class JWTTemplate {
         throw new BizException(ErrorCodeEnum.UNAUTHORIZED);
     }
 
-    public Long jwtCheckByList(String token, JWTGlobalData jwtGlobalData, HashMap<String,String> jwtHeaders){
+    public Long jwtCheckByList(String token, PropertiesConfig.JWTGlobalData jwtGlobalData, HashMap<String,String> jwtHeaders){
         return jwtCheckByList(token,jwtGlobalData.getTokenHeaderSeparator(),jwtHeaders);
     }
 

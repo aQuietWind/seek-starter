@@ -7,6 +7,7 @@
         <groupId>seek.starter.starter.common</groupId>
         <artifactId>common</artifactId>
         <version>3.1.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>argument-check-common-starter</artifactId>
