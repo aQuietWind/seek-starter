@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bcd59d6-80cc-489c-a7b3-c8255532758f" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/common/argument-check-common-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/starter/common/argument-check-common-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/support/config-object/src/main/java/seek/starter/starter/support/config/object/web/context/RequestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/config-object/src/main/java/seek/starter/starter/support/config/object/web/context/RequestContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/support/config-object/src/main/java/seek/starter/starter/support/config/object/web/jwt/JWTGlobalData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/support/config-object/src/main/java/seek/starter/starter/support/config/object/web/jwt/JWTRoleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/support/config-object/src/main/java/seek/starter/starter/support/config/object/web/jwt/JWTRoleData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/src/main/java/seek/starter/starter/web/jwt/starter/core/JWTTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/jwt-starter/src/main/java/seek/starter/starter/web/jwt/starter/core/JWTTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/src/main/java/seek/starter/starter/web/jwt/starter/core/TokenTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/jwt-starter/src/main/java/seek/starter/starter/web/jwt/starter/core/TokenTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starter/web/jwt-starter/src/main/resources/lua/token_clear.lua" beforeDir="false" afterPath="$PROJECT_DIR$/starter/web/jwt-starter/src/main/resources/lua/token_clear.lua" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,61 +37,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="6.2563714394200715E-65" />
-      <entry key="MS500" value="1.449222280277383E-13" />
-      <entry key="S2" value="7.743112610294442E-4" />
-      <entry key="S5" value="0.08242475097873012" />
-      <entry key="S10" value="0.43154055013995674" />
-      <entry key="S30" value="2.027296247890522" />
-      <entry key="S60" value="3.732288398425963" />
-      <entry key="M2" value="6.368232758585936" />
-      <entry key="M5" value="16.449540715941023" />
-      <entry key="M10" value="37.53929077855513" />
-      <entry key="M15" value="56.66257115739996" />
-      <entry key="M30" value="99.98097995528241" />
-      <entry key="H1" value="170.48944783620706" />
-      <entry key="H2" value="306.10919120285195" />
-      <entry key="H4" value="549.6959861829315" />
-      <entry key="D1" value="1419.425616974264" />
-      <entry key="W1" value="1801.8810842483108" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000029774466925" />
+      <entry key="S2" value="1.0535878302417059" />
+      <entry key="S5" value="1.4511236819623123" />
+      <entry key="S10" value="1.942836920888562" />
+      <entry key="S30" value="2.5714521049427583" />
+      <entry key="S60" value="3.096225244126184" />
+      <entry key="M2" value="5.085887121353255" />
+      <entry key="M5" value="13.076053961207352" />
+      <entry key="M10" value="21.252329040717612" />
+      <entry key="M15" value="26.086353962912685" />
+      <entry key="M30" value="42.07256638046822" />
+      <entry key="H1" value="91.56258547232507" />
+      <entry key="H2" value="213.7714193034572" />
+      <entry key="H4" value="455.910980792568" />
+      <entry key="D1" value="1393.9133348098164" />
+      <entry key="W1" value="1827.3313912325725" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000546279950795" />
-      <entry key="S2" value="1.0863795459328243" />
-      <entry key="S5" value="1.419097239539757" />
-      <entry key="S10" value="1.8541582385975173" />
-      <entry key="S30" value="3.470035638423377" />
-      <entry key="S60" value="5.553263128917697" />
-      <entry key="M2" value="9.07861049438477" />
-      <entry key="M5" value="19.358520180619074" />
-      <entry key="M10" value="36.59562584810846" />
-      <entry key="M15" value="51.14289846783946" />
-      <entry key="M30" value="84.2695527571293" />
-      <entry key="H1" value="141.832340844966" />
-      <entry key="H2" value="260.42818724543395" />
-      <entry key="H4" value="477.8085213110815" />
-      <entry key="D1" value="1205.0109772765845" />
-      <entry key="W1" value="1507.9168232622822" />
+      <entry key="MS100" value="8.827898952219343E-27" />
+      <entry key="MS500" value="6.742873940586853E-6" />
+      <entry key="S2" value="0.07891991094079127" />
+      <entry key="S5" value="0.6745953484282364" />
+      <entry key="S10" value="1.6694044059756348" />
+      <entry key="S30" value="3.435918287129378" />
+      <entry key="S60" value="4.7776783767792494" />
+      <entry key="M2" value="7.945169979097806" />
+      <entry key="M5" value="16.97819167056115" />
+      <entry key="M10" value="25.120698334889727" />
+      <entry key="M15" value="29.722902615704324" />
+      <entry key="M30" value="43.68731502173118" />
+      <entry key="H1" value="85.05257232251499" />
+      <entry key="H2" value="190.25318207377447" />
+      <entry key="H4" value="404.0740934913014" />
+      <entry key="D1" value="1191.9297055963557" />
+      <entry key="W1" value="1538.249414875074" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.006301888743922862" />
-      <entry key="MS500" value="0.363030513647542" />
-      <entry key="S2" value="0.8572362744468016" />
-      <entry key="S5" value="1.3854543106469785" />
-      <entry key="S10" value="2.199686158940438" />
-      <entry key="S30" value="5.419617474506979" />
-      <entry key="S60" value="9.213680145141748" />
-      <entry key="M2" value="15.379785455629435" />
-      <entry key="M5" value="35.73348819313208" />
-      <entry key="M10" value="74.03523550265993" />
-      <entry key="M15" value="107.69311848348727" />
-      <entry key="M30" value="184.13866822353992" />
-      <entry key="H1" value="312.22543385597356" />
-      <entry key="H2" value="566.4559787767956" />
-      <entry key="H4" value="1027.4371083925455" />
-      <entry key="D1" value="2624.4114798856467" />
-      <entry key="W1" value="3309.7935151763822" />
+      <entry key="MS100" value="3.888681155761565E-10" />
+      <entry key="MS500" value="0.013126781411962364" />
+      <entry key="S2" value="0.45740427078370643" />
+      <entry key="S5" value="1.7293264702717472" />
+      <entry key="S10" value="3.3646775599351813" />
+      <entry key="S30" value="5.89974060993843" />
+      <entry key="S60" value="7.786375737373698" />
+      <entry key="M2" value="12.919856864500614" />
+      <entry key="M5" value="29.93420660859059" />
+      <entry key="M10" value="46.28152282474741" />
+      <entry key="M15" value="55.73692825112299" />
+      <entry key="M30" value="85.70552012718717" />
+      <entry key="H1" value="176.5599367065069" />
+      <entry key="H2" value="403.96543650746196" />
+      <entry key="H4" value="859.9276356100796" />
+      <entry key="D1" value="2585.818017949978" />
+      <entry key="W1" value="3365.576296952377" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
