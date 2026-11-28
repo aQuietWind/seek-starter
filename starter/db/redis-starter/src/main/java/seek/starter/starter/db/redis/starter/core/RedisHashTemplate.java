@@ -25,4 +25,8 @@ public class RedisHashTemplate {
     public Map<Object, Object> getAll(RedisKeyData redisKeyData, Object id) {
         return stringRedisTemplate.opsForHash().entries(redisKeyData.getRedisKey(id));
     }
+
+    public void delete(RedisKeyData redisKeyData, Object id,Object ... columnName) {
+        stringRedisTemplate.opsForHash().delete(redisKeyData.getRedisKey(id),columnName);
+    }
 }

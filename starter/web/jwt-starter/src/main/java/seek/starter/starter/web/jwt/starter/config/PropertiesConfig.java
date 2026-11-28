@@ -8,7 +8,6 @@ import seek.starter.starter.support.config.object.db.redis.RedisKeyData;
 import seek.starter.starter.support.config.object.web.jwt.JWTRoleData;
 import seek.starter.starter.web.jwt.starter.enums.PackageEnum;
 
-import java.util.HashMap;
 
 
 @ConfigurationProperties(PackageEnum.Full_Package_Prefix +"config")
@@ -19,13 +18,10 @@ public class PropertiesConfig {
 
     private JWTGlobalData jwtGlobalData=new JWTGlobalData();
     private RedisKeyData tokenStore=new RedisKeyData("jwt:token:store:",null);
-    private RedisKeyData tokenSecureKeyStore=new RedisKeyData("jwt:secureKey:store",null);
-    private RedisKeyData tokenVersionStore=new RedisKeyData("jwt:secureKey:version:",null);
+    private RedisKeyData tokenSecretKeyStore =new RedisKeyData("jwt:secretKey:store:",null);
+    private RedisKeyData tokenSecretKeyMessage =new RedisKeyData("jwt:secretKey:store:message:",null);
+    private Integer tokenSecretKeyStoreMax =10;
     private JWTRoleData[] jwtRoles;
-
-    private final HashMap<String,JWTRoleData> jwtRolesMap=new HashMap<>();
-
-
 
     @Data
     @AllArgsConstructor
